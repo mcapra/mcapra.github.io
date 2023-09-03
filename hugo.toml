@@ -1,0 +1,4 @@
+baseURL = 'https://mcapra.github.io/'
+languageCode = 'en-us'
+title = 'Matt Capra'
+theme = 'paper'
