@@ -6,9 +6,7 @@ draft = false
 
 # Decklist
 
-here
-
-<iframe src="https://moxfield.com/decks/dWJIO2hx3E65El-CKyurlA" id="moxfield-frame-1" frameBorder="0" width="700px" onload="moxfieldOnLoad(event)"></iframe>
+https://moxfield.com/decks/dWJIO2hx3E65El-CKyurlA
 
 # Deck Philosophy
 
