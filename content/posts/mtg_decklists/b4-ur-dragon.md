@@ -4,6 +4,10 @@ date = 2025-09-13T00:00:00-05:00
 draft = false
 +++
 
+# Decklist
+
+<iframe src="https://moxfield.com/decks/dWJIO2hx3E65El-CKyurlA" id="moxfield-frame-1" frameBorder="0" width="700px" onload="moxfieldOnLoad(event)"></iframe>
+
 # Deck Philosophy
 
 I enjoy piloting this deck because it has DRAGONS (obviously), which are the coolest things ever (also obviously). I have been playing Dragon kindred decks for over a decade, beginning with Intet, the Dreamer in 2015. In 2017, Wizards of the Coast released The Ur-Dragon, and I have been playing it as my commander ever since. I have hundreds of games and years of experience in designing, testing, and playing this deck.
