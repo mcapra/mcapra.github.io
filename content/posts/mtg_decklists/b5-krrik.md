@@ -1,5 +1,5 @@
 +++
-title = '[Bracket 5] K'rrik, Son of Yawgmoth'
+title = '[Bracket 5] Krrik, Son of Yawgmoth'
 date = 2025-09-13T00:00:00-05:00
 draft = false
 +++
