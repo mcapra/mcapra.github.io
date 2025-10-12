@@ -109,7 +109,7 @@ Otherwise, just continue to beat opponents' faces in. Show them that one raccoon
 
 # Combos
 
-![Aggravaged Assault and Nature's Will combo](../../../assets/bd6wTVf.jpeg)
+![Aggravaged Assault and Nature's Will combo](bd6wTVf.jpeg)
 
 Requirements
 

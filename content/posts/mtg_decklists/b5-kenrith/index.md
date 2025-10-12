@@ -189,7 +189,7 @@ Since the bans, it is recommended to not go for it in your main phase if you jus
 
 If you want to win with Ad Nauseam, the deck is ready. The next cards generally allow us to do so:
 
-![Ad Nauseam wincons](../../../assets/temp-Imager-Vl-Iwm.avif)
+![Ad Nauseam wincons](temp-Imager-Vl-Iwm.avif)
 
 ## Necropotence
 
@@ -437,11 +437,11 @@ Ultimately, it's a free card that can help us with our Underworld Breach combos 
 
 ## Good cards in mulligans
 
-![Good cards in mulligans](../../../assets/Captura-de-pantalla-2025-07-13-a-las-21-11-03.png)
+![Good cards in mulligans](Captura-de-pantalla-2025-07-13-a-las-21-11-03.png)
 
 ## Bad cards in mulligans
 
-![Bad cards in mulligans](../../../assets/Captura-de-pantalla-2025-07-13-a-las-21-12-12.png)
+![Bad cards in mulligans](Captura-de-pantalla-2025-07-13-a-las-21-12-12.png)
 
 ## Depends on the rest of the cards
 
@@ -449,19 +449,19 @@ assets\Captura-de-pantalla-2025-07-13-a-las-21-12-46.png
 
 ## Good hands
 
-![Good hand 1](../../../assets/Captura-de-pantalla-2024-10-12-a-las-23-09-12.png)
+![Good hand 1](Captura-de-pantalla-2024-10-12-a-las-23-09-12.png)
 
 * T1: Land + Sol Ring + Agatha's Soul Cauldron
 * T2: Land + Survival of the Fittest + Bloom Tender
 * T3: Win Attempt
 
-![Good hand 2](../../../assets/Captura-de-pantalla-2024-10-12-a-las-23-04-25.png)
+![Good hand 2](Captura-de-pantalla-2024-10-12-a-las-23-04-25.png)
 
 * T1: Land + Enlightened Tutor to Sol Ring
 * T2: Rhystic Study
 * T3: Win Attempt
 
-![Good hand 3](../../../assets/Captura-de-pantalla-2024-07-22-a-las-18-04-25.png)
+![Good hand 3](Captura-de-pantalla-2024-07-22-a-las-18-04-25.png)
 
 * T1: Land + Esper Sentinel
 * T2: Land + Drannith Magistrate / Bloom Tender. Depending on the pod.
@@ -469,15 +469,15 @@ assets\Captura-de-pantalla-2025-07-13-a-las-21-12-46.png
 
 ## Bad Hands
 
-![Bad hand 1](../../../assets/Captura-de-pantalla-2024-10-12-a-las-23-10-18.png)
+![Bad hand 1](Captura-de-pantalla-2024-10-12-a-las-23-10-18.png)
 
 Mana, 2 tutor pieces in hand, but nothing to do. Very slow hand, without interaction or value pieces.
 
-![Bad hand 2](../../../assets/Captura-de-pantalla-2024-10-12-a-las-23-18-37.png)
+![Bad hand 2](Captura-de-pantalla-2024-10-12-a-las-23-18-37.png)
 
 The whole hand depends on the Mystic Remora's draws, Ragavan's treasures or top deck.
 
-![Bad hand 3](../../../assets/Captura-de-pantalla-2024-10-12-a-las-23-20-51.png)
+![Bad hand 3](Captura-de-pantalla-2024-10-12-a-las-23-20-51.png)
 
 Without tutors, the hand hasn't game plan and you rely only of the top deck.
 
