@@ -1,5 +1,5 @@
 +++
-title = '[Bracket 5] Yuriko, the Tiger's Shadow'
+title = '[Bracket 5] Yuriko, the Tigers Shadow'
 date = 2025-09-13T00:00:00-05:00
 draft = false
 +++
