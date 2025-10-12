@@ -1,5 +1,5 @@
 +++
-title = 'The Ur-Dragon'
+title = '[Bracket 4] The Ur-Dragon'
 date = 2025-09-13T00:00:00-05:00
 draft = false
 +++
@@ -7,6 +7,12 @@ draft = false
 # Decklist
 
 https://moxfield.com/decks/dWJIO2hx3E65El-CKyurlA
+
+Credit: [Shiny Latios](https://moxfield.com/users/Shiny_Latios)
+
+# Primer
+
+https://moxfield.com/decks/oTndvxb8bkqLPK_kANUrkA/primer
 
 # Deck Philosophy
 
