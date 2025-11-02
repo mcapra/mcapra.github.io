@@ -1,5 +1,5 @@
 +++
-title = '[Bracket 2] Zinnia, Valley's Voice'
+title = '[Bracket 2] Zinnia, Valleys Voice'
 date = 2025-09-13T00:00:00-05:00
 draft = false
 +++
