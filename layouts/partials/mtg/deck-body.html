@@ -9,7 +9,7 @@
   {{- $count := 0 }}{{ range .items }}{{ $count = add $count .qty }}{{ end -}}
   {{- $sections = $sections | append (merge $s (dict "id" (printf "deck-%d-%s" $i (urlize .name)) "count" $count)) -}}
 {{- end -}}
-<div class="mtg-deck not-prose" data-view="list">
+<div class="mtg-deck not-prose" data-view="grid">
   {{- /* Compact color and mana value filters, pinned under the tabs once the panel above
          scrolls away (mtg.js toggles .is-compact). Zero-height wrapper at the top of the deck,
          so it is already pinned whenever it shows and takes no space. */}}
@@ -71,8 +71,8 @@
 
   <div class="mtg-deck-actions">
     <div class="mtg-toggle" role="group" aria-label="View">
-      <button type="button" data-view="list" aria-pressed="true">List</button>
-      <button type="button" data-view="grid" aria-pressed="false">Images</button>
+      <button type="button" data-view="grid" aria-pressed="true">Images</button>
+      <button type="button" data-view="list" aria-pressed="false">List</button>
     </div>
     <button type="button" class="mtg-copy" data-export="{{ trim ($stats.Get `export`) "\n" }}">Copy list</button>
   </div>
