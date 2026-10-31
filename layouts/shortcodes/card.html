@@ -1,0 +1,9 @@
+{{- /*
+  Inline card reference for primers:
+    {{< card "Thassa's Oracle" >}}
+    {{< card "Thassa's Oracle" "Oracle" >}}   (custom display text)
+  The deck page layout loads the script that adds previews; elsewhere it is a Scryfall link.
+*/ -}}
+{{- $name := .Get 0 | default (.Get "name") -}}
+{{- $card := partial "mtg/lookup.html" (dict "name" $name) -}}
+{{- partial "mtg/card-link.html" (dict "card" $card "label" (.Get 1 | default (.Get "text"))) -}}

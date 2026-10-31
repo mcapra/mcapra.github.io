@@ -45,6 +45,14 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check decks
+        run: |
+          pip install -r requirements.txt
+          python check_decks.py
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

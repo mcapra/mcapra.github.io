@@ -1,0 +1,63 @@
+{{- /*
+  Overview tab: a tl;dr of the deck from the post's [overview] front matter.
+  Context: dict "overview" (the front matter map) "cards" (lowercased name -> card for this
+  deck's printings, from mtg/deck.html). Sections without content are left out.
+*/ -}}
+{{- $o := .overview -}}
+{{- $cards := .cards -}}
+{{- with $o.summary }}<p class="mtg-summary">{{ . | markdownify }}</p>{{ end }}
+{{- range $section := slice (dict "key" "strengths" "title" "Strengths") (dict "key" "weaknesses" "title" "Weaknesses") }}
+  {{- with index $o $section.key }}
+  <h2>{{ $section.title }}</h2>
+  <ul>{{ range . }}<li>{{ . | markdownify }}</li>{{ end }}</ul>
+  {{- end }}
+{{- end }}
+{{- with $o.combos }}
+{{- /* Infinite and game-winning combos first */ -}}
+{{- $ordered := slice }}
+{{- range . }}{{ if .kind }}{{ $ordered = $ordered | append . }}{{ end }}{{ end }}
+{{- range . }}{{ if not .kind }}{{ $ordered = $ordered | append . }}{{ end }}{{ end }}
+<h2>Key Combos</h2>
+<ul class="mtg-combos not-prose">
+  {{- range $ordered }}
+  <li>
+    <span class="mtg-combo-cards">
+      {{- range $i, $name := .cards }}
+        {{- $card := index $cards (lower $name) -}}
+        {{- if not $card }}{{ $card = partial "mtg/lookup.html" (dict "name" $name) }}{{ end -}}
+        {{- if $i }} <span class="mtg-plus">+</span> {{ end }}{{ partial "mtg/card-link.html" (dict "card" $card) }}
+      {{- end -}}
+    </span>
+    {{- with .kind }}<span class="mtg-combo-kind">{{ if eq . "win" }}Wins the game{{ else }}Infinite{{ end }}</span>{{ end }}
+    <span class="mtg-combo-result">{{ .result | markdownify }}</span>
+    {{- with .steps }}
+    <ol class="mtg-combo-steps">{{ range . }}<li>{{ . | markdownify }}</li>{{ end }}</ol>
+    {{- end }}
+    {{- with .source }}<a class="mtg-combo-source" href="{{ . }}" target="_blank" rel="noopener">Commander Spellbook ↗</a>{{ end }}
+  </li>
+  {{- end }}
+</ul>
+{{- end }}
+{{- with $o.rulings }}
+<h2>Rulings</h2>
+<ul class="mtg-combos mtg-rulings not-prose">
+  {{- range . }}
+  <li>
+    <span class="mtg-combo-cards">
+      {{- range $i, $name := .cards }}
+        {{- $card := index $cards (lower $name) -}}
+        {{- if not $card }}{{ $card = partial "mtg/lookup.html" (dict "name" $name) }}{{ end -}}
+        {{- if $i }}, {{ end }}{{ partial "mtg/card-link.html" (dict "card" $card) }}
+      {{- end -}}
+    </span>
+    <span class="mtg-combo-result">{{ .note | markdownify }}</span>
+  </li>
+  {{- end }}
+</ul>
+{{- end }}
+{{- range $section := slice (dict "key" "gameplan" "title" "Gameplan") (dict "key" "mulligan" "title" "Mulligan For") }}
+  {{- with index $o $section.key }}
+  <h2>{{ $section.title }}</h2>
+  <ul>{{ range . }}<li>{{ . | markdownify }}</li>{{ end }}</ul>
+  {{- end }}
+{{- end }}

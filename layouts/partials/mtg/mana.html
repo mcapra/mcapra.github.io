@@ -1,0 +1,8 @@
+{{- /* Renders a mana cost such as "{2}{W/U}{G}" as Scryfall symbol images. */ -}}
+{{- with . -}}
+<span class="mtg-mana" aria-label="{{ . }}">
+  {{- range findRE `\{[^}]+\}` . -}}
+  <img src="https://svgs.scryfall.io/card-symbols/{{ replace (trim . "{}") "/" "" }}.svg" alt="" loading="lazy">
+  {{- end -}}
+</span>
+{{- end -}}

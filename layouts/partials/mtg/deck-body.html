@@ -1,0 +1,101 @@
+{{- /* Filters, mana curve and card sections for mtg/deck.html. Context: dict built there. */ -}}
+{{- $stats := .stats -}}
+{{- $colorNames := .colorNames -}}
+{{- $peak := .peak -}}
+{{- $all := .sections -}}
+{{- with .sideboard -}}{{- $all = $all | append (dict "name" ($.deck.sideboard_name | default "Sideboard") "items" . "extra" true) -}}{{- end -}}
+{{- $sections := slice -}}
+{{- range $i, $s := $all -}}
+  {{- $count := 0 }}{{ range .items }}{{ $count = add $count .qty }}{{ end -}}
+  {{- $sections = $sections | append (merge $s (dict "id" (printf "deck-%d-%s" $i (urlize .name)) "count" $count)) -}}
+{{- end -}}
+<div class="mtg-deck not-prose" data-view="list">
+  {{- /* Compact color and mana value filters, pinned under the tabs once the panel above
+         scrolls away (mtg.js toggles .is-compact). Zero-height wrapper at the top of the deck,
+         so it is already pinned whenever it shows and takes no space. */}}
+  <div class="mtg-quick-wrap">
+    <div class="mtg-quick" role="group" aria-label="Quick filters" inert>
+      <div class="mtg-quick-row">
+        {{- if gt (len .colors) 1 }}
+        {{- range .colors }}
+        <button type="button" data-filter="color" data-value="{{ . }}" aria-pressed="false" aria-label="{{ index $colorNames . }}">{{ partial "mtg/mana.html" (printf "{%s}" .) }}</button>
+        {{- end }}
+        {{- end }}
+        <span class="mtg-shown-short"></span>
+        <button type="button" class="mtg-clear" hidden>Clear</button>
+      </div>
+      <div class="mtg-quick-row mtg-quick-mv">
+        {{- range seq 0 7 }}
+        {{- $n := $stats.Get (printf "cmc-%d" .) | default 0 }}
+        <button type="button" data-filter="mv" data-value="{{ . }}" aria-pressed="false" aria-label="Mana value {{ . }}{{ if eq . 7 }} or more{{ end }}"{{ if not $n }} disabled{{ end }}>{{ . }}{{ if eq . 7 }}+{{ end }}</button>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="mtg-filters">
+    <input type="search" class="mtg-search" placeholder="Search cards" aria-label="Search cards" autocomplete="off">
+
+    {{- with .roles }}
+    <div class="mtg-chips mtg-roles" role="group" aria-label="Card role">
+      {{- range . }}
+      <button type="button" data-filter="role" data-value="{{ .id }}" aria-pressed="false">{{ .label }} <span>{{ .count }}</span></button>
+      {{- end }}
+    </div>
+    {{- end }}
+
+    {{- if gt (len .colors) 1 }}
+    <div class="mtg-chips" role="group" aria-label="Color identity">
+      {{- range .colors }}
+      <button type="button" data-filter="color" data-value="{{ . }}" aria-pressed="false" title="{{ index $colorNames . }}" aria-label="{{ index $colorNames . }}">{{ partial "mtg/mana.html" (printf "{%s}" .) }}</button>
+      {{- end }}
+    </div>
+    {{- end }}
+
+    <div class="mtg-curve" role="group" aria-label="Mana value of non-land cards">
+      {{- range seq 0 7 }}
+      {{- $n := $stats.Get (printf "cmc-%d" .) | default 0 }}
+      <button type="button" data-filter="mv" data-value="{{ . }}" aria-pressed="false" aria-label="Mana value {{ . }}{{ if eq . 7 }} or more{{ end }}: {{ $n }} cards"{{ if not $n }} disabled{{ end }}>
+        <span class="mtg-curve-n">{{ with $n }}{{ . }}{{ end }}</span>
+        <span class="mtg-curve-bar" style="height: {{ div (mul 100 $n) $peak }}%"></span>
+        <span class="mtg-curve-label">{{ . }}{{ if eq . 7 }}+{{ end }}</span>
+      </button>
+      {{- end }}
+    </div>
+
+    <div class="mtg-filter-status">
+      <span aria-live="polite"><span class="mtg-shown"></span></span>
+      <button type="button" class="mtg-clear" hidden>Clear filters</button>
+    </div>
+  </div>
+
+  <div class="mtg-deck-actions">
+    <div class="mtg-toggle" role="group" aria-label="View">
+      <button type="button" data-view="list" aria-pressed="true">List</button>
+      <button type="button" data-view="grid" aria-pressed="false">Images</button>
+    </div>
+    <button type="button" class="mtg-copy" data-export="{{ trim ($stats.Get `export`) "\n" }}">Copy list</button>
+  </div>
+
+  <div class="mtg-sections">
+  <p class="mtg-empty" hidden>No cards match these filters.</p>
+  {{- range $sections }}
+    <details class="mtg-section{{ if .extra }} mtg-section-extra{{ end }}" id="{{ .id }}" open>
+      <summary><span>{{ .name }}</span> <span class="mtg-count">{{ .count }}</span></summary>
+      <ul>
+        {{- range .items }}
+        <li data-qty="{{ .qty }}" data-ci="{{ .card.ci }}" data-roles="{{ delimit .roles " " }}" data-mv="{{ if ne .card.type "Land" }}{{ int (math.Min 7 .card.cmc) }}{{ end }}" data-search="{{ lower .card.name }} {{ lower .card.type_line }}">
+          <span class="mtg-qty">{{ .qty }}</span>
+          <span class="mtg-name">{{ partial "mtg/card-link.html" (dict "card" .card) }}{{ with .note }}<small>{{ . | markdownify }}</small>{{ end }}</span>
+          {{ partial "mtg/mana.html" .card.mana }}
+          <a class="mtg-ref mtg-thumb" href="{{ .card.uri }}" data-img="{{ .card.img }}"{{ with .card.back }} data-back="{{ . }}"{{ end }} data-name="{{ .card.name }}" tabindex="-1" aria-hidden="true">
+            <img src="{{ .card.img }}" srcset="{{ replace .card.img "/normal/" "/small/" }} 146w, {{ .card.img }} 488w" sizes="(min-width: 640px) 160px, 33vw" alt="{{ .card.name }}" loading="lazy">
+            {{- if gt .qty 1 }}<span class="mtg-thumb-qty">×{{ .qty }}</span>{{ end }}
+          </a>
+        </li>
+        {{- end }}
+      </ul>
+    </details>
+  {{- end }}
+  </div>
+</div>

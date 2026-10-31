@@ -1,0 +1,100 @@
+# Imported by import_decks.py from https://moxfield.com/decks/cL2JI7vCCUCOdRBYkJ_d9g on 2026-10-31.
+# Re-run `python import_decks.py --refresh` to update, or delete this header to edit by hand.
+
+cards: |
+  1 Angel's Grace (SOA) 2
+  1 Anguished Unmaking (SOC) 293
+  1 Arcane Signet (SOC) 127
+  1 Arcbond (PFRF) 91s
+  1 Backlash (PLST) INV-234
+  1 Battlefield Forge (SOC) 362
+  1 Blasphemous Act (SOC) 238
+  1 Blightstep Pathway // Searstep Pathway (KHM) 252
+  1 Boros Charm (FDN) 721
+  1 Boros Garrison (GK1) 98
+  1 Boros Signet (RVR) 251
+  1 Brash Taunter (DSC) 161
+  1 Breena, the Demagogue (SOC) 298
+  1 Brightclimb Pathway // Grimclimb Pathway (ZNR) 259
+  1 Caves of Koilos (SOC) 365
+  1 Chaos Warp (SOC) 239
+  1 Combat Calligrapher (SOC) 141
+  1 Comeuppance (MKC) 58
+  1 Command Tower (TMC) 63
+  1 Crackling Doom (FIC) 322
+  1 Cut a Deal (FIC) 238
+  1 Deflecting Palm (SOA) 63
+  1 Delirium (MIR) 260
+  1 Display of Power (LTR) 119
+  1 Dream Devourer (PKHM) 90p
+  1 Duelist's Heritage (TLE) 153
+  1 Exotic Orchard (SOC) 369
+  1 Fabled Passage (SOC) 130
+  1 Fellwar Stone (SOC) 347
+  1 Fetid Heath (SOC) 372
+  1 Flumph (AFR) 15
+  1 Generous Gift (CMM) 26
+  1 Ghostly Prison (SOC) 146
+  1 Gisela, Blade of Goldnight (CMM) 338
+  1 Graven Cairns (FIC) 401
+  1 Humble Defector (A25) 135
+  1 Inkshield (SOC) 316
+  1 Kambal, Consul of Allocation (KLD) 183
+  1 Kardur, Doomscourge (KHM) 216
+  1 Loran of the Third Path (BRO) 12
+  1 Malakir Rebirth // Malakir Mire (ZNR) 111
+  1 Mangara, the Diplomat (SOC) 155
+  1 Master of Ceremonies (SLD) 2379
+  1 Michiko Konda, Truth Seeker (J22) 215
+  1 Mistveil Plains (SOC) 386
+  1 Mob Rule (FRF) 109
+  3 Mountain (MH3) 317
+  1 Needleverge Pathway // Pillarverge Pathway (PLST) ZNR-263
+  1 Nighthawk Scavenger (LCC) 203
+  1 Nils, Discipline Enforcer (SOC) 158
+  1 Nomad Outpost (TDM) 263
+  1 Olórin's Searing Light (LTC) 503
+  1 Orzhov Basilica (DSC) 292
+  1 Orzhov Signet (GPT) 155
+  1 Path of Ancestry (M3C) 363
+  1 Path to Exile (SOC) 159
+  4 Plains (MH3) 310
+  1 Rakdos Carnarium (C19) 266
+  1 Rakdos Charm (RTR) 184
+  1 Rakdos Signet (CLU) 226
+  1 Reverberate (M11) 155
+  1 Rogue's Passage (SOC) 400
+  1 Rugged Prairie (SOC) 401
+  1 Scheming Symmetry (M20) 113
+  1 Secret Rendezvous (SOC) 166
+  1 Selfless Squire (LTC) 176
+  1 Shadowblood Ridge (OTC) 317
+  1 Shadrix Silverquill (SOC) 330
+  1 Smoldering Marsh (TMC) 73
+  1 Smothering Tithe (2X2) 31
+  1 Sol Ring (MOC) 381
+  1 Stroke of Midnight (TDC) 132
+  1 Sulfurous Springs (EOC) 185
+  1 Sunforger (CMR) 473
+  3 Swamp (CM2) 297
+  1 Swords to Plowshares (DMR) 31
+  1 Talisman of Conviction (M3C) 307
+  1 Talisman of Hierarchy (SOC) 358
+  1 Talisman of Indulgence (MRD) 255
+  1 Temple of Malice (FDN) 701
+  1 Temple of Silence (SOC) 415
+  1 Temple of Triumph (SOC) 417
+  1 Teyo, Geometric Tactician (CMM) 725
+  1 Tibalt's Trickery (PKHM) 153p
+  1 Valakut Awakening // Valakut Stoneforge (ZNR) 174
+  1 Vampire Nighthawk (FDN) 186
+  1 Vault of the Archangel (CLB) 927
+  1 Verrak, Warped Sengir (DMC) 16
+  1 Wandering Archaic // Explore the Vastlands (STX) 6
+  1 Wear // Tear (PIP) 222
+  1 Weathered Wayfarer (2X2) 578
+  1 Wishclaw Talisman (FDN) 617
+
+sideboard: |
+  1 Make Your Move (FDN) 143
+  1 Sovereign's Realm (CN2) 10

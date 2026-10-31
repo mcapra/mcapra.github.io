@@ -1,0 +1,100 @@
+# Imported by import_decks.py from https://archidekt.com/decks/16499885/copy_of_raffine_reanimator on 2026-10-31.
+# Re-run `python import_decks.py --refresh` to update, or delete this header to edit by hand.
+
+cards: |
+  1 Abhorrent Oculus (DSK) 42
+  1 Adeline, Resplendent Cathar (MID) 1
+  1 An Offer You Can't Refuse (SNC) 51
+  1 Anguished Unmaking (2X2) 170
+  1 Animate Dead (4ED) 118
+  1 Archfiend of Ifnir (AKH) 78
+  1 Arid Mesa (ZEN) 211
+  1 Bloodstained Mire (KTK) 230
+  1 Boggart Trawler // Boggart Bog (MH3) 243
+  1 Buried Alive (UMA) 88
+  1 City of Brass (CHR) 112
+  1 Command Tower (C20) 264
+  1 Consecrated Sphinx (2X2) 43
+  1 Cyclonic Rift (2XM) 47
+  1 Dance of the Dead (ICE) 118
+  1 Dark Ritual (4ED) 129
+  1 Dauthi Voidwalker (MH2) 81
+  1 Deadly Rollick (C20) 42
+  1 Demonic Tutor (3ED) 105
+  1 Dovin's Veto (P30A) 27
+  1 Drana and Linvala (PMOM) 222p
+  1 Drannith Magistrate (IKO) 11
+  1 Dread Return (DMR) 80
+  1 Eiganjo, Seat of the Empire (NEO) 268
+  1 Elesh Norn, Grand Cenobite (MM2) 16
+  1 Enduring Curiosity (DSK) 51
+  1 Entomb (UMA) 94
+  1 Esper Sentinel (MH2) 12
+  1 Exotic Orchard (C20) 273
+  1 Faerie Mastermind (MOM) 58
+  1 Fierce Guardianship (C20) 35
+  1 Flawless Maneuver (CMM) 24
+  1 Flooded Strand (KTK) 233
+  1 Force of Negation (2X2) 50
+  1 Force of Will (DMR) 418
+  1 Godless Shrine (RNA) 248
+  1 Grand Abolisher (M12) 19
+  1 Hallowed Fountain (RNA) 251
+  1 Hydroelectric Specimen // Hydroelectric Laboratory (MH3) 240
+  2 Island (M19) 265
+  1 Jin-Gitaxias, Core Augur (NPH) 37
+  1 Jin-Gitaxias, Progress Tyrant (NEO) 59
+  1 Ledger Shredder (PSNC) 46p
+  1 Living Death (DDE) 31
+  1 Lotho, Corrupt Shirriff (LTR) 213
+  1 Mana Confluence (JOU) 163
+  1 Mana Drain (2X2) 57
+  1 Marsh Flats (MH2) 476
+  1 Misty Rainforest (MM3) 240
+  1 Morphic Pool (CLB) 357
+  1 Mystic Remora (ICE) 87
+  1 Mystical Tutor (DMR) 60
+  1 Necromancy (VIS) 64
+  1 Orcish Bowmasters (LTR) 103
+  1 Otawara, Soaring City (NEO) 271
+  1 Path to Exile (MM3) 17
+  1 Plains (M19) 261
+  1 Polluted Delta (KTK) 239
+  1 Pollywog Prodigy (BLC) 50
+  1 Priest of Fell Rites (MH2) 208
+  1 Prismatic Vista (MH1) 244
+  1 Psychic Frog (MH3) 199
+  1 Raffine's Tower (SNC) 254
+  1 Razaketh, the Foulblooded (HOU) 73
+  1 Reanimate (CC2) 5
+  1 Reconnaissance (EXO) 17
+  1 Rhystic Study (PCY) 45
+  1 Scalding Tarn (MH2) 254
+  1 Sea of Clouds (BBD) 84
+  1 Selfless Spirit (CLB) 706
+  1 Serra Ascendant (M11) 28
+  1 Shadowy Backstreet (MKM) 268
+  1 Siren Stormtamer (XLN) 79
+  1 Sol Ring (C20) 252
+  1 Stitch Together (JUD) 72
+  3 Swamp (M19) 270
+  1 Swords to Plowshares (DMR) 31
+  1 Takenuma, Abandoned Mire (NEO) 278
+  1 Teferi's Ageless Insight (M21) 76
+  1 Teferi's Protection (C17) 8
+  1 Toxic Deluge (CC2) 6
+  1 Toxrill, the Corrosive (VOW) 132
+  1 Unburial Rites (ISD) 122
+  1 Undercity Sewers (MKM) 270
+  1 Urborg, Tomb of Yawgmoth (TSR) 287
+  1 Valgavoth, Terror Eater (DSK) 120
+  1 Vampiric Tutor (EMA) 112
+  1 Vault of Champions (CMR) 360
+  1 Verdant Catacombs (MH2) 260
+  1 Victimize (AFC) 112
+  1 Void Rend (SNC) 230
+  1 Void Winnower (BFZ) 17
+  1 Watery Grave (GRN) 259
+  1 Will of the Abzan (TDC) 71
+  1 Windswept Heath (KTK) 248
+  1 Witch Enchanter // Witch-Blessed Meadow (MH3) 239

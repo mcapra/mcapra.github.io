@@ -1,0 +1,8 @@
+{{- /*
+  A card name that previews on hover and opens a full-size viewer on tap.
+  Context: dict "card" (from mtg/lookup.html) "label" (optional display text,
+  defaults to the front face name). Without JavaScript it is a plain link to Scryfall.
+*/ -}}
+{{- $card := .card -}}
+<a class="mtg-ref" href="{{ $card.uri }}" data-img="{{ $card.img }}"{{ with $card.back }} data-back="{{ . }}"{{ end }} data-name="{{ $card.name }}">{{ .label | default (index (split $card.name " // ") 0) }}</a>
+{{- /**/ -}}

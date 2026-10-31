@@ -1,0 +1,20 @@
+{{- /*
+  Finds a card ref in data/cards.json (built by build_card_db.py), preferring
+  the exact printing. Unknown cards fall back to Scryfall's image redirect so
+  the page still renders before the database is rebuilt.
+*/ -}}
+{{- $name := lower .name -}}
+{{- $card := index site.Data.cards $name -}}
+{{- if and .set .number -}}
+  {{- with index site.Data.cards (printf "%s|%s|%s" $name (lower .set) (lower .number)) -}}
+    {{- $card = . -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $card -}}
+  {{- warnf "Card %q not in data/cards.json; run build_card_db.py" .name -}}
+  {{- $card = dict
+      "name" .name "mana" "" "cmc" 0 "type" "Other" "type_line" "" "ci" ""
+      "img" (printf "https://api.scryfall.com/cards/named?format=image&exact=%s" (urlquery .name))
+      "uri" (printf "https://scryfall.com/search?q=%s" (urlquery (printf "!\"%s\"" .name))) -}}
+{{- end -}}
+{{- return $card -}}

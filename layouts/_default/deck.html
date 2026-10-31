@@ -1,0 +1,79 @@
+{{- /*
+  Deck post: commander header, then Decklist / Overview tabs.
+  Applied to every page under content/posts/mtg_decklists via cascade in its _index.md.
+  Front matter: bracket, commanders, archetypes (from data/archetypes.yaml, primary first),
+  deck_authors (list of { name, url } profile links), or precon (the product name) instead
+  of authors for preconstructed decks. decklist_url and primer_url record
+  where a deck was imported from and are deliberately not linked from the page.
+  [overview]: summary, strengths, weaknesses, gameplan, mulligan (lists of strings) and
+  [[overview.combos]] with cards (card names), result, and optional steps, kind ("infinite"
+  or "win", shown as a badge) and source (a Commander Spellbook link);
+  [[overview.rulings]] with cards and note, for non-obvious rules interactions.
+*/ -}}
+{{ define "main" }}
+{{ $deck := partial "mtg/deck.html" . }}
+{{ $title := replaceRE `^\[Bracket \d+\]\s*` "" .Title }}
+{{ $default := "decklist" }}
+{{ if and (not $deck.html) .Params.overview }}{{ $default = "overview" }}{{ end }}
+
+<article class="mtg-page">
+  <a class="mtg-back not-prose" href="{{ .Parent.RelPermalink }}">← All decks</a>
+
+  <header class="mtg-deck-head not-prose">
+    {{ with $deck.commanders }}{{ with (index . 0).card.art }}
+    <img class="mtg-deck-art" src="{{ . }}" alt="" loading="lazy">
+    {{ end }}{{ end }}
+    <div class="mtg-deck-info">
+      {{/* Commander names (canonical, tappable) stand in for the post title */}}
+      <h1>
+        {{- range $i, $c := $deck.commanders }}{{ if $i }} <span class="mtg-amp">&amp;</span> {{ end }}{{ partial "mtg/card-link.html" (dict "card" $c.card) }}{{ else }}{{ $title }}{{ end -}}
+      </h1>
+      {{ with .Params.archetypes }}
+      <div class="mtg-archetypes">
+        {{ range . }}
+        {{ $name := . }}
+        {{ $about := "" }}{{ range site.Data.archetypes }}{{ if eq .name $name }}{{ $about = .description }}{{ end }}{{ end }}
+        {{ if not $about }}{{ warnf "%s: archetype %q is not in data/archetypes.yaml" $.File.Path $name }}{{ end }}
+        <a href="{{ $.Parent.RelPermalink }}#{{ urlize $name }}" title="{{ $about }}">{{ $name }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+      <div class="mtg-deck-meta">
+        {{ with $deck.colors }}{{ partial "mtg/mana.html" (delimit (apply (. | complement (slice "C")) "printf" "{%s}" ".") "") }}{{ end }}
+        {{ with .Params.bracket }}<span>Bracket {{ . }}</span>{{ end }}
+        {{ if $deck.html }}<span>{{ $deck.total }} cards</span>{{ end }}
+        {{ if $deck.avg }}<span>Avg. MV {{ lang.FormatNumber 2 $deck.avg }}</span>{{ end }}
+        <span>Updated {{ .Lastmod | time.Format ":date_medium" }}</span>
+      </div>
+      {{ with .Params.precon }}
+      <p class="mtg-deck-authors">Precon · {{ . }}</p>
+      {{ else }}{{ with .Params.deck_authors }}
+      {{ $last := sub (len .) 1 }}
+      <p class="mtg-deck-authors">By
+        {{- range $i, $a := . }}{{ if $i }}{{ if eq $i $last }} &amp;{{ else }},{{ end }}{{ end }} <a href="{{ $a.url }}" target="_blank" rel="noopener">{{ $a.name }}</a>{{ end -}}
+      </p>
+      {{ end }}{{ end }}
+    </div>
+  </header>
+
+  <div class="mtg-tabs not-prose" role="tablist" data-default="{{ $default }}">
+    <a role="tab" href="#decklist" id="tab-decklist" aria-controls="decklist" aria-selected="{{ eq $default `decklist` }}">Decklist</a>
+    <a role="tab" href="#overview" id="tab-overview" aria-controls="overview" aria-selected="{{ eq $default `overview` }}">Overview</a>
+  </div>
+
+  {{/* Only the default tab starts visible; mtg.js switches tabs from here */}}
+  <section id="decklist" class="mtg-panel" role="tabpanel" aria-labelledby="tab-decklist"{{ if ne $default `decklist` }} hidden{{ end }}>
+    {{ with $deck.html }}{{ . }}{{ else }}
+    <p class="mtg-placeholder">The card list hasn't been added here yet.</p>
+    {{ end }}
+  </section>
+
+  <section id="overview" class="mtg-panel" role="tabpanel" aria-labelledby="tab-overview"{{ if ne $default `overview` }} hidden{{ end }}>
+    {{ with .Params.overview }}{{ partial "mtg/overview.html" (dict "overview" . "cards" $deck.cards) }}{{ else }}
+    <p class="mtg-placeholder">Overview not written yet.</p>
+    {{ end }}
+  </section>
+</article>
+{{ $js := resources.Get "js/mtg.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}

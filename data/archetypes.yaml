@@ -1,0 +1,70 @@
+# Deck archetypes a curator can assign with `archetypes = [...]` in a deck's front matter
+# (primary archetype first). Names and definitions follow the EDH archetype guides at
+# spellweave.app/guides/edh-archetypes and turnzerohq.com/guides/archetypes.
+
+- name: Aggro
+  description: Cheap, aggressive creatures pressure the table early.
+- name: Aristocrats
+  description: Sacrifices its own creatures for value and drains opponents as they die.
+- name: Artifacts
+  description: Casts, sacrifices and recurs artifacts, with payoffs that reward them.
+- name: Blink
+  description: Repeatedly exiles and returns creatures to reuse enter-the-battlefield triggers.
+- name: Burn
+  description: Deals direct damage to opponents, scaled up by damage boosts.
+- name: Combo
+  description: Assembles a specific card combination that wins on the spot.
+- name: Control
+  description: Answers threats and wins late.
+- name: Counters
+  description: Builds on +1/+1 (or -1/-1) counters and effects that move or multiply them.
+- name: Enchantress
+  description: Casts many enchantments that draw cards.
+- name: Equipment
+  description: Attaches equipment that stays on the battlefield when creatures die.
+- name: Extra Combats
+  description: Takes additional combat phases to multiply damage.
+- name: Forced Combat
+  description: Goads opponents' creatures so they attack each other instead of you.
+- name: Go Wide
+  description: Floods the board with creature tokens and wins on numbers.
+- name: Graveyard
+  description: Uses the graveyard as a second hand through recursion and graveyard casting.
+- name: Group Hug
+  description: Gives the whole table resources, then wins through hidden finishers or politics.
+- name: Group Slug
+  description: Damages every opponent through punishing permanents.
+- name: Landfall
+  description: Triggers payoffs whenever a land enters under your control.
+- name: Lands Matter
+  description: Makes the mana base the engine through land drops and land recursion.
+- name: Legends Matter
+  description: Fills the deck with legendary permanents and legend-scaling payoffs.
+- name: Lifegain
+  description: Gains life and converts it into cards, tokens, counters or damage.
+- name: Mill
+  description: Wins by emptying opponents' libraries.
+- name: Ramp
+  description: Accelerates into extra mana to cast bigger threats sooner.
+- name: Reanimator
+  description: Puts big creatures into the graveyard and returns them cheaply.
+- name: Spellslinger
+  description: Wins with a pile of instants and sorceries rather than creatures.
+- name: Stax
+  description: Taxes or locks down what opponents are allowed to do.
+- name: Stompy
+  description: Plays big creatures ahead of the curve and attacks.
+- name: Storm
+  description: Casts many cheap spells in one turn before a finisher that scales with them.
+- name: Superfriends
+  description: Builds around a critical mass of planeswalkers.
+- name: Treasure
+  description: Generates Treasure tokens for ramp, fixing and artifact synergies.
+- name: Tribal
+  description: Plays many creatures that share a creature type, with lords and payoffs.
+- name: Upkeep Triggers
+  description: Uses repeating upkeep abilities for value, sacrifice or damage.
+- name: Voltron
+  description: Loads up one creature, usually the commander, and wins through commander damage.
+- name: Wheels
+  description: Forces everyone to discard and redraw.

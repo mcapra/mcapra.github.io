@@ -1,0 +1,27 @@
+{{- /*
+  Expands a deck.yaml `cards` value into a slice of card refs:
+    dict "qty" 1 "name" "Sol Ring" "set" "cmm" "number" "410" "note" ""
+  Accepts a block string of Moxfield-style lines, a list of lines, or a list of
+  maps with name/qty/set/number/note keys. The line format must match LINE_RE
+  in build_card_db.py.
+*/ -}}
+{{- $refs := slice -}}
+{{- if reflect.IsSlice . -}}
+  {{- range . -}}
+    {{- $refs = $refs | append (partial "mtg/entries.html" .) -}}
+  {{- end -}}
+{{- else if reflect.IsMap . -}}
+  {{- with .name -}}
+    {{- $refs = $refs | append (dict "qty" (int ($.qty | default 1)) "name" . "set" (string ($.set | default "")) "number" (string ($.number | default "")) "note" ($.note | default "")) -}}
+  {{- end -}}
+{{- else if . -}}
+  {{- range split (string .) "\n" -}}
+    {{- $line := trim . " \t\r" -}}
+    {{- if and $line (not (hasPrefix $line "#")) (not (hasPrefix $line "//")) -}}
+      {{- range findRESubmatch `^(?:(\d+)x?\s+)?(.+?)(?:\s+\(([A-Za-z0-9]+)\)(?:\s+(\S+))?)?(?:\s+\*[A-Z]\*)*$` $line 1 -}}
+        {{- $refs = $refs | append (dict "qty" (int (index . 1 | default "1")) "name" (index . 2) "set" (index . 3) "number" (index . 4) "note" "") -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $refs -}}

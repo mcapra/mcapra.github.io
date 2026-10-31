@@ -1,0 +1,92 @@
+# Card roles ("meta types") shown as filters on deck pages, in display order.
+#
+#   id:     stable key used in cards.json, roles.yaml overrides and the page
+#   label:  short name for the filter chip
+#   group:  heading the role belongs to
+#   query:  Scryfall search that pre-fills the role (mostly Scryfall Tagger "otag"
+#           tags, which are hand-curated by the community). Leave empty for roles
+#           only a curator assigns. build_card_db.py runs these.
+#
+# Curators override roles per deck in the deck's roles.yaml.
+
+- id: land-ramp
+  label: Land Ramp
+  group: Mana
+  query: otag:land-ramp or otag:extra-land
+- id: mana-rock
+  label: Rocks
+  group: Mana
+  query: otag:mana-rock
+- id: mana-dork
+  label: Dorks
+  group: Mana
+  query: otag:mana-dork
+- id: ritual
+  label: Rituals
+  group: Mana
+  query: otag:ritual
+
+- id: draw
+  label: Draw
+  group: Cards
+  query: otag:draw -otag:cantrip
+- id: cantrip
+  label: Cantrips
+  group: Cards
+  query: otag:cantrip
+- id: impulse-draw
+  label: Impulse Draw
+  group: Cards
+  query: otag:impulse-draw
+
+- id: removal
+  label: Removal
+  group: Interaction
+  query: otag:spot-removal
+- id: counterspell
+  label: Counterspells
+  group: Interaction
+  query: otag:counterspell
+- id: board-wipe
+  label: Board Wipes
+  group: Interaction
+  query: otag:board-wipe
+
+- id: regrowth
+  label: Regrowth
+  group: Recursion
+  query: otag:regrowth
+- id: reanimation
+  label: Reanimation
+  group: Recursion
+  query: otag:reanimate
+- id: graveyard-cast
+  label: Flashback
+  group: Recursion
+  query: otag:flashback or keyword:flashback or keyword:retrace or keyword:jump-start or keyword:escape
+
+- id: protection
+  label: Protection
+  group: Protection
+  query: otag:protection or otag:phasing
+- id: blink
+  label: Blink
+  group: Protection
+  query: otag:blink
+
+- id: tutor
+  label: Tutors
+  group: Finishers
+  # Tagger also files fetch lands and land searchers under tutor; those aren't what
+  # players mean, and land searchers already count as Land Ramp
+  query: otag:tutor -type:land -otag:land-ramp
+- id: win-condition
+  label: Win Cons
+  group: Finishers
+  # Only alternate-win cards are tagged; curators mark each deck's real finishers
+  query: otag:alternate-win-condition
+
+- id: stax
+  label: Stax
+  group: Stax
+  query: otag:hatebear or otag:tax

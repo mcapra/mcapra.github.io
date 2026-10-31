@@ -1,0 +1,370 @@
+/* Site overrides for the paper theme, plus deck components (layouts/partials/mtg, layouts/_default/deck*.html). */
+
+/* Narrower side gutters on phones; the theme's 2rem leaves little room for lists */
+@media (max-width: 640px) {
+  main.prose { padding-left: 1rem; padding-right: 1rem; }
+}
+
+:root {
+  --mtg-page: var(--bg, #faf8f1); /* the theme sets --bg from site.Params.color */
+  --mtg-tint: rgb(0 0 0 / 4%);
+  --mtg-line: rgb(0 0 0 / 10%);
+  --mtg-accent: #c0392b;
+  --mtg-radius: 4.75% / 3.5%; /* card corner radius relative to card size */
+  --mtg-tabs-h: 3rem;
+}
+.dark {
+  --mtg-page: #1a1a1a; /* the theme's 90% black body over the white canvas */
+  --mtg-tint: rgb(255 255 255 / 7%);
+  --mtg-line: rgb(255 255 255 / 14%);
+  --mtg-accent: #ff6b5b;
+}
+
+/* Rapid taps on filters shouldn't trigger iOS double-tap zoom; pinch zoom still works.
+   touch-action applies to everything inside these containers. */
+.mtg-deck, .mtg-tabs, .mtg-gallery, .mtg-viewer { touch-action: manipulation; }
+
+/* Inline card references */
+.mtg-ref {
+  text-decoration: underline dotted;
+  text-underline-offset: 3px;
+  cursor: zoom-in;
+}
+.mtg-tip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 60;
+  width: 244px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgb(0 0 0 / 35%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.1s;
+}
+.mtg-tip.is-visible { opacity: 1; }
+
+.mtg-mana { display: inline-flex; gap: 1px; vertical-align: middle; white-space: nowrap; }
+.mtg-mana img { width: 1em; height: 1em; margin: 0; }
+
+/* Full-size viewer */
+.mtg-viewer {
+  max-width: min(92vw, 488px);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #fff;
+}
+.mtg-viewer::backdrop { background: rgb(0 0 0 / 80%); }
+.mtg-viewer img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 488 / 680;
+  border-radius: 4.75% / 3.5%;
+  background: rgb(255 255 255 / 10%);
+  cursor: zoom-out;
+}
+.mtg-viewer-actions { display: flex; justify-content: center; gap: 0.5rem; margin-top: 0.75rem; }
+.mtg-viewer-actions > * {
+  min-height: 44px;
+  padding: 0 1.25rem;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 15%);
+  color: inherit;
+  font: inherit;
+  line-height: 44px;
+  text-decoration: none;
+}
+
+/* Shared segmented toggle */
+.mtg-toggle { display: inline-flex; border: 1px solid var(--mtg-line); border-radius: 999px; overflow: hidden; }
+.mtg-toggle button { min-height: 36px; padding: 0 0.9rem; font: inherit; font-size: 0.875rem; }
+.mtg-toggle button + button { border-left: 1px solid var(--mtg-line); }
+.mtg-toggle button[aria-pressed='true'] { background: var(--mtg-tint); font-weight: 600; }
+
+/* Deck page header */
+.mtg-archetypes { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.mtg-archetypes a {
+  padding: 0.15rem 0.65rem;
+  border-radius: 999px;
+  background: var(--mtg-tint);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.mtg-archetypes a:first-child { background: var(--mtg-accent); color: #fff; }
+.mtg-summary { font-size: 1.05rem; }
+.mtg-combos { display: grid; gap: 0.75rem; margin: 0; padding: 0; list-style: none; }
+.mtg-combos li { padding: 0.75rem; border-radius: 0.75rem; background: var(--mtg-tint); }
+.mtg-combo-cards { display: block; font-weight: 600; line-height: 1.5; }
+.mtg-plus { font-weight: 400; opacity: 0.5; }
+.mtg-combo-kind {
+  display: inline-block;
+  margin-top: 0.3rem;
+  padding: 0 0.5rem;
+  border-radius: 999px;
+  background: var(--mtg-accent);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.mtg-combo-source { display: inline-block; margin-top: 0.4rem; font-size: 0.8rem; opacity: 0.7; }
+.mtg-combo-result { display: block; margin-top: 0.2rem; font-size: 0.9rem; opacity: 0.8; }
+.mtg-combo-result p { margin: 0; }
+.mtg-combo-steps { margin: 0.5rem 0 0; padding-left: 1.25rem; list-style: decimal; font-size: 0.875rem; line-height: 1.5; }
+.mtg-combo-steps li { padding: 0.1rem 0; background: none; }
+.mtg-combo-steps p { margin: 0; }
+.mtg-back { display: inline-block; margin-bottom: 1rem; font-size: 0.875rem; text-decoration: none; opacity: 0.7; }
+.mtg-deck-head { display: grid; gap: 1rem; margin-bottom: 1.5rem; }
+.mtg-deck-art { width: 100%; aspect-ratio: 2 / 1; object-fit: cover; object-position: 50% 25%; border-radius: 0.75rem; margin: 0; }
+.mtg-deck-info { display: grid; gap: 0.5rem; align-content: start; }
+.mtg-deck-info h1 { margin: 0; font-size: 1.75rem; font-weight: 800; line-height: 1.15; }
+.mtg-deck-info h1 .mtg-ref { text-decoration: none; }
+.mtg-amp { font-weight: 400; opacity: 0.5; }
+.mtg-deck-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 1rem; font-size: 0.875rem; }
+.mtg-deck-meta { opacity: 0.75; }
+.mtg-deck-meta .mtg-mana { font-size: 1.15rem; }
+.mtg-deck-authors { margin: 0; font-size: 0.875rem; }
+@media (min-width: 640px) {
+  .mtg-deck-head { grid-template-columns: 240px 1fr; align-items: start; }
+  .mtg-deck-art { aspect-ratio: 626 / 457; }
+  .mtg-deck-info h1 { font-size: 2.25rem; }
+}
+
+/* Decklist / Primer tabs, pinned while scrolling */
+.mtg-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: flex;
+  height: var(--mtg-tabs-h);
+  margin: 0 0 1.25rem;
+  border-bottom: 1px solid var(--mtg-line);
+  background: var(--mtg-page);
+}
+.mtg-tabs a {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 3px solid transparent;
+  font-weight: 600;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.mtg-tabs a[aria-selected='true'] { border-bottom-color: var(--mtg-accent); opacity: 1; }
+@media (min-width: 640px) {
+  .mtg-tabs a { flex: 0 0 auto; padding: 0 1.25rem; }
+}
+.mtg-panel { scroll-margin-top: var(--mtg-tabs-h); }
+.mtg-panel h1, .mtg-panel h2, .mtg-panel h3 { scroll-margin-top: calc(var(--mtg-tabs-h) + 0.5rem); }
+.mtg-placeholder { opacity: 0.75; }
+
+/* Decklist */
+.mtg-deck [hidden], .mtg-panel[hidden] { display: none !important; }
+/* Without JavaScript, #primer / #decklist links still switch panels. Scoped to pages where
+   mtg.js hasn't run: it changes the hash with replaceState, which doesn't update :target. */
+:root:not(.mtg-js) .mtg-panel[hidden]:target { display: block !important; }
+:root:not(.mtg-js) .mtg-page:has(.mtg-panel:target) .mtg-panel:not(:target) { display: none !important; }
+
+.mtg-filters { display: grid; gap: 0.75rem; padding: 0.75rem; border-radius: 0.75rem; background: var(--mtg-tint); }
+.mtg-search {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 0.9rem;
+  border: 1px solid var(--mtg-line);
+  border-radius: 0.5rem;
+  background: var(--mtg-page);
+  color: inherit;
+  font: inherit;
+}
+/* Chips wrap so every option is visible without scrolling */
+.mtg-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.mtg-chips > button {
+  min-height: 36px;
+  padding: 0 0.7rem;
+  border: 1px solid var(--mtg-line);
+  border-radius: 999px;
+  background: var(--mtg-page);
+  font: inherit;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+.mtg-chips > button span { opacity: 0.6; }
+.mtg-chips > button[aria-pressed='true'] { border-color: var(--mtg-accent); background: var(--mtg-accent); color: #fff; }
+.mtg-chips > button[aria-pressed='true'] span { opacity: 0.85; }
+.mtg-chips .mtg-mana { font-size: 1.25rem; }
+
+/* Pinned quick filters: zero-height sticky wrapper, so the bar overlays the list
+   without taking space; visible only while .is-compact (set by mtg.js) */
+.mtg-quick-wrap { position: sticky; top: var(--mtg-tabs-h); z-index: 2; height: 0; }
+.mtg-quick {
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--mtg-line);
+  background: var(--mtg-page);
+  opacity: 0;
+  transform: translateY(-0.5rem);
+  pointer-events: none;
+  transition: opacity 0.15s, transform 0.15s;
+}
+.mtg-deck.is-compact .mtg-quick { opacity: 1; transform: none; pointer-events: auto; }
+.mtg-quick-row { display: flex; align-items: center; gap: 0.35rem; }
+.mtg-quick button {
+  min-width: 34px;
+  min-height: 34px;
+  padding: 0 0.4rem;
+  border: 1px solid var(--mtg-line);
+  border-radius: 999px;
+  background: var(--mtg-page);
+  font: inherit;
+  font-size: 0.8125rem;
+}
+.mtg-quick button:disabled { opacity: 0.35; }
+.mtg-quick button[aria-pressed='true'] { border-color: var(--mtg-accent); background: var(--mtg-accent); color: #fff; }
+.mtg-quick .mtg-mana { font-size: 1.15rem; }
+.mtg-quick-mv button { flex: 1; min-width: 0; padding: 0; }
+.mtg-shown-short { margin-left: auto; font-size: 0.8125rem; opacity: 0.7; white-space: nowrap; }
+.mtg-quick .mtg-clear { min-width: 0; border: 0; padding: 0 0.25rem; color: var(--mtg-accent); font-weight: 600; }
+
+.mtg-curve { display: flex; align-items: stretch; gap: 4px; height: 5.5rem; font-size: 0.7rem; }
+.mtg-curve button { display: flex; flex: 1; flex-direction: column; justify-content: flex-end; align-items: center; padding: 0; font: inherit; }
+.mtg-curve button:disabled { cursor: default; }
+.mtg-curve-bar { width: 100%; min-height: 1px; border-radius: 3px 3px 0 0; background: var(--mtg-accent); opacity: 0.45; transition: opacity 0.1s; }
+/* Touch screens keep :hover after a tap, which made deselected bars look selected */
+@media (hover: hover) {
+  .mtg-curve button:not(:disabled):hover .mtg-curve-bar { opacity: 0.7; }
+}
+.mtg-curve button[aria-pressed='true'] .mtg-curve-bar { opacity: 1; }
+.mtg-curve button[aria-pressed='true'] .mtg-curve-label,
+.mtg-curve button[aria-pressed='true'] .mtg-curve-n { color: var(--mtg-accent); font-weight: 700; opacity: 1; }
+.mtg-curve-n, .mtg-curve-label { line-height: 1.4; opacity: 0.7; }
+
+.mtg-filter-status { display: flex; justify-content: space-between; align-items: center; min-height: 28px; font-size: 0.875rem; }
+.mtg-clear { color: var(--mtg-accent); font: inherit; font-weight: 600; }
+
+.mtg-deck-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 1rem; }
+.mtg-deck-actions > button {
+  min-height: 36px;
+  padding: 0 0.9rem;
+  border: 1px solid var(--mtg-line);
+  border-radius: 999px;
+  font-size: 0.875rem;
+}
+.mtg-empty { margin-top: 1.5rem; text-align: center; opacity: 0.7; }
+
+.mtg-section { margin-top: 1.25rem; }
+.mtg-section summary {
+  position: sticky;
+  top: var(--mtg-tabs-h);
+  z-index: 1;
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--mtg-line);
+  background: var(--mtg-page);
+  font-weight: 700;
+  cursor: pointer;
+}
+/* While the quick bar shows, keep at least a screen of list so filtering it can't shrink
+   the page enough to scroll the main panel back into view (which would hide the bar) */
+.mtg-deck.is-compact .mtg-sections { min-height: calc(100vh - var(--mtg-tabs-h)); }
+/* Section headings pin below the quick bar while it is showing */
+.mtg-deck.is-compact .mtg-section summary { top: calc(var(--mtg-tabs-h) + var(--mtg-quick-h, 0px)); }
+.mtg-count { font-weight: 400; opacity: 0.6; }
+.mtg-section-extra { opacity: 0.85; }
+.mtg-section ul { margin: 0; padding: 0; list-style: none; }
+
+/* List view: one row per card, 44px tap targets */
+.mtg-section li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 44px;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--mtg-line);
+}
+.mtg-qty { min-width: 1.25rem; text-align: right; font-variant-numeric: tabular-nums; opacity: 0.6; }
+.mtg-name { flex: 1; min-width: 0; }
+.mtg-name .mtg-ref { text-decoration: none; }
+.mtg-name small { display: block; font-size: 0.8rem; opacity: 0.7; }
+.mtg-name small p { margin: 0; }
+.mtg-thumb { display: none; }
+@media (min-width: 768px) {
+  .mtg-deck[data-view='list'] .mtg-sections { columns: 2; column-gap: 2rem; }
+  .mtg-deck[data-view='list'] .mtg-section { break-inside: avoid-column; }
+  .mtg-deck[data-view='list'] .mtg-section summary { position: static; }
+}
+
+/* Image view */
+.mtg-deck[data-view='grid'] .mtg-section ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+}
+@media (min-width: 640px) {
+  .mtg-deck[data-view='grid'] .mtg-section ul { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+}
+.mtg-deck[data-view='grid'] .mtg-section li { display: block; min-height: 0; padding: 0; border: 0; }
+.mtg-deck[data-view='grid'] .mtg-section li > :not(.mtg-thumb) { display: none; }
+.mtg-deck[data-view='grid'] .mtg-thumb { position: relative; display: block; }
+.mtg-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 146 / 204;
+  margin: 0;
+  border-radius: var(--mtg-radius);
+  background: var(--mtg-tint);
+}
+.mtg-thumb-qty {
+  position: absolute;
+  right: 6%;
+  bottom: 6%;
+  padding: 0 0.4rem;
+  border-radius: 999px;
+  background: rgb(0 0 0 / 75%);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* Deck gallery */
+.mtg-gallery ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem 0.75rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+@media (min-width: 640px) {
+  .mtg-gallery ul { grid-template-columns: repeat(3, 1fr); gap: 1.5rem 1rem; }
+}
+.mtg-gallery a { display: block; text-decoration: none; }
+.mtg-gallery-cards { position: relative; display: block; aspect-ratio: 488 / 680; isolation: isolate; }
+.mtg-gallery-cards img,
+.mtg-gallery-blank {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: var(--mtg-radius);
+  background: var(--mtg-tint);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 18%);
+  transition: transform 0.15s;
+}
+/* Partner pairs: an offset stack kept inside the card's own box (a rotated fan overflowed
+   the right-hand column on phones) */
+.mtg-gallery-cards img:first-child:not(:only-child) { inset: 0 8% 6% 0; width: 92%; height: 94%; }
+.mtg-gallery-cards img:nth-child(2) { inset: 6% 0 0 8%; width: 92%; height: 94%; z-index: -1; }
+.mtg-gallery a:hover img:first-child { transform: translateY(-4px); }
+.mtg-gallery-blank { display: flex; align-items: center; justify-content: center; padding: 1rem; text-align: center; font-weight: 600; }
+.mtg-gallery-title { display: block; margin-top: 0.5rem; font-size: 0.9rem; font-weight: 600; line-height: 1.3; }
+.mtg-gallery-meta { display: block; font-size: 0.8rem; line-height: 1.35; opacity: 0.6; }
+.mtg-gallery .mtg-chips { margin-top: 0.75rem; }
+.mtg-gallery-status { margin: 0.75rem 0 0; font-size: 0.875rem; opacity: 0.7; }
+.mtg-gallery li[hidden] { display: none; }

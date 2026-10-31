@@ -1,0 +1,69 @@
+{{- /*
+  Deck gallery: one commander card per deck, filterable by bracket and archetype.
+  Used by content/posts/mtg_decklists/_index.md via `layout = 'decks'`.
+  A URL hash such as #combo preselects that archetype (deck pages link here that way).
+*/ -}}
+{{ define "main" }}
+<header class="mb-8">
+  <h1 class="!my-0 pb-2.5">{{ .Title }}</h1>
+  {{ .Content }}
+</header>
+
+{{ $decks := .RegularPagesRecursive.ByTitle }}
+{{ $brackets := slice }}
+{{ $counts := newScratch }}
+{{ range $decks }}
+{{ with .Params.bracket }}{{ $brackets = $brackets | append . }}{{ end }}
+{{ range .Params.archetypes }}{{ $counts.SetInMap "used" . (add (index ($counts.Get "used" | default dict) . | default 0) 1) }}{{ end }}
+{{ end }}
+{{ $used := $counts.Get "used" }}
+
+<div class="mtg-gallery not-prose">
+  <div class="mtg-toggle" role="group" aria-label="Filter by bracket">
+    <button type="button" data-bracket="all" aria-pressed="true">All</button>
+    {{ range uniq $brackets }}
+    <button type="button" data-bracket="{{ . }}" aria-pressed="false">B{{ . }}</button>
+    {{ end }}
+  </div>
+
+  {{ with $used }}
+  <div class="mtg-chips" role="group" aria-label="Filter by archetype">
+    {{ range $a := site.Data.archetypes }}
+    {{ with index $used $a.name }}
+    <button type="button" data-archetype="{{ urlize $a.name }}" aria-pressed="false" title="{{ $a.description }}">{{ $a.name }} <span>{{ . }}</span></button>
+    {{ end }}
+    {{ end }}
+  </div>
+  {{ end }}
+  <p class="mtg-gallery-status" aria-live="polite"></p>
+
+  <ul>
+    {{ range $decks }}
+    {{ $cards := slice }}
+    {{ range partial "mtg/entries.html" .Params.commanders }}
+    {{ $cards = $cards | append (partial "mtg/lookup.html" .) }}
+    {{ end }}
+    {{ $title := replaceRE `^\[Bracket \d+\]\s*` "" .Title }}
+    {{ with $cards }}{{ $title = delimit (apply . "index" "." "name") " & " }}{{ end }}
+    <li data-bracket="{{ .Params.bracket }}" data-archetypes="{{ delimit (apply (.Params.archetypes | default slice) "urlize" ".") " " }}">
+      <a href="{{ .RelPermalink }}">
+        <span class="mtg-gallery-cards">
+          {{ range $cards }}
+          <img src="{{ .img }}" alt="{{ .name }}" loading="lazy">
+          {{ else }}
+          <span class="mtg-gallery-blank">{{ $title }}</span>
+          {{ end }}
+        </span>
+        <span class="mtg-gallery-title">{{ $title }}</span>
+        <span class="mtg-gallery-meta">
+          {{- with .Params.bracket }}Bracket {{ . }}{{ end }}
+          {{- with .Params.archetypes }} · {{ delimit . ", " }}{{ end -}}
+        </span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ $js := resources.Get "js/mtg.js" | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" defer></script>
+{{ end }}

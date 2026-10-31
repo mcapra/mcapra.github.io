@@ -1,0 +1,11 @@
+{{- /*
+  Resolves one card ref (from mtg/entries.html) for display.
+  Context: dict "ref" (the ref) "overrides" (lowercased card name -> role ids, from the
+  deck's roles.yaml). Returns the ref plus "card" and "roles": the curator's roles when
+  the card is listed in roles.yaml, otherwise the roles pre-filled in cards.json.
+*/ -}}
+{{- $card := partial "mtg/lookup.html" .ref -}}
+{{- $roles := $card.roles | default slice -}}
+{{- with index .overrides (lower $card.name) }}{{ $roles = . }}{{ end -}}
+{{- with index .overrides (lower (index (split $card.name " // ") 0)) }}{{ $roles = . }}{{ end -}}
+{{- return merge .ref (dict "card" $card "roles" $roles) -}}

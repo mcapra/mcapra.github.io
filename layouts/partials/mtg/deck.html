@@ -1,0 +1,116 @@
+{{- /*
+  Filterable card digest for a deck post, built from deck.yaml in the page bundle
+  (see archetypes/decklist/deck.yaml), with role overrides from roles.yaml.
+  Context: the page. Returns the rendered HTML plus header data.
+*/ -}}
+{{- $page := . -}}
+{{- $deck := dict -}}
+{{- with $page.Resources.GetMatch "deck.yaml" }}{{ $deck = . | transform.Unmarshal }}{{ end -}}
+{{- $types := slice "Creature" "Planeswalker" "Battle" "Instant" "Sorcery" "Artifact" "Enchantment" "Land" "Other" -}}
+{{- $plural := dict "Creature" "Creatures" "Planeswalker" "Planeswalkers" "Battle" "Battles" "Instant" "Instants" "Sorcery" "Sorceries" "Artifact" "Artifacts" "Enchantment" "Enchantments" "Land" "Lands" "Other" "Other" -}}
+
+{{- /* Curator role overrides, keyed by lowercased card name */ -}}
+{{- $overrides := dict -}}
+{{- with $page.Resources.GetMatch "roles.yaml" -}}
+  {{- range $name, $roles := . | transform.Unmarshal -}}
+    {{- $overrides = merge $overrides (dict (lower $name) $roles) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Resolve every entry to its ref plus "card" and "roles" */ -}}
+{{- $sections := slice -}}
+{{- if $deck.sections -}}
+  {{- range $deck.sections -}}
+    {{- $items := slice -}}
+    {{- range partial "mtg/entries.html" .cards -}}
+      {{- $items = $items | append (partial "mtg/resolve.html" (dict "ref" . "overrides" $overrides)) -}}
+    {{- end -}}
+    {{- $sections = $sections | append (dict "name" .name "items" $items) -}}
+  {{- end -}}
+{{- else -}}
+  {{- /* No sections given: group by primary card type */ -}}
+  {{- $all := slice -}}
+  {{- range partial "mtg/entries.html" $deck.cards -}}
+    {{- $all = $all | append (partial "mtg/resolve.html" (dict "ref" . "overrides" $overrides)) -}}
+  {{- end -}}
+  {{- range $types -}}
+    {{- $type := . -}}
+    {{- $items := slice -}}
+    {{- range sort $all "name" -}}
+      {{- if eq .card.type $type -}}{{- $items = $items | append . -}}{{- end -}}
+    {{- end -}}
+    {{- with $items -}}{{- $sections = $sections | append (dict "name" (index $plural $type) "items" .) -}}{{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $sideboard := slice -}}
+{{- range partial "mtg/entries.html" $deck.sideboard -}}
+  {{- $sideboard = $sideboard | append (partial "mtg/resolve.html" (dict "ref" . "overrides" $overrides)) -}}
+{{- end -}}
+
+{{- $commanders := slice -}}
+{{- range partial "mtg/entries.html" $page.Params.commanders -}}
+  {{- $commanders = $commanders | append (partial "mtg/resolve.html" (dict "ref" . "overrides" $overrides)) -}}
+{{- end -}}
+
+{{- /* Commanders lead the list, as on Moxfield, so counts match the 100 */ -}}
+{{- if and $sections $commanders -}}
+  {{- $sections = slice (dict "name" (cond (gt (len $commanders) 1) "Commanders" "Commander") "items" $commanders) | append $sections -}}
+{{- end -}}
+
+{{- /* Totals, mana curve, role counts and plain-text export */ -}}
+{{- $stats := newScratch -}}
+{{- $stats.Set "total" 0 -}}
+{{- $stats.Set "export" "" -}}
+{{- $mainboard := slice -}}
+{{- range $sections }}{{ $mainboard = $mainboard | append .items }}{{ end -}}
+{{- range $item := $mainboard | append $sideboard -}}
+  {{- /* Name -> card (with this deck's printing) for the Overview's combo cards */ -}}
+  {{- $stats.SetInMap "byname" (lower .card.name) .card -}}
+  {{- $stats.SetInMap "byname" (lower (index (split .card.name " // ") 0)) .card -}}
+{{- end -}}
+{{- range $item := $mainboard -}}
+  {{- $stats.Add "total" .qty -}}
+  {{- /* Keep the printing so pasting into Moxfield preserves the art */ -}}
+  {{- if and .set .number -}}
+    {{- $stats.Add "export" (printf "%d %s (%s) %s\n" .qty .card.name (upper .set) .number) -}}
+  {{- else -}}
+    {{- $stats.Add "export" (printf "%d %s\n" .qty .card.name) -}}
+  {{- end -}}
+  {{- if eq .card.ci "" }}{{ $stats.Set "colorless" true }}{{ end -}}
+  {{- if ne .card.type "Land" -}}
+    {{- $stats.Add (printf "cmc-%d" (int (math.Min 7 .card.cmc))) .qty -}}
+    {{- $stats.Add "spells" .qty -}}
+    {{- $stats.Add "cmc-sum" (mul .qty .card.cmc) -}}
+  {{- end -}}
+  {{- range .roles -}}
+    {{- $stats.SetInMap "roles" . (add (index ($stats.Get "roles" | default dict) . | default 0) $item.qty) -}}
+  {{- end -}}
+{{- end -}}
+{{- $peak := 1 -}}
+{{- range seq 0 7 -}}{{- $peak = math.Max $peak ($stats.Get (printf "cmc-%d" .) | default 0) -}}{{- end -}}
+
+{{- /* Roles present in this deck, in data/roles.yaml order */ -}}
+{{- $roles := slice -}}
+{{- range $r := site.Data.roles -}}
+  {{- with index ($stats.Get "roles" | default dict) $r.id -}}
+    {{- $roles = $roles | append (dict "id" $r.id "label" $r.label "count" .) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $colors := slice -}}
+{{- range $c := slice "W" "U" "B" "R" "G" -}}
+  {{- range $mainboard | append $commanders -}}{{- if and (in (.card.ci | default "") $c) (not (in $colors $c)) -}}{{- $colors = $colors | append $c -}}{{- end -}}{{- end -}}
+{{- end -}}
+{{- if $stats.Get "colorless" }}{{ $colors = $colors | append "C" }}{{ end -}}
+{{- $colorNames := dict "W" "White" "U" "Blue" "B" "Black" "R" "Red" "G" "Green" "C" "Colorless" -}}
+
+{{- $html := "" -}}
+{{- if $mainboard -}}
+{{- $html = partial "mtg/deck-body.html" (dict
+    "page" $page "sections" $sections "sideboard" $sideboard "deck" $deck "stats" $stats
+    "peak" $peak "colors" $colors "colorNames" $colorNames "roles" $roles) -}}
+{{- end -}}
+{{- $avg := 0.0 -}}
+{{- with $stats.Get "spells" }}{{ $avg = div ($stats.Get "cmc-sum") (float .) }}{{ end -}}
+{{- return (dict "html" $html "total" ($stats.Get "total") "colors" $colors "commanders" $commanders "avg" $avg "cards" ($stats.Get "byname" | default dict)) -}}

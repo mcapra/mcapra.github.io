@@ -1,0 +1,100 @@
+# Imported by import_decks.py from https://moxfield.com/decks/ylbbVf2_rUWIt4clcbvqfA on 2026-10-31.
+# Re-run `python import_decks.py --refresh` to update, or delete this header to edit by hand.
+
+cards: |
+  1 Academy Manufactor (SLD) 2195
+  1 Academy Ruins (2XM) 369
+  1 Aether Spellbomb (MRD) 141
+  1 Aetherflux Reservoir (KLD) 192
+  1 Aetherize (FDN) 151
+  1 An Offer You Can't Refuse (SLP) 7
+  1 Arcane Denial (CMR) 630
+  1 Arcane Signet (CMM) 653
+  1 Arcbound Condor (MH3) 81
+  1 Archway of Innovation (MH3) 350
+  1 Baleful Strix (BLC) 86
+  1 Basim Ibn Ishaq (ACR) 141
+  1 Black Market Connections (ACR) 161
+  1 City of Brass (2X2) 403
+  1 Collector's Vault (WOE) 244
+  1 Command Tower (CMM) 659
+  1 Crucible of Worlds (2X2) 393
+  1 Crystal Skull, Isu Spyglass (ACR) 158
+  1 Cyberdrive Awakener (NEC) 48
+  1 Darksteel Citadel (SLD) 608
+  1 Deadly Rollick (SLD) 1754
+  1 Demonic Junker (DFT) 307
+  1 Desynchronization (ACR) 16
+  1 Dimir Aqueduct (2X2) 404
+  1 Drowned Catacomb (M12) 226
+  1 Emry, Lurker of the Loch (SLC) 2019
+  1 Enhanced Surveillance (GRN) 40
+  1 Etherium Sculptor (SLD) 443
+  1 Fierce Guardianship (CMM) 694
+  1 Filigree Attendant (MH2) 41
+  1 Fomori Vault (BIG) 94
+  1 Forensic Gadgeteer (MKM) 57
+  1 Foundry Inspector (SLD) 2106
+  1 Gifts Ungiven (2X2) 347
+  1 Gloomlake Verge (DSK) 331
+  1 Haunt the Network (DFT) 207
+  1 Inventors' Fair (SLD) 1735
+  5 Island (DMU) 278
+  1 Liberator, Urza's Battlethopter (BRO) 364
+  1 Liquimetal Torque (MH2) 228
+  1 Lunar Insight (FDN) 310
+  1 Master of Etherium (2XM) 57
+  1 Matoya, Archon Elder (FIN) 439
+  1 Midgar, City of Mako // Reactor Raid (FIN) 313
+  1 Minamo, School at Water's Edge (LTC) 369
+  1 Mishra's Bauble (SLD) 2041
+  1 Mithril Coat (LTR) 379
+  1 Monumental Corruption (ONC) 34
+  1 Morphic Pool (ZNE) 17
+  1 Mox Opal (2XM) 362
+  1 Mystic Forge (M20) 233
+  1 Necron Deathmark (40K) 42★
+  1 Nihil Spellbomb (A25) 226
+  1 Nimble Obstructionist (HOU) 40
+  1 Otawara, Soaring City (NEO) 414
+  1 Palantír of Orthanc (LTR) 792
+  1 Phyrexian Dreadnought (MIR) 315
+  1 Phyrexian Metamorph (2XM) 341
+  1 Polluted Delta (MH3) 356
+  1 Reflecting Pool (LTC) 373
+  1 Riddlesmith (2XM) 65
+  1 Sai, Master Thopterist (M19) 69
+  1 Seat of the Synod (SLD) 301
+  1 Sensei's Divining Top (2X2) 398
+  1 Shipwreck Marsh (MID) 285
+  1 Simulacrum Synthesizer (BIG) 6
+  1 Sink into Stupor // Soporific Springs (MH3) 241
+  1 Skullclamp (40K) 248★
+  1 Sol Ring (SLD) 1696
+  1 Spellskite (SLD) 277
+  1 Street Wraith (DMR) 429
+  1 Stridehangar Automaton (DRC) 35
+  3 Swamp (DMU) 279
+  1 Swan Song (SLD) 1591
+  1 Takenuma, Abandoned Mire (NEO) 416
+  1 Tezzeret, Master of the Bridge (WAR) 275
+  1 The Mechanist, Aerial Artisan (TLA) 369
+  1 The One Ring (LTR) 451
+  1 The Reality Chip (NEO) 449
+  1 The Underworld Cookbook (MH2) 240
+  1 Thirst for Knowledge (2XM) 71
+  1 Thought Monitor (MH2) 71
+  1 Thoughtcast (SPG) 85
+  1 Tithing Blade // Consuming Sepulcher (LCI) 128
+  1 Treasure Vault (AFR) 261
+  1 Troll of Khazad-dûm (LTR) 111
+  1 Undercity Sewers (MKM) 332
+  1 Underground River (BRO) 300
+  1 Urza's Saga (MH2) 259
+  1 Urza, Lord High Artificer (DMR) 423
+  1 Vault of Whispers (SLD) 302
+  1 Vedalken Archmage (MRD) 55
+  1 Watery Grave (RVR) 301
+
+sideboard: |
+  1 Mistvault Bridge (MH2) 249

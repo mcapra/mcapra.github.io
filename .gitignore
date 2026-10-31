@@ -1,0 +1,5 @@
+# Scryfall role search cache (build_card_db.py)
+.cache/
+
+# Python bytecode (check_decks.py imports build_card_db.py)
+__pycache__/

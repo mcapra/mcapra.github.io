@@ -1,0 +1,27 @@
+{
+  "name": "mcapra.github.io",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  // Rootless Podman maps container root to your host user, so files written to
+  // the checkout stay owned by you. Disabling SELinux labeling lets the workspace
+  // mount be read on Fedora without relabeling the repo; Docker accepts both.
+  "runArgs": ["--security-opt", "label=disable"],
+  "containerUser": "root",
+  "remoteUser": "root",
+  "postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder} && git submodule update --init themes/paper",
+  "forwardPorts": [1313],
+  "portsAttributes": {
+    "1313": { "label": "Hugo", "onAutoForward": "notify" }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  }
+}
