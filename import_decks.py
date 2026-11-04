@@ -49,7 +49,14 @@ def line(card: Card) -> str:
 def from_moxfield(deck_id: str) -> dict:
     data = fetch_json(f'https://api2.moxfield.com/v3/decks/all/{deck_id}')
     boards = data['boards']
+    # A duplicated deck credits the builder of the original, not whoever copied it
+    original = data.get('originalDeck') or data
     return {
+        'name': original.get('name') or data['name'],
+        'bracket': data.get('userBracket') or data.get('bracket') or data.get('autoBracket'),
+        'updated': data.get('lastUpdatedAtUtc', ''),
+        'author': original['createdByUser']['userName'],
+        'author_url': f"https://moxfield.com/users/{original['createdByUser']['userName']}",
         'commanders': [line(c).split(' ', 1)[1] for c in board(boards['commanders']['cards'])],
         'cards': board(boards['mainboard']['cards']) + board(boards.get('companions', {}).get('cards', {})),
         'sideboard': board(boards.get('sideboard', {}).get('cards', {})),
@@ -60,7 +67,14 @@ def from_archidekt(deck_id: str) -> dict:
     data = fetch_json(f'https://archidekt.com/api/decks/{deck_id}/')
     # Categories such as Maybeboard and Sideboard are excluded from the deck
     outside = {c['name'] for c in data.get('categories', []) if not c.get('includedInDeck', True)}
-    result = {'commanders': [], 'cards': [], 'sideboard': []}
+    result = {
+        'name': data['name'],
+        'bracket': data.get('edhBracket'),
+        'updated': data.get('updatedAt', ''),
+        'author': data['owner']['username'],
+        'author_url': f"https://archidekt.com/u/{data['owner']['username']}",
+        'commanders': [], 'cards': [], 'sideboard': [],
+    }
     for entry in data['cards']:
         if entry.get('deletedAt'):
             continue

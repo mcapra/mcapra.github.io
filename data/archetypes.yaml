@@ -48,6 +48,8 @@
   description: Accelerates into extra mana to cast bigger threats sooner.
 - name: Reanimator
   description: Puts big creatures into the graveyard and returns them cheaply.
+- name: Sagas
+  description: Builds around Saga chapter abilities and ways to repeat or skip them.
 - name: Spellslinger
   description: Wins with a pile of instants and sorceries rather than creatures.
 - name: Stax

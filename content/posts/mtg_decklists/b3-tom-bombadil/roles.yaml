@@ -1,0 +1,5 @@
+# Curator role overrides for this deck: each card listed here uses exactly these roles
+# instead of the ones pre-filled from Scryfall. Role ids are in data/roles.yaml.
+# Mark the deck's finishers with win-condition; import_decks.py never touches this file.
+
+# "Craterhoof Behemoth": [win-condition]

@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Check deck posts for mistakes before committing (also run in CI before each deploy).
 
-Errors fail the run: missing required front matter, archetypes outside
+Errors fail the run: missing required front matter, Overview TODOs left in a
+published deck, archetypes outside
 data/archetypes.yaml, cards missing from data/cards.json, Overview combos or
-rulings that name cards not in the deck, bad roles.yaml entries, and Mulligan
-For land counts that don't match the list.
+rulings that name cards not in the deck, bad roles.yaml entries, Mulligan For
+land counts that don't match the list, and QR codes that are missing, too small,
+point to the wrong URL, or have a wrong or duplicate label.
 
 Warnings don't: decks that aren't 100 cards, missing Overview sections, and with
 --spellbook, infinite or game-winning combos (found by Commander Spellbook) that
@@ -14,6 +16,7 @@ the Overview doesn't list.
 import argparse
 import json
 import re
+import struct
 import sys
 import time
 import tomllib
@@ -29,6 +32,43 @@ SPELLBOOK_FIND = 'https://backend.commanderspellbook.com/find-my-combos'
 SPELLBOOK_SOURCE_RE = re.compile(r'^https://commanderspellbook\.com/combo/[\w-]+/$')
 LAND_CLAIM_RE = re.compile(r'of the (\d+) lands')
 OVERVIEW_SECTIONS = ('strengths', 'weaknesses', 'mulligan')
+QR_FILE = 'qr.png'
+QR_URL_KEY = 'URL'
+QR_LABEL_KEY = 'Label'
+QR_DPI = 300
+QR_MIN_PIXELS = 237  # 2cm at 300dpi
+INCH_PER_METER = 39.3701
+
+
+def page_url(slug: str) -> str:
+    """The published URL of a deck, from baseURL in hugo.toml."""
+    base = tomllib.loads(Path('hugo.toml').read_text(encoding='utf-8'))['baseURL']
+    return f"{base.rstrip('/')}/posts/mtg_decklists/{slug}/"
+
+
+def short_label(slug: str, commander: str) -> str:
+    """A deck's 6-character ID, e.g. b3-tom-bombadil -> b3tomb. Short slugs use the commander's name."""
+    letters = re.sub(r'[^a-z0-9]', '', slug[3:])
+    if len(letters) < 4:
+        letters = re.sub(r'[^a-z0-9]', '', commander.lower())
+    return slug[:2] + letters[:4]
+
+
+def read_qr(path: Path) -> tuple[int, int, dict[str, str]]:
+    """A QR PNG's width in pixels, its dpi and the text recorded by generate_qr.py."""
+    data = path.read_bytes()
+    width = struct.unpack('>I', data[16:20])[0]
+    dpi, text, offset = 0, {}, 8
+    while offset < len(data):
+        length, kind = struct.unpack('>I4s', data[offset:offset + 8])
+        body = data[offset + 8:offset + 8 + length]
+        if kind == b'pHYs':
+            dpi = round(struct.unpack('>I', body[:4])[0] / INCH_PER_METER)
+        elif kind == b'tEXt':
+            key, value = body.split(b'\0', 1)
+            text[key.decode()] = value.decode()
+        offset += length + 12
+    return width, dpi, text
 
 
 def front_name(name: str) -> str:
@@ -78,9 +118,13 @@ def check_deck(post: Path, db: dict, archetypes: set[str], role_ids: set[str], r
         report.error(slug, f'front matter is not valid TOML: {e}')
         return None
 
-    for field in ('title', 'bracket', 'commanders', 'archetypes'):
+    # Drafts aren't published, so unfinished curation is only a warning there
+    unfinished = report.warn if fm.get('draft') else report.error
+    for field in ('title', 'bracket', 'commanders'):
         if not fm.get(field):
             report.error(slug, f'missing {field}')
+    if not fm.get('archetypes'):
+        unfinished(slug, 'missing archetypes')
     if fm.get('bracket') and fm['bracket'] not in range(1, 6):
         report.error(slug, f"bracket {fm['bracket']} is not 1-5")
     for name in fm.get('archetypes', []):
@@ -126,7 +170,9 @@ def check_deck(post: Path, db: dict, archetypes: set[str], role_ids: set[str], r
     # Overview
     overview = fm.get('overview') or {}
     if not overview.get('summary'):
-        report.error(slug, 'missing [overview] summary')
+        unfinished(slug, 'missing [overview] summary')
+    if 'TODO' in json.dumps(overview):
+        unfinished(slug, 'Overview still has TODO placeholders from ingest_deck.py')
     for section in OVERVIEW_SECTIONS:
         if overview and not overview.get(section):
             report.warn(slug, f'Overview has no {section}')
@@ -149,6 +195,19 @@ def check_deck(post: Path, db: dict, archetypes: set[str], role_ids: set[str], r
             if int(claimed) != lands:
                 report.error(slug, f'Mulligan For says {claimed} lands; the deck has {lands}')
 
+    # Printable QR code
+    qr_path = post.parent / QR_FILE
+    if not qr_path.exists():
+        unfinished(slug, f'no {QR_FILE}: run generate_qr.py')
+    else:
+        width, dpi, text = read_qr(qr_path)
+        if text.get(QR_URL_KEY) != page_url(slug):
+            report.error(slug, f'{QR_FILE} points to {text.get(QR_URL_KEY, "an unknown URL")}, not {page_url(slug)}: run generate_qr.py')
+        if fm.get('commanders') and text.get(QR_LABEL_KEY) != short_label(slug, fm['commanders'][0]):
+            report.error(slug, f"{QR_FILE} is labeled {text.get(QR_LABEL_KEY)}, not {short_label(slug, fm['commanders'][0])}: run generate_qr.py")
+        if dpi != QR_DPI or width < QR_MIN_PIXELS:
+            report.error(slug, f'{QR_FILE} is {width}px at {dpi}dpi, too small to print at 2cm: run generate_qr.py')
+
     # Curator role overrides
     roles_path = post.parent / 'roles.yaml'
     overrides = (yaml.safe_load(roles_path.read_text(encoding='utf-8')) or {}) if roles_path.exists() else {}
@@ -160,6 +219,7 @@ def check_deck(post: Path, db: dict, archetypes: set[str], role_ids: set[str], r
                 report.error(slug, f'roles.yaml gives {name!r} unknown role {role!r} (see data/roles.yaml)')
 
     return {
+        'label': short_label(slug, fm['commanders'][0]) if fm.get('commanders') else slug,
         'commanders': [name for _, name, _, _ in commanders],
         'cards': [name for _, name, _, _ in mainboard],
         'listed': [{n.lower() for n in c.get('cards', [])} | {front_name(n).lower() for n in c.get('cards', [])}
@@ -167,22 +227,27 @@ def check_deck(post: Path, db: dict, archetypes: set[str], role_ids: set[str], r
     }
 
 
-def check_spellbook(slug: str, deck: dict, report: Report):
-    """Warn when Commander Spellbook finds infinite or game-winning combos the Overview doesn't list."""
+def find_decisive_combos(commanders: list[str], cards: list[str]) -> list[dict]:
+    """Ask Commander Spellbook for the deck's infinite or game-winning combos."""
     payload = json.dumps({
-        'commanders': [{'card': n, 'quantity': 1} for n in deck['commanders']],
-        'main': [{'card': n, 'quantity': 1} for n in deck['cards']],
+        'commanders': [{'card': n, 'quantity': 1} for n in commanders],
+        'main': [{'card': n, 'quantity': 1} for n in cards],
     }).encode()
     request = urllib.request.Request(SPELLBOOK_FIND, data=payload, headers={
         'User-Agent': USER_AGENT, 'Accept': 'application/json', 'Content-Type': 'application/json'})
+    with urllib.request.urlopen(request, timeout=60) as response:
+        result = json.load(response)
+    combos = (result.get('results') or result).get('included', [])
+    return [c for c in combos if any(re.search(r'infinite|win the game', p['feature']['name'], re.I) for p in c['produces'])]
+
+
+def check_spellbook(slug: str, deck: dict, report: Report):
+    """Warn when Commander Spellbook finds infinite or game-winning combos the Overview doesn't list."""
     try:
-        with urllib.request.urlopen(request, timeout=60) as response:
-            result = json.load(response)
+        decisive = find_decisive_combos(deck['commanders'], deck['cards'])
     except (urllib.error.URLError, TimeoutError) as e:
         report.warn(slug, f'Commander Spellbook check failed: {e}')
         return
-    combos = (result.get('results') or result).get('included', [])
-    decisive = [c for c in combos if any(re.search(r'infinite|win the game', p['feature']['name'], re.I) for p in c['produces'])]
     if not decisive:
         return
     # Listed if every piece of some decisive combo appears together in one Overview combo
@@ -221,8 +286,13 @@ examples:
     posts = sorted(args.content.glob('*/index.md'))
     if args.slugs:
         posts = [p for p in posts if p.parent.name in args.slugs]
+    labels = {}
     for post in posts:
         deck = check_deck(post, db, archetypes, role_ids, report)
+        if deck and deck['label'] in labels:
+            report.error(post.parent.name, f"QR label {deck['label']} is already used by {labels[deck['label']]}: rename one deck's folder")
+        elif deck:
+            labels[deck['label']] = post.parent.name
         if deck and args.spellbook:
             check_spellbook(post.parent.name, deck, report)
             time.sleep(1)  # be gentle with Commander Spellbook

@@ -751,6 +751,20 @@
    "protection"
   ]
  },
+ "ajani fells the godsire|mh3|19": {
+  "name": "Ajani Fells the Godsire",
+  "mana": "{3}{W}{W}",
+  "cmc": 5.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/1/d/1d918133-d4e2-4674-a3cb-58edef1c6758.jpg?1783911304",
+  "art": "https://cards.scryfall.io/art_crop/front/1/d/1d918133-d4e2-4674-a3cb-58edef1c6758.jpg?1783911304",
+  "uri": "https://scryfall.com/card/mh3/19/ajani-fells-the-godsire",
+  "roles": [
+   "removal"
+  ]
+ },
  "ajani's chosen|soc|132": {
   "name": "Ajani's Chosen",
   "mana": "{2}{W}{W}",
@@ -867,6 +881,20 @@
   "uri": "https://scryfall.com/card/m3c/152/all-is-dust",
   "roles": [
    "board-wipe"
+  ]
+ },
+ "all suns' dawn|mm2|138": {
+  "name": "All Suns' Dawn",
+  "mana": "{4}{G}",
+  "cmc": 5.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/1/5/15629398-bb20-4ff3-ab0e-061dcea916d5.jpg?1783938401",
+  "art": "https://cards.scryfall.io/art_crop/front/1/5/15629398-bb20-4ff3-ab0e-061dcea916d5.jpg?1783938401",
+  "uri": "https://scryfall.com/card/mm2/138/all-suns-dawn",
+  "roles": [
+   "regrowth"
   ]
  },
  "all that glitters|eld|2": {
@@ -3092,6 +3120,21 @@
   "uri": "https://scryfall.com/card/m3c/221/avenger-of-zendikar",
   "roles": []
  },
+ "awaken the honored dead|tdm|383": {
+  "name": "Awaken the Honored Dead",
+  "mana": "{B}{G}{U}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "BGU",
+  "img": "https://cards.scryfall.io/normal/front/7/6/76bd76c7-7a1e-4119-8f4a-12b536b30a32.jpg?1783907216",
+  "art": "https://cards.scryfall.io/art_crop/front/7/6/76bd76c7-7a1e-4119-8f4a-12b536b30a32.jpg?1783907216",
+  "uri": "https://scryfall.com/card/tdm/383/awaken-the-honored-dead",
+  "roles": [
+   "removal",
+   "regrowth"
+  ]
+ },
  "awakening zone|m3c|222": {
   "name": "Awakening Zone",
   "mana": "{2}{G}",
@@ -3400,6 +3443,18 @@
    "removal"
   ]
  },
+ "barbara wright|who|14": {
+  "name": "Barbara Wright",
+  "mana": "{1}{W}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Human Advisor",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/4/1/414bdd33-549d-4690-917c-ea48decffbbb.jpg?1783914681",
+  "art": "https://cards.scryfall.io/art_crop/front/4/1/414bdd33-549d-4690-917c-ea48decffbbb.jpg?1783914681",
+  "uri": "https://scryfall.com/card/who/14/barbara-wright",
+  "roles": []
+ },
  "barren moor|blc|292": {
   "name": "Barren Moor",
   "mana": "",
@@ -3564,6 +3619,21 @@
   "uri": "https://scryfall.com/card/clb/370/battle-angels-of-tyr",
   "roles": [
    "draw"
+  ]
+ },
+ "battle at the helvault|cmm|719": {
+  "name": "Battle at the Helvault",
+  "mana": "{4}{W}{W}",
+  "cmc": 6.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/0/d/0de0eaeb-9b62-427d-9873-d84de1740ddc.jpg?1783915486",
+  "art": "https://cards.scryfall.io/art_crop/front/0/d/0de0eaeb-9b62-427d-9873-d84de1740ddc.jpg?1783915486",
+  "uri": "https://scryfall.com/card/cmm/719/battle-at-the-helvault",
+  "roles": [
+   "removal",
+   "blink"
   ]
  },
  "battle of hoover dam|pip|11": {
@@ -4198,6 +4268,21 @@
   "img": "https://cards.scryfall.io/normal/front/4/1/41802f18-7d46-431a-acb3-dbcc82eb415a.jpg?1783904539",
   "art": "https://cards.scryfall.io/art_crop/front/4/1/41802f18-7d46-431a-acb3-dbcc82eb415a.jpg?1783904539",
   "uri": "https://scryfall.com/card/ecc/120/binding-the-old-gods",
+  "roles": [
+   "land-ramp",
+   "removal"
+  ]
+ },
+ "binding the old gods|khm|206": {
+  "name": "Binding the Old Gods",
+  "mana": "{2}{B}{G}",
+  "cmc": 4.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "BG",
+  "img": "https://cards.scryfall.io/normal/front/d/9/d93ee644-d7d7-48d8-a04b-fb479b74edb0.jpg?1783928200",
+  "art": "https://cards.scryfall.io/art_crop/front/d/9/d93ee644-d7d7-48d8-a04b-fb479b74edb0.jpg?1783928200",
+  "uri": "https://scryfall.com/card/khm/206/binding-the-old-gods",
   "roles": [
    "land-ramp",
    "removal"
@@ -5457,6 +5542,18 @@
    "draw"
   ]
  },
+ "bountiful promenade|zne|20": {
+  "name": "Bountiful Promenade",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "GW",
+  "img": "https://cards.scryfall.io/normal/front/7/d/7d6ae82b-5764-4a8a-a60e-a781837414dd.jpg?1783929430",
+  "art": "https://cards.scryfall.io/art_crop/front/7/d/7d6ae82b-5764-4a8a-a60e-a781837414dd.jpg?1783929430",
+  "uri": "https://scryfall.com/card/zne/20/bountiful-promenade",
+  "roles": []
+ },
  "bounty of skemfar|j25|638": {
   "name": "Bounty of Skemfar",
   "mana": "{2}{G}",
@@ -6560,6 +6657,18 @@
   "img": "https://cards.scryfall.io/normal/front/5/1/51e0191b-9cd3-466c-8ff8-94c7872746f5.jpg?1783906997",
   "art": "https://cards.scryfall.io/art_crop/front/5/1/51e0191b-9cd3-466c-8ff8-94c7872746f5.jpg?1783906997",
   "uri": "https://scryfall.com/card/tdc/345/cascade-bluffs",
+  "roles": []
+ },
+ "cascading cataracts|akh|240": {
+  "name": "Cascading Cataracts",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/7/7/778739db-4431-4e58-91de-d2619aeef3ce.jpg?1783936447",
+  "art": "https://cards.scryfall.io/art_crop/front/7/7/778739db-4431-4e58-91de-d2619aeef3ce.jpg?1783936447",
+  "uri": "https://scryfall.com/card/akh/240/cascading-cataracts",
   "roles": []
  },
  "cascading cataracts|m3c|326": {
@@ -7877,6 +7986,18 @@
   "img": "https://cards.scryfall.io/normal/front/c/2/c21565d0-fc40-4d89-9b27-87c03385e0af.jpg?1783904153",
   "art": "https://cards.scryfall.io/art_crop/front/c/2/c21565d0-fc40-4d89-9b27-87c03385e0af.jpg?1783904153",
   "uri": "https://scryfall.com/card/tmc/62/city-of-brass",
+  "roles": []
+ },
+ "city of brass|wc98|bs112a": {
+  "name": "City of Brass",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/f/2/f21d3d37-8d08-4d12-862b-52c4b1c2fccb.jpg?1783946398",
+  "art": "https://cards.scryfall.io/art_crop/front/f/2/f21d3d37-8d08-4d12-862b-52c4b1c2fccb.jpg?1783946398",
+  "uri": "https://scryfall.com/card/wc98/bs112a/city-of-brass",
   "roles": []
  },
  "city of traitors|exo|143": {
@@ -11337,6 +11458,20 @@
    "removal"
   ]
  },
+ "destiny spinner|thb|168": {
+  "name": "Destiny Spinner",
+  "mana": "{1}{G}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Enchantment Creature — Human",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/b/a/ba264166-948b-47d4-b302-64476acc1a55.jpg?1783931541",
+  "art": "https://cards.scryfall.io/art_crop/front/b/a/ba264166-948b-47d4-b302-64476acc1a55.jpg?1783931541",
+  "uri": "https://scryfall.com/card/thb/168/destiny-spinner",
+  "roles": [
+   "stax"
+  ]
+ },
  "destroy evil|fic|240": {
   "name": "Destroy Evil",
   "mana": "{1}{W}",
@@ -12351,6 +12486,32 @@
    "land-ramp"
   ]
  },
+ "dryad of the ilysian grove|thb|169": {
+  "name": "Dryad of the Ilysian Grove",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Enchantment Creature — Nymph Dryad",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/6/d/6d964876-194b-49f1-8e74-cfe9269f2c62.jpg?1783931541",
+  "art": "https://cards.scryfall.io/art_crop/front/6/d/6d964876-194b-49f1-8e74-cfe9269f2c62.jpg?1783931541",
+  "uri": "https://scryfall.com/card/thb/169/dryad-of-the-ilysian-grove",
+  "roles": [
+   "land-ramp"
+  ]
+ },
+ "dueling grounds|inv|245": {
+  "name": "Dueling Grounds",
+  "mana": "{1}{G}{W}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "GW",
+  "img": "https://cards.scryfall.io/normal/front/5/2/52760183-bee0-4ce0-96c0-074b88f78980.jpg?1783945663",
+  "art": "https://cards.scryfall.io/art_crop/front/5/2/52760183-bee0-4ce0-96c0-074b88f78980.jpg?1783945663",
+  "uri": "https://scryfall.com/card/inv/245/dueling-grounds",
+  "roles": []
+ },
  "duelist's heritage|c21|90": {
   "name": "Duelist's Heritage",
   "mana": "{2}{W}",
@@ -12589,6 +12750,20 @@
   "roles": [
    "land-ramp",
    "reanimation"
+  ]
+ },
+ "eidolon of blossoms|jou|122": {
+  "name": "Eidolon of Blossoms",
+  "mana": "{2}{G}{G}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Enchantment Creature — Spirit",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/8/d/8dbb2112-85b9-49cf-9ed5-9273829c34f1.jpg?1783939415",
+  "art": "https://cards.scryfall.io/art_crop/front/8/d/8dbb2112-85b9-49cf-9ed5-9273829c34f1.jpg?1783939415",
+  "uri": "https://scryfall.com/card/jou/122/eidolon-of-blossoms",
+  "roles": [
+   "cantrip"
   ]
  },
  "eidolon of blossoms|woc|124": {
@@ -13381,6 +13556,20 @@
    "reanimation"
   ]
  },
+ "enchantress's presence|mh2|283": {
+  "name": "Enchantress's Presence",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/d/1/d18d62bc-5f3c-4b3b-88f2-693249635349.jpg?1783926782",
+  "art": "https://cards.scryfall.io/art_crop/front/d/1/d18d62bc-5f3c-4b3b-88f2-693249635349.jpg?1783926782",
+  "uri": "https://scryfall.com/card/mh2/283/enchantresss-presence",
+  "roles": [
+   "draw"
+  ]
+ },
  "enchantress's presence|woc|125": {
   "name": "Enchantress's Presence",
   "mana": "{2}{G}",
@@ -13597,6 +13786,20 @@
   "uri": "https://scryfall.com/card/eoc/114/enthusiastic-mechanaut",
   "roles": []
  },
+ "entity tracker|dsk|53": {
+  "name": "Entity Tracker",
+  "mana": "{2}{U}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Scout",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/a/e/ae54d697-6d06-4af1-a617-8a47a6ab9c01.jpg?1783909496",
+  "art": "https://cards.scryfall.io/art_crop/front/a/e/ae54d697-6d06-4af1-a617-8a47a6ab9c01.jpg?1783909496",
+  "uri": "https://scryfall.com/card/dsk/53/entity-tracker",
+  "roles": [
+   "draw"
+  ]
+ },
  "entomb|dmr|304": {
   "name": "Entomb",
   "mana": "{B}",
@@ -13806,6 +14009,32 @@
    "draw"
   ]
  },
+ "estrid's invocation|sld|1325": {
+  "name": "Estrid's Invocation // Estrid's Invocation",
+  "mana": "{2}{U}",
+  "cmc": 0,
+  "type": "Other",
+  "type_line": "",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/9/6/9680a2d6-1d66-4f69-b400-a79fea4187d8.jpg?1783908454",
+  "art": "https://cards.scryfall.io/art_crop/front/9/6/9680a2d6-1d66-4f69-b400-a79fea4187d8.jpg?1783908454",
+  "uri": "https://scryfall.com/card/sld/1325/estrids-invocation-estrids-invocation",
+  "back": "https://cards.scryfall.io/normal/back/9/6/9680a2d6-1d66-4f69-b400-a79fea4187d8.jpg?1783908454",
+  "roles": []
+ },
+ "estrid, the masked|sld|1327": {
+  "name": "Estrid, the Masked // Estrid, the Masked",
+  "mana": "{1}{G}{W}{U}",
+  "cmc": 0,
+  "type": "Other",
+  "type_line": "",
+  "ci": "GUW",
+  "img": "https://cards.scryfall.io/normal/front/a/7/a724ebbc-0f77-42e9-95e0-b3e7cb130148.jpg?1783908454",
+  "art": "https://cards.scryfall.io/art_crop/front/a/7/a724ebbc-0f77-42e9-95e0-b3e7cb130148.jpg?1783908454",
+  "uri": "https://scryfall.com/card/sld/1327/estrid-the-masked-estrid-the-masked",
+  "back": "https://cards.scryfall.io/normal/back/a/7/a724ebbc-0f77-42e9-95e0-b3e7cb130148.jpg?1783908454",
+  "roles": []
+ },
  "etali, primal conqueror // etali, primal sickness|mom|298": {
   "name": "Etali, Primal Conqueror // Etali, Primal Sickness",
   "mana": "{5}{R}{R}",
@@ -13936,6 +14165,18 @@
    "land-ramp",
    "draw"
   ]
+ },
+ "eutropia the twice-favored|thb|216": {
+  "name": "Eutropia the Twice-Favored",
+  "mana": "{1}{G}{U}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Human Wizard",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/c/2/c2159949-3d21-448d-bc34-a3dbaf219476.jpg?1783931521",
+  "art": "https://cards.scryfall.io/art_crop/front/c/2/c2159949-3d21-448d-bc34-a3dbaf219476.jpg?1783931521",
+  "uri": "https://scryfall.com/card/thb/216/eutropia-the-twice-favored",
+  "roles": []
  },
  "evacuation|lcc|156": {
   "name": "Evacuation",
@@ -14233,6 +14474,18 @@
   "img": "https://cards.scryfall.io/normal/front/e/6/e6d8d98d-29b2-4ca2-bbda-4db2e8f6ae0b.jpg?1783910695",
   "art": "https://cards.scryfall.io/art_crop/front/e/6/e6d8d98d-29b2-4ca2-bbda-4db2e8f6ae0b.jpg?1783910695",
   "uri": "https://scryfall.com/card/blc/131/exotic-orchard",
+  "roles": []
+ },
+ "exotic orchard|c19|242": {
+  "name": "Exotic Orchard",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/2/3/23de2dc2-348f-4eeb-ae0c-dda422d654b0.jpg?1783932714",
+  "art": "https://cards.scryfall.io/art_crop/front/2/3/23de2dc2-348f-4eeb-ae0c-dda422d654b0.jpg?1783932714",
+  "uri": "https://scryfall.com/card/c19/242/exotic-orchard",
   "roles": []
  },
  "exotic orchard|c20|273": {
@@ -14658,6 +14911,18 @@
    "protection"
   ]
  },
+ "fabled passage|blb|252": {
+  "name": "Fabled Passage",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/8/8/8809830f-d8e1-4603-9652-0ad8b00234e9.jpg?1783910785",
+  "art": "https://cards.scryfall.io/art_crop/front/8/8/8809830f-d8e1-4603-9652-0ad8b00234e9.jpg?1783910785",
+  "uri": "https://scryfall.com/card/blb/252/fabled-passage",
+  "roles": []
+ },
  "fabled passage|m21|246": {
   "name": "Fabled Passage",
   "mana": "",
@@ -14732,6 +14997,20 @@
   "img": "https://cards.scryfall.io/normal/front/1/4/145dcac4-2c53-4ae9-9ede-24dc07474b01.jpg?1783911522",
   "art": "https://cards.scryfall.io/art_crop/front/1/4/145dcac4-2c53-4ae9-9ede-24dc07474b01.jpg?1783911522",
   "uri": "https://scryfall.com/card/ecc/53/faeburrow-elder",
+  "roles": [
+   "mana-dork"
+  ]
+ },
+ "faeburrow elder|eld|190": {
+  "name": "Faeburrow Elder",
+  "mana": "{1}{G}{W}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Treefolk Druid",
+  "ci": "GW",
+  "img": "https://cards.scryfall.io/normal/front/1/c/1ca29912-88b1-413f-ad9d-63d7d1b1ca16.jpg?1783932597",
+  "art": "https://cards.scryfall.io/art_crop/front/1/c/1ca29912-88b1-413f-ad9d-63d7d1b1ca16.jpg?1783932597",
+  "uri": "https://scryfall.com/card/eld/190/faeburrow-elder",
   "roles": [
    "mana-dork"
   ]
@@ -15313,6 +15592,20 @@
    "mana-rock"
   ]
  },
+ "femeref enchantress|vis|129": {
+  "name": "Femeref Enchantress",
+  "mana": "{G}{W}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Druid",
+  "ci": "GW",
+  "img": "https://cards.scryfall.io/normal/front/2/0/20ba72c7-7957-4d02-b41e-c0132fe1f2e6.jpg?1783946978",
+  "art": "https://cards.scryfall.io/art_crop/front/2/0/20ba72c7-7957-4d02-b41e-c0132fe1f2e6.jpg?1783946978",
+  "uri": "https://scryfall.com/card/vis/129/femeref-enchantress",
+  "roles": [
+   "draw"
+  ]
+ },
  "feral appetite|soc|38": {
   "name": "Feral Appetite",
   "mana": "{2}{G}",
@@ -15395,6 +15688,18 @@
   "img": "https://cards.scryfall.io/normal/front/8/3/83778d03-6196-4994-8f78-4db6cec823fb.jpg?1783904546",
   "art": "https://cards.scryfall.io/art_crop/front/8/3/83778d03-6196-4994-8f78-4db6cec823fb.jpg?1783904546",
   "uri": "https://scryfall.com/card/ecc/106/fertile-ground",
+  "roles": []
+ },
+ "fertile ground|lrw|211": {
+  "name": "Fertile Ground",
+  "mana": "{1}{G}",
+  "cmc": 2.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Aura",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/0/5/05edfbbc-34e8-4046-966c-3a979468b95e.jpg?1783942864",
+  "art": "https://cards.scryfall.io/art_crop/front/0/5/05edfbbc-34e8-4046-966c-3a979468b95e.jpg?1783942864",
+  "uri": "https://scryfall.com/card/lrw/211/fertile-ground",
   "roles": []
  },
  "fertile ground|woc|126": {
@@ -16354,6 +16659,18 @@
   "uri": "https://scryfall.com/card/c16/296/forbidden-orchard",
   "roles": []
  },
+ "forbidden orchard|chk|276": {
+  "name": "Forbidden Orchard",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/8/8/88d78261-c8c9-4e0e-b157-f70ed46c3a25.jpg?1783944274",
+  "art": "https://cards.scryfall.io/art_crop/front/8/8/88d78261-c8c9-4e0e-b157-f70ed46c3a25.jpg?1783944274",
+  "uri": "https://scryfall.com/card/chk/276/forbidden-orchard",
+  "roles": []
+ },
  "forbidden orchard|exp|39": {
   "name": "Forbidden Orchard",
   "mana": "",
@@ -16660,6 +16977,18 @@
   "img": "https://cards.scryfall.io/normal/front/3/a/3a1e5ef3-790d-4f45-a264-157448bab2e8.jpg?1783912312",
   "art": "https://cards.scryfall.io/art_crop/front/3/a/3a1e5ef3-790d-4f45-a264-157448bab2e8.jpg?1783912312",
   "uri": "https://scryfall.com/card/pip/326/forest",
+  "roles": []
+ },
+ "forest|rtr|270": {
+  "name": "Forest",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Forest",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/f/0/f00849dd-c1ba-4171-a503-603fe77c0a43.jpg?1783940315",
+  "art": "https://cards.scryfall.io/art_crop/front/f/0/f00849dd-c1ba-4171-a503-603fe77c0a43.jpg?1783940315",
+  "uri": "https://scryfall.com/card/rtr/270/forest",
   "roles": []
  },
  "forest|sos|281": {
@@ -18472,6 +18801,20 @@
    "regrowth"
   ]
  },
+ "goldberry, river-daughter|ltr|52": {
+  "name": "Goldberry, River-Daughter",
+  "mana": "{1}{U}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Nymph",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/b/f/bf4f0a7c-620e-4ed8-8da3-fa6564e8a0cd.jpg?1783916317",
+  "art": "https://cards.scryfall.io/art_crop/front/b/f/bf4f0a7c-620e-4ed8-8da3-fa6564e8a0cd.jpg?1783916317",
+  "uri": "https://scryfall.com/card/ltr/52/goldberry-river-daughter",
+  "roles": [
+   "draw"
+  ]
+ },
  "goldbug, humanity's ally // goldbug, scrappy scout|bot|25": {
   "name": "Goldbug, Humanity's Ally // Goldbug, Scrappy Scout",
   "mana": "{1}{W}{U}",
@@ -19485,6 +19828,18 @@
    "protection"
   ]
  },
+ "hall of heliod's generosity|h1r|39": {
+  "name": "Hall of Heliod's Generosity",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Legendary Land",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/8/4/8445249d-5482-462b-9372-31aa745f33b4.jpg?1787739659",
+  "art": "https://cards.scryfall.io/art_crop/front/8/4/8445249d-5482-462b-9372-31aa745f33b4.jpg?1787739659",
+  "uri": "https://scryfall.com/card/h1r/39/hall-of-heliods-generosity",
+  "roles": []
+ },
  "hall of oracles|soc|378": {
   "name": "Hall of Oracles",
   "mana": "",
@@ -20199,6 +20554,18 @@
   "roles": [
    "win-condition"
   ]
+ },
+ "helm of the gods|ori|230": {
+  "name": "Helm of the Gods",
+  "mana": "{1}",
+  "cmc": 1.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Equipment",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/1/b/1ba006c8-0ffc-4e68-9a55-c7b842d3add9.jpg?1783938309",
+  "art": "https://cards.scryfall.io/art_crop/front/1/b/1ba006c8-0ffc-4e68-9a55-c7b842d3add9.jpg?1783938309",
+  "uri": "https://scryfall.com/card/ori/230/helm-of-the-gods",
+  "roles": []
  },
  "helm of the host|blc|276": {
   "name": "Helm of the Host",
@@ -21479,6 +21846,20 @@
    "mana-dork"
   ]
  },
+ "indatha triome|iko|309": {
+  "name": "Indatha Triome",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Plains Swamp Forest",
+  "ci": "BGW",
+  "img": "https://cards.scryfall.io/normal/front/9/b/9bf2b208-79c6-4c4c-bf66-871352ed600f.jpg?1783930980",
+  "art": "https://cards.scryfall.io/art_crop/front/9/b/9bf2b208-79c6-4c4c-bf66-871352ed600f.jpg?1783930980",
+  "uri": "https://scryfall.com/card/iko/309/indatha-triome",
+  "roles": [
+   "draw"
+  ]
+ },
  "industrial advancement|ncc|47": {
   "name": "Industrial Advancement",
   "mana": "{3}{R}",
@@ -22182,6 +22563,18 @@
   "uri": "https://scryfall.com/card/pip/320/island",
   "roles": []
  },
+ "island|rtr|255": {
+  "name": "Island",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Island",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/7/8/78f35064-c662-48ff-a2a9-d26f594500f5.jpg?1783940319",
+  "art": "https://cards.scryfall.io/art_crop/front/7/8/78f35064-c662-48ff-a2a9-d26f594500f5.jpg?1783940319",
+  "uri": "https://scryfall.com/card/rtr/255/island",
+  "roles": []
+ },
  "island|sos|275": {
   "name": "Island",
   "mana": "",
@@ -22570,6 +22963,20 @@
   "uri": "https://scryfall.com/card/tmp/292/jet-medallion",
   "roles": []
  },
+ "jetmir's garden|snc|250": {
+  "name": "Jetmir's Garden",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Mountain Forest Plains",
+  "ci": "GRW",
+  "img": "https://cards.scryfall.io/normal/front/2/6/26d40e03-6de4-4373-9fbf-04c1dd79e995.jpg?1783923058",
+  "art": "https://cards.scryfall.io/art_crop/front/2/6/26d40e03-6de4-4373-9fbf-04c1dd79e995.jpg?1783923058",
+  "uri": "https://scryfall.com/card/snc/250/jetmirs-garden",
+  "roles": [
+   "draw"
+  ]
+ },
  "jeweled amulet|ice|326": {
   "name": "Jeweled Amulet",
   "mana": "{0}",
@@ -22758,6 +23165,21 @@
   "art": "https://cards.scryfall.io/art_crop/front/a/8/a8eef44d-113c-428f-89e1-821418def041.jpg?1783904601",
   "uri": "https://scryfall.com/card/ecc/17/jubilation",
   "roles": []
+ },
+ "jugan defends the temple // remnant of the rising star|neo|194": {
+  "name": "Jugan Defends the Temple // Remnant of the Rising Star",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga // Enchantment Creature — Dragon Spirit",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/a/2/a22b5f27-f9e7-49e1-8e96-dc5d8e7fbe27.jpg?1783923851",
+  "art": "https://cards.scryfall.io/art_crop/front/a/2/a22b5f27-f9e7-49e1-8e96-dc5d8e7fbe27.jpg?1783923851",
+  "uri": "https://scryfall.com/card/neo/194/jugan-defends-the-temple-remnant-of-the-rising-star",
+  "back": "https://cards.scryfall.io/normal/back/a/2/a22b5f27-f9e7-49e1-8e96-dc5d8e7fbe27.jpg?1783923851",
+  "roles": [
+   "mana-dork"
+  ]
  },
  "jungle hollow|blc|313": {
   "name": "Jungle Hollow",
@@ -22953,6 +23375,20 @@
   "uri": "https://scryfall.com/card/soc/273/kami-of-whispered-hopes",
   "roles": [
    "mana-dork"
+  ]
+ },
+ "kang dynasty|msc|35": {
+  "name": "Kang Dynasty",
+  "mana": "{3}{U}",
+  "cmc": 4.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/5/e/5e4223df-c9fc-410a-913a-17bbfd054b57.jpg?1783903292",
+  "art": "https://cards.scryfall.io/art_crop/front/5/e/5e4223df-c9fc-410a-913a-17bbfd054b57.jpg?1783903292",
+  "uri": "https://scryfall.com/card/msc/35/kang-dynasty",
+  "roles": [
+   "draw"
   ]
  },
  "kappa cannoneer|eoc|74": {
@@ -23382,6 +23818,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/6/3/63cda4a0-0dff-4edb-ae67-a2b7e2971350.jpg?1783931023",
   "uri": "https://scryfall.com/card/iko/192/kinnan-bonder-prodigy",
   "roles": []
+ },
+ "kiora bests the sea god|thb|52": {
+  "name": "Kiora Bests the Sea God",
+  "mana": "{5}{U}{U}",
+  "cmc": 7.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/2/b/2b604451-4f6c-4cfa-8d3a-01f18d01d88f.jpg?1783931583",
+  "art": "https://cards.scryfall.io/art_crop/front/2/b/2b604451-4f6c-4cfa-8d3a-01f18d01d88f.jpg?1783931583",
+  "uri": "https://scryfall.com/card/thb/52/kiora-bests-the-sea-god",
+  "roles": [
+   "land-ramp"
+  ]
  },
  "kiora, behemoth beckoner|sld|1700": {
   "name": "Kiora, Behemoth Beckoner",
@@ -25453,6 +25903,18 @@
   "uri": "https://scryfall.com/card/jou/163/mana-confluence",
   "roles": []
  },
+ "mana confluence|sld|1012a": {
+  "name": "Mana Confluence",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/f/a/fa4b80b1-fc8d-4da6-964a-3b85451c3049.jpg?1783922908",
+  "art": "https://cards.scryfall.io/art_crop/front/f/a/fa4b80b1-fc8d-4da6-964a-3b85451c3049.jpg?1783922908",
+  "uri": "https://scryfall.com/card/sld/1012a/mana-confluence",
+  "roles": []
+ },
  "mana drain|2x2|348": {
   "name": "Mana Drain",
   "mana": "{U}{U}",
@@ -26378,6 +26840,19 @@
   "roles": [
    "removal"
   ]
+ },
+ "michiko's reign of truth // portrait of michiko|neo|29": {
+  "name": "Michiko's Reign of Truth // Portrait of Michiko",
+  "mana": "{1}{W}",
+  "cmc": 2.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga // Enchantment Creature — Human Noble",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/7/4/74f12c23-5c15-4ae6-8f4d-c5e6c1878817.jpg?1783923921",
+  "art": "https://cards.scryfall.io/art_crop/front/7/4/74f12c23-5c15-4ae6-8f4d-c5e6c1878817.jpg?1783923921",
+  "uri": "https://scryfall.com/card/neo/29/michikos-reign-of-truth-portrait-of-michiko",
+  "back": "https://cards.scryfall.io/normal/back/7/4/74f12c23-5c15-4ae6-8f4d-c5e6c1878817.jpg?1783923921",
+  "roles": []
  },
  "midgar, city of mako // reactor raid|fin|313": {
   "name": "Midgar, City of Mako // Reactor Raid",
@@ -27696,6 +28171,18 @@
   "uri": "https://scryfall.com/card/pl24/5/mountain",
   "roles": []
  },
+ "mountain|rtr|265": {
+  "name": "Mountain",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Mountain",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/3/b/3b4a196f-de7e-4100-ad65-56cf8b0a8b23.jpg?1783940316",
+  "art": "https://cards.scryfall.io/art_crop/front/3/b/3b4a196f-de7e-4100-ad65-56cf8b0a8b23.jpg?1783940316",
+  "uri": "https://scryfall.com/card/rtr/265/mountain",
+  "roles": []
+ },
  "mountain|sos|279": {
   "name": "Mountain",
   "mana": "",
@@ -28055,6 +28542,18 @@
   "img": "https://cards.scryfall.io/normal/front/5/6/561c9c4e-942e-40e8-b5f2-ac709a502f18.jpg?1783910736",
   "art": "https://cards.scryfall.io/art_crop/front/5/6/561c9c4e-942e-40e8-b5f2-ac709a502f18.jpg?1783910736",
   "uri": "https://scryfall.com/card/blc/10/murmuration",
+  "roles": []
+ },
+ "murmuring bosk|ltc|320": {
+  "name": "Murmuring Bosk",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Forest",
+  "ci": "BGW",
+  "img": "https://cards.scryfall.io/normal/front/6/b/6bebaafc-2114-4e00-a7f1-cd43a8d92d18.jpg?1783915869",
+  "art": "https://cards.scryfall.io/art_crop/front/6/b/6bebaafc-2114-4e00-a7f1-cd43a8d92d18.jpg?1783915869",
+  "uri": "https://scryfall.com/card/ltc/320/murmuring-bosk",
   "roles": []
  },
  "mutated cultist|m3c|53": {
@@ -28524,6 +29023,20 @@
   "uri": "https://scryfall.com/card/clb/649/nalia-dearnise",
   "roles": []
  },
+ "narci, fable singer|cmm|710": {
+  "name": "Narci, Fable Singer",
+  "mana": "{1}{W}{B}{G}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Human Bard",
+  "ci": "BGW",
+  "img": "https://cards.scryfall.io/normal/front/a/9/a98a2fa9-82d6-4cf7-adb4-65b187cd9cda.jpg?1783915490",
+  "art": "https://cards.scryfall.io/art_crop/front/a/9/a98a2fa9-82d6-4cf7-adb4-65b187cd9cda.jpg?1783915490",
+  "uri": "https://scryfall.com/card/cmm/710/narci-fable-singer",
+  "roles": [
+   "draw"
+  ]
+ },
  "narset's reversal|pwar|62p": {
   "name": "Narset's Reversal",
   "mana": "{U}{U}",
@@ -28986,6 +29499,18 @@
   "uri": "https://scryfall.com/card/fic/408/nesting-grounds",
   "roles": []
  },
+ "nesting grounds|mh3|302": {
+  "name": "Nesting Grounds",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/7/f/7f1d8a22-e730-4344-bba9-7c495500f065.jpg?1783911206",
+  "art": "https://cards.scryfall.io/art_crop/front/7/f/7f1d8a22-e730-4344-bba9-7c495500f065.jpg?1783911206",
+  "uri": "https://scryfall.com/card/mh3/302/nesting-grounds",
+  "roles": []
+ },
  "nesting grounds|pip|276": {
   "name": "Nesting Grounds",
   "mana": "",
@@ -29422,6 +29947,18 @@
   "img": "https://cards.scryfall.io/normal/front/8/3/834b27a0-dfd7-4f96-8cde-cacac4b24acc.jpg?1783939713",
   "art": "https://cards.scryfall.io/art_crop/front/8/3/834b27a0-dfd7-4f96-8cde-cacac4b24acc.jpg?1783939713",
   "uri": "https://scryfall.com/card/ths/223/nykthos-shrine-to-nyx",
+  "roles": []
+ },
+ "nylea's colossus|c18|33": {
+  "name": "Nylea's Colossus",
+  "mana": "{6}{G}",
+  "cmc": 7.0,
+  "type": "Creature",
+  "type_line": "Enchantment Creature — Giant",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/5/c/5cf50d41-02ce-4a39-b3a0-82ddd7277fca.jpg?1783934333",
+  "art": "https://cards.scryfall.io/art_crop/front/5/c/5cf50d41-02ce-4a39-b3a0-82ddd7277fca.jpg?1783934333",
+  "uri": "https://scryfall.com/card/c18/33/nyleas-colossus",
   "roles": []
  },
  "nylea's intervention|thb|188": {
@@ -29969,6 +30506,18 @@
   "roles": [
    "board-wipe"
   ]
+ },
+ "origin of the hulk|msc|728": {
+  "name": "Origin of the Hulk",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/8/e/8e93e473-b08a-43da-aa12-f86818e24a10.jpg?1784182936",
+  "art": "https://cards.scryfall.io/art_crop/front/8/e/8e93e473-b08a-43da-aa12-f86818e24a10.jpg?1784182936",
+  "uri": "https://scryfall.com/card/msc/728/origin-of-the-hulk",
+  "roles": []
  },
  "ornithopter of paradise|blc|281": {
   "name": "Ornithopter of Paradise",
@@ -31588,6 +32137,18 @@
   "uri": "https://scryfall.com/card/pip/317/plains",
   "roles": []
  },
+ "plains|rtr|250": {
+  "name": "Plains",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Plains",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/a/c/ac754820-343e-4c01-bcfa-89fa5c8c7e1d.jpg?1783940320",
+  "art": "https://cards.scryfall.io/art_crop/front/a/c/ac754820-343e-4c01-bcfa-89fa5c8c7e1d.jpg?1783940320",
+  "uri": "https://scryfall.com/card/rtr/250/plains",
+  "roles": []
+ },
  "plains|sos|273": {
   "name": "Plains",
   "mana": "",
@@ -32521,6 +33082,18 @@
   "img": "https://cards.scryfall.io/normal/front/7/e/7e3e5990-ad48-4be2-af8a-4ff77177758d.jpg?1783903854",
   "art": "https://cards.scryfall.io/art_crop/front/7/e/7e3e5990-ad48-4be2-af8a-4ff77177758d.jpg?1783903854",
   "uri": "https://scryfall.com/card/soc/34/prismari-pianist",
+  "roles": []
+ },
+ "prismatic omen|sld|1104": {
+  "name": "Prismatic Omen",
+  "mana": "{1}{G}",
+  "cmc": 2.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/a/6/a6989d1d-00ca-4d5d-acdc-0b7c6a522e30.jpg?1783919216",
+  "art": "https://cards.scryfall.io/art_crop/front/a/6/a6989d1d-00ca-4d5d-acdc-0b7c6a522e30.jpg?1783919216",
+  "uri": "https://scryfall.com/card/sld/1104/prismatic-omen",
   "roles": []
  },
  "prismatic vista|mh1|244": {
@@ -33682,6 +34255,18 @@
    "reanimation"
   ]
  },
+ "rancor|ulg|110": {
+  "name": "Rancor",
+  "mana": "{G}",
+  "cmc": 1.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Aura",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/5/9/59e256c2-38df-4012-9308-ce17dd889e5f.jpg?1783946229",
+  "art": "https://cards.scryfall.io/art_crop/front/5/9/59e256c2-38df-4012-9308-ce17dd889e5f.jpg?1783946229",
+  "uri": "https://scryfall.com/card/ulg/110/rancor",
+  "roles": []
+ },
  "ranger-captain of eos|h1r|5": {
   "name": "Ranger-Captain of Eos",
   "mana": "{1}{W}{W}",
@@ -33760,6 +34345,20 @@
   "uri": "https://scryfall.com/card/soc/198/rapid-hybridization",
   "roles": [
    "removal"
+  ]
+ },
+ "raugrin triome|iko|251": {
+  "name": "Raugrin Triome",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Island Mountain Plains",
+  "ci": "RUW",
+  "img": "https://cards.scryfall.io/normal/front/0/2/02138fbb-3962-4348-8d31-faaefba0b8b2.jpg?1783931001",
+  "art": "https://cards.scryfall.io/art_crop/front/0/2/02138fbb-3962-4348-8d31-faaefba0b8b2.jpg?1783931001",
+  "uri": "https://scryfall.com/card/iko/251/raugrin-triome",
+  "roles": [
+   "draw"
   ]
  },
  "raul, trouble shooter|pip|115": {
@@ -34180,6 +34779,18 @@
    "removal",
    "protection"
   ]
+ },
+ "rediscover the way|tdm|215": {
+  "name": "Rediscover the Way",
+  "mana": "{U}{R}{W}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "RUW",
+  "img": "https://cards.scryfall.io/normal/front/7/9/79d6decf-afd5-4e96-b87e-fd7ab7e3c068.jpg?1783907303",
+  "art": "https://cards.scryfall.io/art_crop/front/7/9/79d6decf-afd5-4e96-b87e-fd7ab7e3c068.jpg?1783907303",
+  "uri": "https://scryfall.com/card/tdm/215/rediscover-the-way",
+  "roles": []
  },
  "redoubled stormsinger|soc|251": {
   "name": "Redoubled Stormsinger",
@@ -34661,6 +35272,20 @@
    "protection"
   ]
  },
+ "resurgent belief|mh2|385": {
+  "name": "Resurgent Belief",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/a/0/a0e60c9e-0b9c-4daa-8a61-52111e03f49f.jpg?1783926741",
+  "art": "https://cards.scryfall.io/art_crop/front/a/0/a0e60c9e-0b9c-4daa-8a61-52111e03f49f.jpg?1783926741",
+  "uri": "https://scryfall.com/card/mh2/385/resurgent-belief",
+  "roles": [
+   "reanimation"
+  ]
+ },
  "return of the mole man|msc|729": {
   "name": "Return of the Mole Man",
   "mana": "{1}{G}",
@@ -34738,6 +35363,18 @@
   "roles": [
    "protection"
   ]
+ },
+ "revival of the ancestors|tdm|218": {
+  "name": "Revival of the Ancestors",
+  "mana": "{1}{W}{B}{G}",
+  "cmc": 4.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "BGW",
+  "img": "https://cards.scryfall.io/normal/front/f/d/fd742ff5-f0ea-4f4b-911e-4c09e2154dba.jpg?1783907299",
+  "art": "https://cards.scryfall.io/art_crop/front/f/d/fd742ff5-f0ea-4f4b-911e-4c09e2154dba.jpg?1783907299",
+  "uri": "https://scryfall.com/card/tdm/218/revival-of-the-ancestors",
+  "roles": []
  },
  "rhystic study|cm1|15": {
   "name": "Rhystic Study",
@@ -35741,6 +36378,21 @@
    "removal"
   ]
  },
+ "rydia, summoner of mist|fin|239": {
+  "name": "Rydia, Summoner of Mist",
+  "mana": "{R}{G}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Human Shaman",
+  "ci": "GR",
+  "img": "https://cards.scryfall.io/normal/front/9/9/99450143-6ab5-463d-9e04-e8e6703a8b92.jpg?1783906564",
+  "art": "https://cards.scryfall.io/art_crop/front/9/9/99450143-6ab5-463d-9e04-e8e6703a8b92.jpg?1783906564",
+  "uri": "https://scryfall.com/card/fin/239/rydia-summoner-of-mist",
+  "roles": [
+   "draw",
+   "reanimation"
+  ]
+ },
  "sabin, master monk|fic|57": {
   "name": "Sabin, Master Monk",
   "mana": "{4}{R}",
@@ -35995,6 +36647,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/6/0/60f2d8f1-43a9-438a-830c-9d6b5701f950.jpg?1783936461",
   "uri": "https://scryfall.com/card/akh/205/samut-voice-of-dissent",
   "roles": []
+ },
+ "sanctum weaver|mh2|171": {
+  "name": "Sanctum Weaver",
+  "mana": "{1}{G}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Enchantment Creature — Dryad",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/4/d/4d42e22d-f60e-40c5-b069-5e1708f3bebc.jpg?1783926826",
+  "art": "https://cards.scryfall.io/art_crop/front/4/d/4d42e22d-f60e-40c5-b069-5e1708f3bebc.jpg?1783926826",
+  "uri": "https://scryfall.com/card/mh2/171/sanctum-weaver",
+  "roles": [
+   "mana-dork"
+  ]
  },
  "sanctum weaver|woc|131": {
   "name": "Sanctum Weaver",
@@ -36448,6 +37114,20 @@
    "tutor"
   ]
  },
+ "scholar of new horizons|brc|6": {
+  "name": "Scholar of New Horizons",
+  "mana": "{1}{W}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Scout",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/e/8/e83e50d0-7851-4608-8cfd-63c54d1a7544.jpg?1783919722",
+  "art": "https://cards.scryfall.io/art_crop/front/e/8/e83e50d0-7851-4608-8cfd-63c54d1a7544.jpg?1783919722",
+  "uri": "https://scryfall.com/card/brc/6/scholar-of-new-horizons",
+  "roles": [
+   "land-ramp"
+  ]
+ },
  "scholar of new horizons|fic|252": {
   "name": "Scholar of New Horizons",
   "mana": "{1}{W}",
@@ -36694,6 +37374,18 @@
   "img": "https://cards.scryfall.io/normal/front/0/8/080aebe8-535e-4632-b733-8aba98abff22.jpg?1783934847",
   "art": "https://cards.scryfall.io/art_crop/front/0/8/080aebe8-535e-4632-b733-8aba98abff22.jpg?1783934847",
   "uri": "https://scryfall.com/card/bbd/84/sea-of-clouds",
+  "roles": []
+ },
+ "sea of clouds|clb|360": {
+  "name": "Sea of Clouds",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "UW",
+  "img": "https://cards.scryfall.io/normal/front/d/4/d4fb722f-40af-4bd1-b660-e8186b98f233.jpg?1783922655",
+  "art": "https://cards.scryfall.io/art_crop/front/d/4/d4fb722f-40af-4bd1-b660-e8186b98f233.jpg?1783922655",
+  "uri": "https://scryfall.com/card/clb/360/sea-of-clouds",
   "roles": []
  },
  "seachrome coast|blc|328": {
@@ -37320,6 +38012,20 @@
   "uri": "https://scryfall.com/card/afc/94/serum-visions",
   "roles": [
    "cantrip"
+  ]
+ },
+ "setessan champion|thb|198": {
+  "name": "Setessan Champion",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Warrior",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/f/8/f8ce9858-747e-441c-95a8-6af44aa2098d.jpg?1783931529",
+  "art": "https://cards.scryfall.io/art_crop/front/f/8/f8ce9858-747e-441c-95a8-6af44aa2098d.jpg?1783931529",
+  "uri": "https://scryfall.com/card/thb/198/setessan-champion",
+  "roles": [
+   "draw"
   ]
  },
  "setessan champion|woc|132": {
@@ -39906,6 +40612,20 @@
    "tutor"
   ]
  },
+ "song of eärendil|ltc|69": {
+  "name": "Song of Eärendil",
+  "mana": "{3}{G}{U}",
+  "cmc": 5.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/3/2/325bb6b7-6d19-48b5-82dd-2759d4fc3144.jpg?1783916015",
+  "art": "https://cards.scryfall.io/art_crop/front/3/2/325bb6b7-6d19-48b5-82dd-2759d4fc3144.jpg?1783916015",
+  "uri": "https://scryfall.com/card/ltc/69/song-of-e%C3%A4rendil",
+  "roles": [
+   "draw"
+  ]
+ },
  "song-mad treachery // song-mad ruins|znr|165": {
   "name": "Song-Mad Treachery // Song-Mad Ruins",
   "mana": "{3}{R}{R}",
@@ -40014,6 +40734,20 @@
   "roles": [
    "land-ramp",
    "removal"
+  ]
+ },
+ "spara's headquarters|psnc|257p": {
+  "name": "Spara's Headquarters",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Forest Plains Island",
+  "ci": "GUW",
+  "img": "https://cards.scryfall.io/normal/front/2/b/2bc770c4-4dd8-4129-8428-b730acc7bc68.jpg?1783923386",
+  "art": "https://cards.scryfall.io/art_crop/front/2/b/2bc770c4-4dd8-4129-8428-b730acc7bc68.jpg?1783923386",
+  "uri": "https://scryfall.com/card/psnc/257p/sparas-headquarters",
+  "roles": [
+   "draw"
   ]
  },
  "spawnbed protector|m3c|36": {
@@ -40584,6 +41318,20 @@
   "uri": "https://scryfall.com/card/soc/177/starfield-mystic",
   "roles": []
  },
+ "starfield of nyx|ori|33": {
+  "name": "Starfield of Nyx",
+  "mana": "{4}{W}",
+  "cmc": 5.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/8/6/861dc1a5-4e84-47bc-83a2-f289804086d8.jpg?1783938358",
+  "art": "https://cards.scryfall.io/art_crop/front/8/6/861dc1a5-4e84-47bc-83a2-f289804086d8.jpg?1783938358",
+  "uri": "https://scryfall.com/card/ori/33/starfield-of-nyx",
+  "roles": [
+   "reanimation"
+  ]
+ },
  "starlit sanctum|clb|917": {
   "name": "Starlit Sanctum",
   "mana": "",
@@ -40673,6 +41421,18 @@
    "board-wipe"
   ]
  },
+ "steel of the godhead|shm|150": {
+  "name": "Steel of the Godhead",
+  "mana": "{2}{W/U}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Aura",
+  "ci": "UW",
+  "img": "https://cards.scryfall.io/normal/front/4/a/4adf8181-68c7-4f5a-b999-70f985b1f2ac.jpg?1783942735",
+  "art": "https://cards.scryfall.io/art_crop/front/4/a/4adf8181-68c7-4f5a-b999-70f985b1f2ac.jpg?1783942735",
+  "uri": "https://scryfall.com/card/shm/150/steel-of-the-godhead",
+  "roles": []
+ },
  "steel overseer|eoc|144": {
   "name": "Steel Overseer",
   "mana": "{2}",
@@ -40752,6 +41512,21 @@
   "art": "https://cards.scryfall.io/art_crop/front/9/0/909a52bc-53f6-4654-9db7-e8f48333d765.jpg?1783903860",
   "uri": "https://scryfall.com/card/soc/29/stensian-sanguinist-exsanguinate",
   "roles": []
+ },
+ "sterling grove|mh2|293": {
+  "name": "Sterling Grove",
+  "mana": "{G}{W}",
+  "cmc": 2.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "GW",
+  "img": "https://cards.scryfall.io/normal/front/b/a/ba03e105-a76c-4769-a35a-d780448890ec.jpg?1783926777",
+  "art": "https://cards.scryfall.io/art_crop/front/b/a/ba03e105-a76c-4769-a35a-d780448890ec.jpg?1783926777",
+  "uri": "https://scryfall.com/card/mh2/293/sterling-grove",
+  "roles": [
+   "protection",
+   "tutor"
+  ]
  },
  "stern dismissal|thb|68": {
   "name": "Stern Dismissal",
@@ -41223,6 +41998,19 @@
    "mana-rock"
   ]
  },
+ "strength of the harvest // haven of the harvest|mh3|258": {
+  "name": "Strength of the Harvest // Haven of the Harvest",
+  "mana": "{2}{G/W}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Aura // Land",
+  "ci": "GW",
+  "img": "https://cards.scryfall.io/normal/front/a/7/a7143aa7-b16d-4e63-910c-6ceec55483f3.jpg?1783911224",
+  "art": "https://cards.scryfall.io/art_crop/front/a/7/a7143aa7-b16d-4e63-910c-6ceec55483f3.jpg?1783911224",
+  "uri": "https://scryfall.com/card/mh3/258/strength-of-the-harvest-haven-of-the-harvest",
+  "back": "https://cards.scryfall.io/normal/back/a/7/a7143aa7-b16d-4e63-910c-6ceec55483f3.jpg?1783911224",
+  "roles": []
+ },
  "stridehangar automaton|drc|35": {
   "name": "Stridehangar Automaton",
   "mana": "{3}",
@@ -41659,6 +42447,21 @@
    "counterspell"
   ]
  },
+ "summon: bahamut|fin|1": {
+  "name": "Summon: Bahamut",
+  "mana": "{9}",
+  "cmc": 9.0,
+  "type": "Creature",
+  "type_line": "Enchantment Creature — Saga Dragon",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/9/5/95318d85-4a08-47ac-a43d-ea83c0bea81c.jpg?1783906656",
+  "art": "https://cards.scryfall.io/art_crop/front/9/5/95318d85-4a08-47ac-a43d-ea83c0bea81c.jpg?1783906656",
+  "uri": "https://scryfall.com/card/fin/1/summon:-bahamut",
+  "roles": [
+   "draw",
+   "removal"
+  ]
+ },
  "summon: esper valigarmanda|fic|60": {
   "name": "Summon: Esper Valigarmanda",
   "mana": "{3}{R}",
@@ -41725,6 +42528,21 @@
   "roles": [
    "removal",
    "protection"
+  ]
+ },
+ "summon: titan|fin|204": {
+  "name": "Summon: Titan",
+  "mana": "{3}{G}{G}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Enchantment Creature — Saga Giant",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/5/c/5ce6ea96-7293-496d-b9c8-8ed6d6109a4d.jpg?1783906580",
+  "art": "https://cards.scryfall.io/art_crop/front/5/c/5ce6ea96-7293-496d-b9c8-8ed6d6109a4d.jpg?1783906580",
+  "uri": "https://scryfall.com/card/fin/204/summon:-titan",
+  "roles": [
+   "land-ramp",
+   "reanimation"
   ]
  },
  "summon: valefor|fic|42": {
@@ -42486,6 +43304,18 @@
   "uri": "https://scryfall.com/card/pip/322/swamp",
   "roles": []
  },
+ "swamp|rtr|260": {
+  "name": "Swamp",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Swamp",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/2/d/2d8c3f29-121e-42d1-be21-29f403f97708.jpg?1783940317",
+  "art": "https://cards.scryfall.io/art_crop/front/2/d/2d8c3f29-121e-42d1-be21-29f403f97708.jpg?1783940317",
+  "uri": "https://scryfall.com/card/rtr/260/swamp",
+  "roles": []
+ },
  "swamp|sos|277": {
   "name": "Swamp",
   "mana": "",
@@ -42858,6 +43688,20 @@
    "removal"
   ]
  },
+ "sylvan caryatid|ths|180": {
+  "name": "Sylvan Caryatid",
+  "mana": "{1}{G}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Creature — Plant",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/d/4/d40b65c1-b24d-492d-81b9-d8474ebdc08c.jpg?1783939736",
+  "art": "https://cards.scryfall.io/art_crop/front/d/4/d40b65c1-b24d-492d-81b9-d8474ebdc08c.jpg?1783939736",
+  "uri": "https://scryfall.com/card/ths/180/sylvan-caryatid",
+  "roles": [
+   "mana-dork"
+  ]
+ },
  "sylvan library|5ed|329": {
   "name": "Sylvan Library",
   "mana": "{1}{G}",
@@ -43065,6 +43909,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/b/9/b945f8c2-acfc-4622-8e96-993921d58995.jpg?1783911376",
   "uri": "https://scryfall.com/card/m3c/207/syr-konrad-the-grim",
   "roles": []
+ },
+ "sythis, harvest's hand|mh2|377": {
+  "name": "Sythis, Harvest's Hand",
+  "mana": "{G}{W}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Legendary Enchantment Creature — Nymph",
+  "ci": "GW",
+  "img": "https://cards.scryfall.io/normal/front/7/6/76ebe313-3452-415c-a93f-52c7467531a3.jpg?1783926743",
+  "art": "https://cards.scryfall.io/art_crop/front/7/6/76ebe313-3452-415c-a93f-52c7467531a3.jpg?1783926743",
+  "uri": "https://scryfall.com/card/mh2/377/sythis-harvests-hand",
+  "roles": [
+   "draw"
+  ]
  },
  "taiga|3ed|287": {
   "name": "Taiga",
@@ -44125,6 +44983,18 @@
   "uri": "https://scryfall.com/card/tdc/16/tempest-technique",
   "roles": []
  },
+ "temple garden|rtr|248": {
+  "name": "Temple Garden",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Forest Plains",
+  "ci": "GW",
+  "img": "https://cards.scryfall.io/normal/front/b/8/b821e604-f9fd-47a4-b5ff-bfb5022834c2.jpg?1783940320",
+  "art": "https://cards.scryfall.io/art_crop/front/b/8/b821e604-f9fd-47a4-b5ff-bfb5022834c2.jpg?1783940320",
+  "uri": "https://scryfall.com/card/rtr/248/temple-garden",
+  "roles": []
+ },
  "temple garden|rvr|290": {
   "name": "Temple Garden",
   "mana": "",
@@ -45147,6 +46017,34 @@
    "stax"
   ]
  },
+ "the coming of galactus|msh|212": {
+  "name": "The Coming of Galactus",
+  "mana": "{2}{B}{B}{G}",
+  "cmc": 5.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "BG",
+  "img": "https://cards.scryfall.io/normal/front/0/4/04a38b92-619e-4fe8-b0cb-6fa31f0824ff.jpg?1784182991",
+  "art": "https://cards.scryfall.io/art_crop/front/0/4/04a38b92-619e-4fe8-b0cb-6fa31f0824ff.jpg?1784182991",
+  "uri": "https://scryfall.com/card/msh/212/the-coming-of-galactus",
+  "roles": [
+   "removal"
+  ]
+ },
+ "the creation of avacyn|mh3|86": {
+  "name": "The Creation of Avacyn",
+  "mana": "{1}{B}{B}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/2/7/27d701aa-df93-4f0e-b1e3-d081487eb456.jpg?1783911283",
+  "art": "https://cards.scryfall.io/art_crop/front/2/7/27d701aa-df93-4f0e-b1e3-d081487eb456.jpg?1783911283",
+  "uri": "https://scryfall.com/card/mh3/86/the-creation-of-avacyn",
+  "roles": [
+   "tutor"
+  ]
+ },
  "the falcon, airship restored|fic|45": {
   "name": "The Falcon, Airship Restored",
   "mana": "{2}{B}",
@@ -45218,6 +46116,50 @@
   "roles": [
    "mana-rock",
    "draw"
+  ]
+ },
+ "the hunger tide rises|mh3|158": {
+  "name": "The Hunger Tide Rises",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/4/b/4b44f01b-17e8-4d49-8f38-fd1128114b2f.jpg?1783911260",
+  "art": "https://cards.scryfall.io/art_crop/front/4/b/4b44f01b-17e8-4d49-8f38-fd1128114b2f.jpg?1783911260",
+  "uri": "https://scryfall.com/card/mh3/158/the-hunger-tide-rises",
+  "roles": [
+   "tutor"
+  ]
+ },
+ "the huntsman's redemption|woe|176": {
+  "name": "The Huntsman's Redemption",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/2/7/27003577-e276-4ad5-b3e9-8523b166ad49.jpg?1783915080",
+  "art": "https://cards.scryfall.io/art_crop/front/2/7/27003577-e276-4ad5-b3e9-8523b166ad49.jpg?1783915080",
+  "uri": "https://scryfall.com/card/woe/176/the-huntsmans-redemption",
+  "roles": [
+   "tutor"
+  ]
+ },
+ "the kami war // o-kagachi made manifest|neo|227": {
+  "name": "The Kami War // O-Kagachi Made Manifest",
+  "mana": "{1}{W}{U}{B}{R}{G}",
+  "cmc": 6.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga // Enchantment Creature — Dragon Spirit",
+  "ci": "BGRUW",
+  "img": "https://cards.scryfall.io/normal/front/3/6/36052532-5028-43a8-9fc4-56221ec867fd.jpg?1783923839",
+  "art": "https://cards.scryfall.io/art_crop/front/3/6/36052532-5028-43a8-9fc4-56221ec867fd.jpg?1783923839",
+  "uri": "https://scryfall.com/card/neo/227/the-kami-war-o-kagachi-made-manifest",
+  "back": "https://cards.scryfall.io/normal/back/3/6/36052532-5028-43a8-9fc4-56221ec867fd.jpg?1783923839",
+  "roles": [
+   "removal",
+   "regrowth"
   ]
  },
  "the master, transcendent|pip|6": {
@@ -45497,6 +46439,32 @@
   "art": "https://cards.scryfall.io/art_crop/front/3/d/3d6d6944-a364-41c2-b824-7a1bf6ad0d1e.jpg?1783912422",
   "uri": "https://scryfall.com/card/pip/4/the-wise-mothman",
   "roles": []
+ },
+ "the world tree|khm|275": {
+  "name": "The World Tree",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "BGRUW",
+  "img": "https://cards.scryfall.io/normal/front/a/7/a70cb6d9-3955-4064-917b-11dec26440c5.jpg?1783928169",
+  "art": "https://cards.scryfall.io/art_crop/front/a/7/a70cb6d9-3955-4064-917b-11dec26440c5.jpg?1783928169",
+  "uri": "https://scryfall.com/card/khm/275/the-world-tree",
+  "roles": []
+ },
+ "there and back again|ltr|151": {
+  "name": "There and Back Again",
+  "mana": "{3}{R}{R}",
+  "cmc": 5.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.jpg?1783916275",
+  "art": "https://cards.scryfall.io/art_crop/front/9/3/939b0bd0-24ea-45de-a2d3-37bbf6a3e6f9.jpg?1783916275",
+  "uri": "https://scryfall.com/card/ltr/151/there-and-back-again",
+  "roles": [
+   "land-ramp"
+  ]
  },
  "thespian's stage|m3c|395": {
   "name": "Thespian's Stage",
@@ -46543,6 +47511,18 @@
    "draw"
   ]
  },
+ "tom bombadil|ltr|234": {
+  "name": "Tom Bombadil",
+  "mana": "{W}{U}{B}{R}{G}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — God Bard",
+  "ci": "BGRUW",
+  "img": "https://cards.scryfall.io/normal/front/2/a/2ab04c49-76a1-4896-8dca-8cb4c615f489.jpg?1783916244",
+  "art": "https://cards.scryfall.io/art_crop/front/2/a/2ab04c49-76a1-4896-8dca-8cb4c615f489.jpg?1783916244",
+  "uri": "https://scryfall.com/card/ltr/234/tom-bombadil",
+  "roles": []
+ },
  "tom, bert, and william|hob|312": {
   "name": "Tom, Bert, and William",
   "mana": "{3}{B}{G}",
@@ -47244,6 +48224,20 @@
   "uri": "https://scryfall.com/card/znr/215/turntimber-symbiosis-turntimber-serpentine-wood",
   "back": "https://cards.scryfall.io/normal/back/6/1/61bd69ea-1e9e-46b0-b1a1-ed7fdbe3deb6.jpg?1783929333",
   "roles": []
+ },
+ "tuvasa the sunlit|c18|47": {
+  "name": "Tuvasa the Sunlit",
+  "mana": "{G}{W}{U}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Merfolk Shaman",
+  "ci": "GUW",
+  "img": "https://cards.scryfall.io/normal/front/b/d/bdda07ac-2f9f-4c8e-b3f6-b54d0afd730c.jpg?1783934327",
+  "art": "https://cards.scryfall.io/art_crop/front/b/d/bdda07ac-2f9f-4c8e-b3f6-b54d0afd730c.jpg?1783934327",
+  "uri": "https://scryfall.com/card/c18/47/tuvasa-the-sunlit",
+  "roles": [
+   "draw"
+  ]
  },
  "twenty-toed toad|blc|16": {
   "name": "Twenty-Toed Toad",
@@ -48364,6 +49358,18 @@
   "uri": "https://scryfall.com/card/rvr/159/utopia-sprawl",
   "roles": []
  },
+ "utopia sprawl|rvr|355": {
+  "name": "Utopia Sprawl",
+  "mana": "{G}",
+  "cmc": 1.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Aura",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/0/f/0fc7bf24-381f-459c-b6b5-8bd4d3b5cd3f.jpg?1783913215",
+  "art": "https://cards.scryfall.io/art_crop/front/0/f/0fc7bf24-381f-459c-b6b5-8bd4d3b5cd3f.jpg?1783913215",
+  "uri": "https://scryfall.com/card/rvr/355/utopia-sprawl",
+  "roles": []
+ },
  "utopia sprawl|wot|63": {
   "name": "Utopia Sprawl",
   "mana": "{G}",
@@ -48659,6 +49665,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/1/4/144cd9eb-9b15-40ce-8a48-919e72dbaa67.jpg?1783912407",
   "uri": "https://scryfall.com/card/pip/51/vault-12:-the-necropolis",
   "roles": []
+ },
+ "vault 21: house gambit|pip|69": {
+  "name": "Vault 21: House Gambit",
+  "mana": "{1}{R}",
+  "cmc": 2.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/4/0/40972644-a284-4c7c-a451-d70eff7488ab.jpg?1783912400",
+  "art": "https://cards.scryfall.io/art_crop/front/4/0/40972644-a284-4c7c-a451-d70eff7488ab.jpg?1783912400",
+  "uri": "https://scryfall.com/card/pip/69/vault-21:-house-gambit",
+  "roles": [
+   "draw"
+  ]
  },
  "vault 75: middle school|pip|27": {
   "name": "Vault 75: Middle School",
@@ -49605,6 +50625,20 @@
    "mana-dork"
   ]
  },
+ "war of the last alliance|ltr|36": {
+  "name": "War of the Last Alliance",
+  "mana": "{3}{W}",
+  "cmc": 4.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/6/0/60ddf2cd-5b33-4c8a-a610-8e6a15404dde.jpg?1783916322",
+  "art": "https://cards.scryfall.io/art_crop/front/6/0/60ddf2cd-5b33-4c8a-a610-8e6a15404dde.jpg?1783916322",
+  "uri": "https://scryfall.com/card/ltr/36/war-of-the-last-alliance",
+  "roles": [
+   "tutor"
+  ]
+ },
  "war room|clb|929": {
   "name": "War Room",
   "mana": "",
@@ -49645,6 +50679,20 @@
   "uri": "https://scryfall.com/card/soc/422/war-room",
   "roles": [
    "draw"
+  ]
+ },
+ "wargate|plst|arb-129": {
+  "name": "Wargate",
+  "mana": "{X}{G}{W}{U}",
+  "cmc": 3.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "GUW",
+  "img": "https://cards.scryfall.io/normal/front/a/c/ac44861f-cf42-424a-a607-a6c7a4df5c9b.jpg?1783932116",
+  "art": "https://cards.scryfall.io/art_crop/front/a/c/ac44861f-cf42-424a-a607-a6c7a4df5c9b.jpg?1783932116",
+  "uri": "https://scryfall.com/card/plst/ARB-129/wargate",
+  "roles": [
+   "land-ramp"
   ]
  },
  "warleader's call|mkm|242": {
@@ -50184,6 +51232,18 @@
   "img": "https://cards.scryfall.io/normal/front/e/6/e6b56946-a368-4cd7-9d35-be14afca935b.jpg?1783913270",
   "art": "https://cards.scryfall.io/art_crop/front/e/6/e6b56946-a368-4cd7-9d35-be14afca935b.jpg?1783913270",
   "uri": "https://scryfall.com/card/rvr/239/wild-cantor",
+  "roles": []
+ },
+ "wild growth|4ed|289": {
+  "name": "Wild Growth",
+  "mana": "{G}",
+  "cmc": 1.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Aura",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/4/a/4aea57a2-2753-4014-9724-2701455a6be8.jpg?1783947808",
+  "art": "https://cards.scryfall.io/art_crop/front/4/a/4aea57a2-2753-4014-9724-2701455a6be8.jpg?1783947808",
+  "uri": "https://scryfall.com/card/4ed/289/wild-growth",
   "roles": []
  },
  "wild growth|ice|277": {
@@ -50939,6 +51999,18 @@
    "removal"
   ]
  },
+ "world war hulk|msh|197": {
+  "name": "World War Hulk",
+  "mana": "{3}{G}{G}",
+  "cmc": 5.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/9/0/9032f05b-5c21-4996-90c1-268dc6dffbaa.jpg?1784182994",
+  "art": "https://cards.scryfall.io/art_crop/front/9/0/9032f05b-5c21-4996-90c1-268dc6dffbaa.jpg?1784182994",
+  "uri": "https://scryfall.com/card/msh/197/world-war-hulk",
+  "roles": []
+ },
  "worldly tutor|dmr|185": {
   "name": "Worldly Tutor",
   "mana": "{G}",
@@ -51384,6 +52456,20 @@
   "roles": [
    "impulse-draw",
    "graveyard-cast"
+  ]
+ },
+ "ziatora's proving ground|snc|261": {
+  "name": "Ziatora's Proving Ground",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Swamp Mountain Forest",
+  "ci": "BGR",
+  "img": "https://cards.scryfall.io/normal/front/7/5/75fdce80-e338-4a50-bdc6-786511feaeef.jpg?1783923052",
+  "art": "https://cards.scryfall.io/art_crop/front/7/5/75fdce80-e338-4a50-bdc6-786511feaeef.jpg?1783923052",
+  "uri": "https://scryfall.com/card/snc/261/ziatoras-proving-ground",
+  "roles": [
+   "draw"
   ]
  },
  "ziatora, the incinerator|m3c|279": {
