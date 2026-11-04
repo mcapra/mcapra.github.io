@@ -13,6 +13,18 @@
    "tutor"
   ]
  },
+ "abaddon the despoiler|40k|171": {
+  "name": "Abaddon the Despoiler",
+  "mana": "{2}{U}{B}{R}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Astartes Warrior",
+  "ci": "BRU",
+  "img": "https://cards.scryfall.io/normal/front/a/7/a78ab8fe-4499-4860-87d3-f8707398c00c.jpg?1783920808",
+  "art": "https://cards.scryfall.io/art_crop/front/a/7/a78ab8fe-4499-4860-87d3-f8707398c00c.jpg?1783920808",
+  "uri": "https://scryfall.com/card/40k/171/abaddon-the-despoiler",
+  "roles": []
+ },
  "aberrant return|ecc|7": {
   "name": "Aberrant Return",
   "mana": "{4}{B}{B}",
@@ -25,6 +37,21 @@
   "uri": "https://scryfall.com/card/ecc/7/aberrant-return",
   "roles": [
    "reanimation"
+  ]
+ },
+ "aberrant|40k|86": {
+  "name": "Aberrant",
+  "mana": "{X}{1}{G}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid Mutant",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/4/9/49dfee68-c242-4579-94b1-c23238f8c87d.jpg?1783920882",
+  "art": "https://cards.scryfall.io/art_crop/front/4/9/49dfee68-c242-4579-94b1-c23238f8c87d.jpg?1783920882",
+  "uri": "https://scryfall.com/card/40k/86/aberrant",
+  "roles": [
+   "cantrip",
+   "removal"
   ]
  },
  "abhorrent oculus|dsk|42": {
@@ -119,6 +146,18 @@
   "img": "https://cards.scryfall.io/normal/front/2/7/2795c812-0850-4405-b968-b624deaccd55.jpg?1783903863",
   "art": "https://cards.scryfall.io/art_crop/front/2/7/2795c812-0850-4405-b968-b624deaccd55.jpg?1783903863",
   "uri": "https://scryfall.com/card/soc/17/abstract-performance",
+  "roles": []
+ },
+ "abundance|40k|210": {
+  "name": "Abundance",
+  "mana": "{2}{G}{G}",
+  "cmc": 4.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/5/1/51d27db7-3c11-4896-a8f9-2f7f7beeec18.jpg?1783920779",
+  "art": "https://cards.scryfall.io/art_crop/front/5/1/51d27db7-3c11-4896-a8f9-2f7f7beeec18.jpg?1783920779",
+  "uri": "https://scryfall.com/card/40k/210/abundance",
   "roles": []
  },
  "abundant countryside|ecc|22": {
@@ -234,6 +273,21 @@
   "art": "https://cards.scryfall.io/art_crop/front/7/d/7dfeb1d1-7b2d-4235-902f-22a62af5dc0f.jpg?1783911373",
   "uri": "https://scryfall.com/card/m3c/218/acidic-slime",
   "roles": [
+   "removal"
+  ]
+ },
+ "acolyte hybrid|40k|70": {
+  "name": "Acolyte Hybrid",
+  "mana": "{2}{R}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid Human",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/b/2/b229697e-b6ff-450b-8020-45c454da9b3e.jpg?1783920895",
+  "art": "https://cards.scryfall.io/art_crop/front/b/2/b229697e-b6ff-450b-8020-45c454da9b3e.jpg?1783920895",
+  "uri": "https://scryfall.com/card/40k/70/acolyte-hybrid",
+  "roles": [
+   "draw",
    "removal"
   ]
  },
@@ -523,6 +577,20 @@
   "uri": "https://scryfall.com/card/m3c/163/aethergeode-miner",
   "roles": [
    "blink"
+  ]
+ },
+ "aetherize|40k|191": {
+  "name": "Aetherize",
+  "mana": "{3}{U}",
+  "cmc": 4.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/4/5/45a3b89a-d20c-43d0-a34c-644a58040421.jpg?1783920796",
+  "art": "https://cards.scryfall.io/art_crop/front/4/5/45a3b89a-d20c-43d0-a34c-644a58040421.jpg?1783920796",
+  "uri": "https://scryfall.com/card/40k/191/aetherize",
+  "roles": [
+   "board-wipe"
   ]
  },
  "aetherize|blc|161": {
@@ -1314,6 +1382,20 @@
   "uri": "https://scryfall.com/card/h09/31/ancient-ziggurat",
   "roles": []
  },
+ "and they shall know no fear|40k|9": {
+  "name": "And They Shall Know No Fear",
+  "mana": "{1}{W}",
+  "cmc": 2.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/8/4/84d1bcef-907c-4c3a-8b52-6e633fa19667.jpg?1783920949",
+  "art": "https://cards.scryfall.io/art_crop/front/8/4/84d1bcef-907c-4c3a-8b52-6e633fa19667.jpg?1783920949",
+  "uri": "https://scryfall.com/card/40k/9/and-they-shall-know-no-fear",
+  "roles": [
+   "protection"
+  ]
+ },
  "angel of indemnity|soc|133": {
   "name": "Angel of Indemnity",
   "mana": "{5}{W}",
@@ -1642,6 +1724,20 @@
   "back": "https://cards.scryfall.io/normal/back/2/3/236e9bcf-ced2-4bee-8188-41dd94df02da.jpg?1783913151",
   "roles": []
  },
+ "anrakyr the traveller|40k|28": {
+  "name": "Anrakyr the Traveller",
+  "mana": "{4}{B}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Legendary Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/6/e/6ea09406-c65e-4ee4-9c74-0553e5110837.jpg?1783920932",
+  "art": "https://cards.scryfall.io/art_crop/front/6/e/6ea09406-c65e-4ee4-9c74-0553e5110837.jpg?1783920932",
+  "uri": "https://scryfall.com/card/40k/28/anrakyr-the-traveller",
+  "roles": [
+   "reanimation"
+  ]
+ },
  "anticausal vestige|eoe|1": {
   "name": "Anticausal Vestige",
   "mana": "{6}",
@@ -1819,6 +1915,18 @@
   "uri": "https://scryfall.com/card/soc/361/arcane-lighthouse",
   "roles": []
  },
+ "arcane sanctum|40k|264": {
+  "name": "Arcane Sanctum",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "BUW",
+  "img": "https://cards.scryfall.io/normal/front/f/a/fa675944-8400-4468-bacc-a0d63c767e01.jpg?1783920728",
+  "art": "https://cards.scryfall.io/art_crop/front/f/a/fa675944-8400-4468-bacc-a0d63c767e01.jpg?1783920728",
+  "uri": "https://scryfall.com/card/40k/264/arcane-sanctum",
+  "roles": []
+ },
  "arcane sanctum|brc|173": {
   "name": "Arcane Sanctum",
   "mana": "",
@@ -1853,6 +1961,20 @@
   "img": "https://cards.scryfall.io/normal/front/4/4/44ff370e-b72d-4a6c-b6dd-8434820559cc.jpg?1783920763",
   "art": "https://cards.scryfall.io/art_crop/front/4/4/44ff370e-b72d-4a6c-b6dd-8434820559cc.jpg?1783920763",
   "uri": "https://scryfall.com/card/40k/227/arcane-signet",
+  "roles": [
+   "mana-rock"
+  ]
+ },
+ "arcane signet|40k|228": {
+  "name": "Arcane Signet",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/6/b/6b3f3fbb-0188-4eec-90c0-81c801d3a996.jpg?1783920763",
+  "art": "https://cards.scryfall.io/art_crop/front/6/b/6b3f3fbb-0188-4eec-90c0-81c801d3a996.jpg?1783920763",
+  "uri": "https://scryfall.com/card/40k/228/arcane-signet",
   "roles": [
    "mana-rock"
   ]
@@ -2419,6 +2541,18 @@
   "uri": "https://scryfall.com/card/mh3/350/archway-of-innovation",
   "roles": []
  },
+ "arco-flagellant|40k|29": {
+  "name": "Arco-Flagellant",
+  "mana": "{2}{B}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Human",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/0/8/0894d21c-d44c-4c7c-8693-f32dde67b336.jpg?1783920931",
+  "art": "https://cards.scryfall.io/art_crop/front/0/8/0894d21c-d44c-4c7c-8693-f32dde67b336.jpg?1783920931",
+  "uri": "https://scryfall.com/card/40k/29/arco-flagellant",
+  "roles": []
+ },
  "arctic treeline|khm|249": {
   "name": "Arctic Treeline",
   "mana": "",
@@ -2635,6 +2769,18 @@
    "protection"
   ]
  },
+ "ash barrens|40k|265": {
+  "name": "Ash Barrens",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/2/8/2816a820-bde0-404a-ba2c-86fbe461e01b.jpg?1783920726",
+  "art": "https://cards.scryfall.io/art_crop/front/2/8/2816a820-bde0-404a-ba2c-86fbe461e01b.jpg?1783920726",
+  "uri": "https://scryfall.com/card/40k/265/ash-barrens",
+  "roles": []
+ },
  "ash barrens|clb|880": {
   "name": "Ash Barrens",
   "mana": "",
@@ -2745,6 +2891,18 @@
    "draw"
   ]
  },
+ "aspiring champion|40k|71": {
+  "name": "Aspiring Champion",
+  "mana": "{3}{R}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warrior",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/7/7/77a2d9f6-0750-403d-879f-e3a98c36c3bb.jpg?1783920895",
+  "art": "https://cards.scryfall.io/art_crop/front/7/7/77a2d9f6-0750-403d-879f-e3a98c36c3bb.jpg?1783920895",
+  "uri": "https://scryfall.com/card/40k/71/aspiring-champion",
+  "roles": []
+ },
  "assassin's trophy|2x2|175": {
   "name": "Assassin's Trophy",
   "mana": "{B}{G}",
@@ -2801,6 +2959,30 @@
    "removal"
   ]
  },
+ "assault intercessor|40k|104": {
+  "name": "Assault Intercessor",
+  "mana": "{1}{W}{B}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warrior",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/0/1/019b1f71-2d99-47da-8df3-237ef25a4916.jpg?1783920865",
+  "art": "https://cards.scryfall.io/art_crop/front/0/1/019b1f71-2d99-47da-8df3-237ef25a4916.jpg?1783920865",
+  "uri": "https://scryfall.com/card/40k/104/assault-intercessor",
+  "roles": []
+ },
+ "assault suit|40k|230": {
+  "name": "Assault Suit",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Equipment",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/d/7/d7fbad75-725f-44fc-919a-6b07f2d54698.jpg?1783920762",
+  "art": "https://cards.scryfall.io/art_crop/front/d/7/d7fbad75-725f-44fc-919a-6b07f2d54698.jpg?1783920762",
+  "uri": "https://scryfall.com/card/40k/230/assault-suit",
+  "roles": []
+ },
  "assemble the legion|pip|210": {
   "name": "Assemble the Legion",
   "mana": "{3}{R}{W}",
@@ -2852,6 +3034,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/b/f/bfa4e927-1d6f-4a64-9801-7d168a5ef3f6.jpg?1783906640",
   "uri": "https://scryfall.com/card/fin/46/astrologians-planisphere",
   "roles": []
+ },
+ "atalan jackal|40k|105": {
+  "name": "Atalan Jackal",
+  "mana": "{1}{R}{G}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Tyranid Scout",
+  "ci": "GR",
+  "img": "https://cards.scryfall.io/normal/front/3/f/3fc069f7-2445-44ff-bcff-5b0741841690.jpg?1783920865",
+  "art": "https://cards.scryfall.io/art_crop/front/3/f/3fc069f7-2445-44ff-bcff-5b0741841690.jpg?1783920865",
+  "uri": "https://scryfall.com/card/40k/105/atalan-jackal",
+  "roles": [
+   "land-ramp"
+  ]
  },
  "atarka's command|dtk|213": {
   "name": "Atarka's Command",
@@ -3455,6 +3651,20 @@
   "uri": "https://scryfall.com/card/who/14/barbara-wright",
   "roles": []
  },
+ "barren moor|40k|266": {
+  "name": "Barren Moor",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/2/2/22a7ef45-0fa0-4924-955c-27da5f6d0098.jpg?1783920725",
+  "art": "https://cards.scryfall.io/art_crop/front/2/2/22a7ef45-0fa0-4924-955c-27da5f6d0098.jpg?1783920725",
+  "uri": "https://scryfall.com/card/40k/266/barren-moor",
+  "roles": [
+   "draw"
+  ]
+ },
  "barren moor|blc|292": {
   "name": "Barren Moor",
   "mana": "",
@@ -3592,6 +3802,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/a/2/a2e2c839-4f55-482c-baaa-aa8f7c8e9b7d.jpg?1783912362",
   "uri": "https://scryfall.com/card/pip/182/bastion-of-remembrance",
   "roles": []
+ },
+ "bastion protector|40k|182": {
+  "name": "Bastion Protector",
+  "mana": "{2}{W}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Soldier",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/b/a/ba272fed-6e1f-47a6-96f5-2ccefbccfa01.jpg?1783920804",
+  "art": "https://cards.scryfall.io/art_crop/front/b/a/ba272fed-6e1f-47a6-96f5-2ccefbccfa01.jpg?1783920804",
+  "uri": "https://scryfall.com/card/40k/182/bastion-protector",
+  "roles": [
+   "protection"
+  ]
  },
  "bastion protector|fic|233": {
   "name": "Bastion Protector",
@@ -3784,6 +4008,35 @@
    "draw"
   ]
  },
+ "be'lakor, the dark master|40k|172": {
+  "name": "Be'lakor, the Dark Master",
+  "mana": "{3}{U}{B}{R}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Demon Noble",
+  "ci": "BRU",
+  "img": "https://cards.scryfall.io/normal/front/7/a/7a55dc69-defe-4e6a-925e-31aaee89a8a0.jpg?1783920807",
+  "art": "https://cards.scryfall.io/art_crop/front/7/a/7a55dc69-defe-4e6a-925e-31aaee89a8a0.jpg?1783920807",
+  "uri": "https://scryfall.com/card/40k/172/belakor-the-dark-master",
+  "roles": [
+   "draw",
+   "removal"
+  ]
+ },
+ "beacon of unrest|40k|194": {
+  "name": "Beacon of Unrest",
+  "mana": "{3}{B}{B}",
+  "cmc": 5.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/e/3/e313ae8b-f77b-47a4-9202-305bf6deb3dc.jpg?1783920793",
+  "art": "https://cards.scryfall.io/art_crop/front/e/3/e313ae8b-f77b-47a4-9202-305bf6deb3dc.jpg?1783920793",
+  "uri": "https://scryfall.com/card/40k/194/beacon-of-unrest",
+  "roles": [
+   "reanimation"
+  ]
+ },
  "beast whisperer|c20|167": {
   "name": "Beast Whisperer",
   "mana": "{2}{G}{G}",
@@ -3970,6 +4223,18 @@
   "img": "https://cards.scryfall.io/normal/front/1/4/144c2886-3d37-4a8a-8e37-99ccff66599e.jpg?1783903757",
   "art": "https://cards.scryfall.io/art_crop/front/1/4/144c2886-3d37-4a8a-8e37-99ccff66599e.jpg?1783903757",
   "uri": "https://scryfall.com/card/soc/296/beledros-witherbloom",
+  "roles": []
+ },
+ "belisarius cawl|40k|106": {
+  "name": "Belisarius Cawl",
+  "mana": "{2}{W}{U}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Artifact Creature — Human",
+  "ci": "UW",
+  "img": "https://cards.scryfall.io/normal/front/1/0/102746f5-ba25-45f2-943e-55f9a4458fa7.jpg?1783920865",
+  "art": "https://cards.scryfall.io/art_crop/front/1/0/102746f5-ba25-45f2-943e-55f9a4458fa7.jpg?1783920865",
+  "uri": "https://scryfall.com/card/40k/106/belisarius-cawl",
   "roles": []
  },
  "bello, bard of the brambles|blc|1": {
@@ -4229,6 +4494,20 @@
    "draw"
   ]
  },
+ "bile blight|40k|195": {
+  "name": "Bile Blight",
+  "mana": "{B}{B}",
+  "cmc": 2.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/4/c/4c271a22-b659-4b22-9de6-738a5229d092.jpg?1783920791",
+  "art": "https://cards.scryfall.io/art_crop/front/4/c/4c271a22-b659-4b22-9de6-738a5229d092.jpg?1783920791",
+  "uri": "https://scryfall.com/card/40k/195/bile-blight",
+  "roles": [
+   "removal"
+  ]
+ },
  "bile blight|bng|61": {
   "name": "Bile Blight",
   "mana": "{B}{B}",
@@ -4310,6 +4589,32 @@
   "img": "https://cards.scryfall.io/normal/front/9/8/9894bed2-c5dc-4569-9ed9-1d40df906f58.jpg?1783903756",
   "art": "https://cards.scryfall.io/art_crop/front/9/8/9894bed2-c5dc-4569-9ed9-1d40df906f58.jpg?1783903756",
   "uri": "https://scryfall.com/card/soc/297/biomass-mutation",
+  "roles": []
+ },
+ "biophagus|40k|87": {
+  "name": "Biophagus",
+  "mana": "{1}{G}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Tyranid Wizard",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/c/f/cfd188ec-5e63-414e-a949-20a0daa82690.jpg?1783920882",
+  "art": "https://cards.scryfall.io/art_crop/front/c/f/cfd188ec-5e63-414e-a949-20a0daa82690.jpg?1783920882",
+  "uri": "https://scryfall.com/card/40k/87/biophagus",
+  "roles": [
+   "mana-dork"
+  ]
+ },
+ "biotransference|40k|30": {
+  "name": "Biotransference",
+  "mana": "{2}{B}{B}",
+  "cmc": 4.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/7/5/75a787a3-5838-4121-bbaf-745d22c4b0bc.jpg?1783920930",
+  "art": "https://cards.scryfall.io/art_crop/front/7/5/75a787a3-5838-4121-bbaf-745d22c4b0bc.jpg?1783920930",
+  "uri": "https://scryfall.com/card/40k/30/biotransference",
   "roles": []
  },
  "birds of paradise|dmr|151": {
@@ -4426,6 +4731,21 @@
    "impulse-draw"
   ]
  },
+ "birth of the imperium|40k|107": {
+  "name": "Birth of the Imperium",
+  "mana": "{2}{W}{U}{B}",
+  "cmc": 5.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "BUW",
+  "img": "https://cards.scryfall.io/normal/front/2/6/26386d35-7768-4b06-afe4-823028d99a48.jpg?1783920864",
+  "art": "https://cards.scryfall.io/art_crop/front/2/6/26386d35-7768-4b06-afe4-823028d99a48.jpg?1783920864",
+  "uri": "https://scryfall.com/card/40k/107/birth-of-the-imperium",
+  "roles": [
+   "draw",
+   "removal"
+  ]
+ },
  "birthing pod|slc|2011": {
   "name": "Birthing Pod",
   "mana": "{3}{G/P}",
@@ -4490,6 +4810,20 @@
   "uri": "https://scryfall.com/card/soc/343/bitterthorn-nissas-animus",
   "roles": [
    "land-ramp"
+  ]
+ },
+ "bituminous blast|40k|221": {
+  "name": "Bituminous Blast",
+  "mana": "{3}{B}{R}",
+  "cmc": 5.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/6/5/65badf7f-7e69-4e2a-91c5-041e3c8bd32e.jpg?1783920769",
+  "art": "https://cards.scryfall.io/art_crop/front/6/5/65badf7f-7e69-4e2a-91c5-041e3c8bd32e.jpg?1783920769",
+  "uri": "https://scryfall.com/card/40k/221/bituminous-blast",
+  "roles": [
+   "removal"
   ]
  },
  "bituminous blast|m3c|255": {
@@ -4582,6 +4916,20 @@
   "img": "https://cards.scryfall.io/normal/front/f/f/fff02fcd-241e-4a3e-a0d0-5adc90e7d0db.jpg?1783930170",
   "art": "https://cards.scryfall.io/art_crop/front/f/f/fff02fcd-241e-4a3e-a0d0-5adc90e7d0db.jpg?1783930170",
   "uri": "https://scryfall.com/card/2xm/117/blasphemous-act",
+  "roles": [
+   "board-wipe"
+  ]
+ },
+ "blasphemous act|40k|204": {
+  "name": "Blasphemous Act",
+  "mana": "{8}{R}",
+  "cmc": 9.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/2/3/23ed787e-8034-45c7-b4cf-1a05d300beea.jpg?1783920784",
+  "art": "https://cards.scryfall.io/art_crop/front/2/3/23ed787e-8034-45c7-b4cf-1a05d300beea.jpg?1783920784",
+  "uri": "https://scryfall.com/card/40k/204/blasphemous-act",
   "roles": [
    "board-wipe"
   ]
@@ -4724,6 +5072,21 @@
   "uri": "https://scryfall.com/card/dft/250/bleachbone-verge",
   "roles": []
  },
+ "blight grenade|40k|31": {
+  "name": "Blight Grenade",
+  "mana": "{4}{B}",
+  "cmc": 5.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/8/8/88cdcf69-e04d-46ab-9cce-76f1fac5bc40.jpg?1783920928",
+  "art": "https://cards.scryfall.io/art_crop/front/8/8/88cdcf69-e04d-46ab-9cce-76f1fac5bc40.jpg?1783920928",
+  "uri": "https://scryfall.com/card/40k/31/blight-grenade",
+  "roles": [
+   "removal",
+   "board-wipe"
+  ]
+ },
  "blight mound|soc|208": {
   "name": "Blight Mound",
   "mana": "{2}{B}",
@@ -4848,6 +5211,20 @@
   "uri": "https://scryfall.com/card/rvr/292/blood-crypt",
   "roles": []
  },
+ "blood for the blood god!|40k|108": {
+  "name": "Blood for the Blood God!",
+  "mana": "{8}{B}{B}{R}",
+  "cmc": 11.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/f/4/f41d59f6-7fbe-4e67-8098-190b01281fe0.jpg?1783920862",
+  "art": "https://cards.scryfall.io/art_crop/front/f/4/f41d59f6-7fbe-4e67-8098-190b01281fe0.jpg?1783920862",
+  "uri": "https://scryfall.com/card/40k/108/blood-for-the-blood-god!",
+  "roles": [
+   "draw"
+  ]
+ },
  "blood pet|7ed|121★": {
   "name": "Blood Pet",
   "mana": "{B}",
@@ -4923,6 +5300,18 @@
   "img": "https://cards.scryfall.io/normal/front/d/5/d56d1535-d9de-459f-bc31-0923f621e0e9.jpg?1783915683",
   "art": "https://cards.scryfall.io/art_crop/front/d/5/d56d1535-d9de-459f-bc31-0923f621e0e9.jpg?1783915683",
   "uri": "https://scryfall.com/card/cmm/139/bloodchief-ascension",
+  "roles": []
+ },
+ "bloodcrusher of khorne|40k|72": {
+  "name": "Bloodcrusher of Khorne",
+  "mana": "{3}{R}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon Knight",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/f/7/f7cf91a9-ec68-43b1-ae88-a907d49bf8aa.jpg?1783920894",
+  "art": "https://cards.scryfall.io/art_crop/front/f/7/f7cf91a9-ec68-43b1-ae88-a907d49bf8aa.jpg?1783920894",
+  "uri": "https://scryfall.com/card/40k/72/bloodcrusher-of-khorne",
   "roles": []
  },
  "bloodghast|soc|210": {
@@ -5047,6 +5436,18 @@
   "img": "https://cards.scryfall.io/normal/front/6/8/68c72226-6f52-4322-8b14-18737293dfa0.jpg?1783945030",
   "art": "https://cards.scryfall.io/art_crop/front/6/8/68c72226-6f52-4322-8b14-18737293dfa0.jpg?1783945030",
   "uri": "https://scryfall.com/card/ons/313/bloodstained-mire",
+  "roles": []
+ },
+ "bloodthirster|40k|73": {
+  "name": "Bloodthirster",
+  "mana": "{5}{R}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/c/c/ccbb3a6d-7e75-46c7-a91f-db4cf8d003af.jpg?1783920894",
+  "art": "https://cards.scryfall.io/art_crop/front/c/c/ccbb3a6d-7e75-46c7-a91f-db4cf8d003af.jpg?1783920894",
+  "uri": "https://scryfall.com/card/40k/73/bloodthirster",
   "roles": []
  },
  "bloom tender|2x2|366": {
@@ -5298,6 +5699,18 @@
   "roles": [
    "draw"
   ]
+ },
+ "bone sabres|40k|88": {
+  "name": "Bone Sabres",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Equipment",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/7/3/73d9374d-72b8-4397-9c46-be9216fab911.jpg?1783920880",
+  "art": "https://cards.scryfall.io/art_crop/front/7/3/73d9374d-72b8-4397-9c46-be9216fab911.jpg?1783920880",
+  "uri": "https://scryfall.com/card/40k/88/bone-sabres",
+  "roles": []
  },
  "bonehoard dracosaur|lci|321": {
   "name": "Bonehoard Dracosaur",
@@ -5608,6 +6021,20 @@
   "uri": "https://scryfall.com/card/scg/29/brain-freeze",
   "roles": []
  },
+ "brainstorm|40k|192": {
+  "name": "Brainstorm",
+  "mana": "{U}",
+  "cmc": 1.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/b/5/b5ef365f-9472-4476-8538-fcfa6e55871d.jpg?1783920794",
+  "art": "https://cards.scryfall.io/art_crop/front/b/5/b5ef365f-9472-4476-8538-fcfa6e55871d.jpg?1783920794",
+  "uri": "https://scryfall.com/card/40k/192/brainstorm",
+  "roles": [
+   "cantrip"
+  ]
+ },
  "brainstorm|ddj|13": {
   "name": "Brainstorm",
   "mana": "{U}",
@@ -5771,6 +6198,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/e/2/e2c2a069-7553-4879-abfb-b2aa3349e4b8.jpg?1783907366",
   "uri": "https://scryfall.com/card/tdm/101/breaching-dragonstorm",
   "roles": []
+ },
+ "bred for the hunt|40k|222": {
+  "name": "Bred for the Hunt",
+  "mana": "{1}{G}{U}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/e/7/e747ba48-8088-43be-b97b-ba5d1c23781f.jpg?1783920768",
+  "art": "https://cards.scryfall.io/art_crop/front/e/7/e747ba48-8088-43be-b97b-ba5d1c23781f.jpg?1783920768",
+  "uri": "https://scryfall.com/card/40k/222/bred-for-the-hunt",
+  "roles": [
+   "draw"
+  ]
  },
  "bred for the hunt|fic|321": {
   "name": "Bred for the Hunt",
@@ -5989,6 +6430,20 @@
   "uri": "https://scryfall.com/card/tdc/44/broodcaller-scourge",
   "roles": [
    "land-ramp"
+  ]
+ },
+ "broodlord|40k|89": {
+  "name": "Broodlord",
+  "mana": "{X}{3}{G}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/a/5/a5e700b9-ea2f-47a0-8a18-6231c8f2e1e9.jpg?1783920880",
+  "art": "https://cards.scryfall.io/art_crop/front/a/5/a5e700b9-ea2f-47a0-8a18-6231c8f2e1e9.jpg?1783920880",
+  "uri": "https://scryfall.com/card/40k/89/broodlord",
+  "roles": [
+   "cantrip"
   ]
  },
  "broodmate tyrant|m3c|123": {
@@ -6350,6 +6805,20 @@
    "draw"
   ]
  },
+ "caged sun|40k|231": {
+  "name": "Caged Sun",
+  "mana": "{6}",
+  "cmc": 6.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/e/8/e828d87a-f2c7-475b-8c8f-b36474c50cf9.jpg?1783920759",
+  "art": "https://cards.scryfall.io/art_crop/front/e/8/e828d87a-f2c7-475b-8c8f-b36474c50cf9.jpg?1783920759",
+  "uri": "https://scryfall.com/card/40k/231/caged-sun",
+  "roles": [
+   "mana-rock"
+  ]
+ },
  "cait sith, fortune teller|fic|54": {
   "name": "Cait Sith, Fortune Teller",
   "mana": "{3}{R}",
@@ -6417,6 +6886,20 @@
    "win-condition"
   ]
  },
+ "callidus assassin|40k|109": {
+  "name": "Callidus Assassin",
+  "mana": "{4}{U}{B}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Shapeshifter Assassin",
+  "ci": "BU",
+  "img": "https://cards.scryfall.io/normal/front/1/8/18a5e38a-6c8c-427f-9143-59212e711f1c.jpg?1783920861",
+  "art": "https://cards.scryfall.io/art_crop/front/1/8/18a5e38a-6c8c-427f-9143-59212e711f1c.jpg?1783920861",
+  "uri": "https://scryfall.com/card/40k/109/callidus-assassin",
+  "roles": [
+   "removal"
+  ]
+ },
  "cankerbloom|one|294": {
   "name": "Cankerbloom",
   "mana": "{1}{G}",
@@ -6429,6 +6912,61 @@
   "uri": "https://scryfall.com/card/one/294/cankerbloom",
   "roles": [
    "removal"
+  ]
+ },
+ "canoptek scarab swarm|40k|150": {
+  "name": "Canoptek Scarab Swarm",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Insect",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/3/c/3ce2021c-1422-4901-a554-2d4fab72c8e4.jpg?1783920826",
+  "art": "https://cards.scryfall.io/art_crop/front/3/c/3ce2021c-1422-4901-a554-2d4fab72c8e4.jpg?1783920826",
+  "uri": "https://scryfall.com/card/40k/150/canoptek-scarab-swarm",
+  "roles": []
+ },
+ "canoptek spyder|40k|151": {
+  "name": "Canoptek Spyder",
+  "mana": "{5}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Spider",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/5/6/56ae1e4b-b620-480b-b6fc-66f2137d7d89.jpg?1783920826",
+  "art": "https://cards.scryfall.io/art_crop/front/5/6/56ae1e4b-b620-480b-b6fc-66f2137d7d89.jpg?1783920826",
+  "uri": "https://scryfall.com/card/40k/151/canoptek-spyder",
+  "roles": [
+   "draw"
+  ]
+ },
+ "canoptek tomb sentinel|40k|152": {
+  "name": "Canoptek Tomb Sentinel",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Insect",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/a/e/aec9ba42-4c58-4e40-a8c5-63da81c44616.jpg?1783920824",
+  "art": "https://cards.scryfall.io/art_crop/front/a/e/aec9ba42-4c58-4e40-a8c5-63da81c44616.jpg?1783920824",
+  "uri": "https://scryfall.com/card/40k/152/canoptek-tomb-sentinel",
+  "roles": [
+   "removal",
+   "reanimation"
+  ]
+ },
+ "canoptek wraith|40k|153": {
+  "name": "Canoptek Wraith",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Wraith",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/0/6/06199f88-720f-484a-953e-9189bafbe173.jpg?1783920823",
+  "art": "https://cards.scryfall.io/art_crop/front/0/6/06199f88-720f-484a-953e-9189bafbe173.jpg?1783920823",
+  "uri": "https://scryfall.com/card/40k/153/canoptek-wraith",
+  "roles": [
+   "land-ramp"
   ]
  },
  "canopy tactician|khm|378": {
@@ -6845,6 +7383,18 @@
    "land-ramp"
   ]
  },
+ "cave of temptation|40k|267": {
+  "name": "Cave of Temptation",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/3/4/3405206b-992b-4912-817c-d90b2eecbac5.jpg?1783920725",
+  "art": "https://cards.scryfall.io/art_crop/front/3/4/3405206b-992b-4912-817c-d90b2eecbac5.jpg?1783920725",
+  "uri": "https://scryfall.com/card/40k/267/cave-of-temptation",
+  "roles": []
+ },
  "cavern of souls|2x2|320": {
   "name": "Cavern of Souls",
   "mana": "",
@@ -6982,6 +7532,20 @@
   "uri": "https://scryfall.com/card/fic/1/celes-rune-knight",
   "roles": [
    "cantrip"
+  ]
+ },
+ "celestine, the living saint|40k|10": {
+  "name": "Celestine, the Living Saint",
+  "mana": "{4}{W}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Human Warrior",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/a/0/a099cbd2-e92a-433a-bc51-0aa2f8fc6857.jpg?1783920947",
+  "art": "https://cards.scryfall.io/art_crop/front/a/0/a099cbd2-e92a-433a-bc51-0aa2f8fc6857.jpg?1783920947",
+  "uri": "https://scryfall.com/card/40k/10/celestine-the-living-saint",
+  "roles": [
+   "reanimation"
   ]
  },
  "cephalid coliseum|ody|317": {
@@ -7204,6 +7768,60 @@
   "uri": "https://scryfall.com/card/ecc/101/channeler-initiate",
   "roles": [
    "mana-dork"
+  ]
+ },
+ "chaos defiler|40k|110": {
+  "name": "Chaos Defiler",
+  "mana": "{3}{B}{R}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Demon Construct",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/1/c/1c0f2873-5849-4cab-855a-2fbbc41dbb6c.jpg?1783920860",
+  "art": "https://cards.scryfall.io/art_crop/front/1/c/1c0f2873-5849-4cab-855a-2fbbc41dbb6c.jpg?1783920860",
+  "uri": "https://scryfall.com/card/40k/110/chaos-defiler",
+  "roles": [
+   "removal"
+  ]
+ },
+ "chaos mutation|40k|111": {
+  "name": "Chaos Mutation",
+  "mana": "{3}{U}{R}",
+  "cmc": 5.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/c/c/ccaa5e8d-7113-4b9a-af63-ea61b93a8e5e.jpg?1783920860",
+  "art": "https://cards.scryfall.io/art_crop/front/c/c/ccaa5e8d-7113-4b9a-af63-ea61b93a8e5e.jpg?1783920860",
+  "uri": "https://scryfall.com/card/40k/111/chaos-mutation",
+  "roles": [
+   "removal"
+  ]
+ },
+ "chaos terminator lord|40k|74": {
+  "name": "Chaos Terminator Lord",
+  "mana": "{3}{R}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warrior",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/9/d/9d44c3fb-0968-4eb6-899d-6c11ef111574.jpg?1783920895",
+  "art": "https://cards.scryfall.io/art_crop/front/9/d/9d44c3fb-0968-4eb6-899d-6c11ef111574.jpg?1783920895",
+  "uri": "https://scryfall.com/card/40k/74/chaos-terminator-lord",
+  "roles": []
+ },
+ "chaos warp|40k|205": {
+  "name": "Chaos Warp",
+  "mana": "{2}{R}",
+  "cmc": 3.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/f/2/f2c12ae4-7050-4ec3-9d9d-85a5a1265f24.jpg?1783920783",
+  "art": "https://cards.scryfall.io/art_crop/front/f/2/f2c12ae4-7050-4ec3-9d9d-85a5a1265f24.jpg?1783920783",
+  "uri": "https://scryfall.com/card/40k/205/chaos-warp",
+  "roles": [
+   "removal"
   ]
  },
  "chaos warp|blc|115": {
@@ -7512,6 +8130,18 @@
   "uri": "https://scryfall.com/card/fic/12/chocobo-knights",
   "roles": []
  },
+ "choked estuary|40k|268": {
+  "name": "Choked Estuary",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "BU",
+  "img": "https://cards.scryfall.io/normal/front/3/1/313bef3c-fe65-4959-8170-477ea9cd5e48.jpg?1783920725",
+  "art": "https://cards.scryfall.io/art_crop/front/3/1/313bef3c-fe65-4959-8170-477ea9cd5e48.jpg?1783920725",
+  "uri": "https://scryfall.com/card/40k/268/choked-estuary",
+  "roles": []
+ },
  "choked estuary|fic|379": {
   "name": "Choked Estuary",
   "mana": "",
@@ -7564,6 +8194,20 @@
   "uri": "https://scryfall.com/card/rvr/345/chord-of-calling",
   "roles": [
    "tutor"
+  ]
+ },
+ "chromatic lantern|40k|232": {
+  "name": "Chromatic Lantern",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/e/0/e068501e-59d6-4c64-99f4-f3c2aacd5d4d.jpg?1783920760",
+  "art": "https://cards.scryfall.io/art_crop/front/e/0/e068501e-59d6-4c64-99f4-f3c2aacd5d4d.jpg?1783920760",
+  "uri": "https://scryfall.com/card/40k/232/chromatic-lantern",
+  "roles": [
+   "mana-rock"
   ]
  },
  "chromatic lantern|ecc|138": {
@@ -7707,6 +8351,21 @@
    "mana-rock"
   ]
  },
+ "chronomancer|40k|32": {
+  "name": "Chronomancer",
+  "mana": "{1}{B}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron Wizard",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/a/9/a960acea-3404-4834-9296-d6715add49af.jpg?1783920929",
+  "art": "https://cards.scryfall.io/art_crop/front/a/9/a960acea-3404-4834-9296-d6715add49af.jpg?1783920929",
+  "uri": "https://scryfall.com/card/40k/32/chronomancer",
+  "roles": [
+   "draw",
+   "reanimation"
+  ]
+ },
  "chthonian nightmare|mh3|406": {
   "name": "Chthonian Nightmare",
   "mana": "{1}{B}",
@@ -7749,6 +8408,18 @@
   "roles": [
    "regrowth"
   ]
+ },
+ "cinder glade|40k|269": {
+  "name": "Cinder Glade",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Mountain Forest",
+  "ci": "GR",
+  "img": "https://cards.scryfall.io/normal/front/f/0/f0654ea5-d192-4c2e-ba48-fa516d4a3f94.jpg?1783920722",
+  "art": "https://cards.scryfall.io/art_crop/front/f/0/f0654ea5-d192-4c2e-ba48-fa516d4a3f94.jpg?1783920722",
+  "uri": "https://scryfall.com/card/40k/269/cinder-glade",
+  "roles": []
  },
  "cinder glade|blc|299": {
   "name": "Cinder Glade",
@@ -8037,6 +8708,18 @@
   "roles": [
    "land-ramp"
   ]
+ },
+ "clamavus|40k|90": {
+  "name": "Clamavus",
+  "mana": "{4}{G}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Tyranid Artificer",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/1/2/127e9c03-f8de-497e-b94d-d6c484cab7fd.jpg?1783920880",
+  "art": "https://cards.scryfall.io/art_crop/front/1/2/127e9c03-f8de-497e-b94d-d6c484cab7fd.jpg?1783920880",
+  "uri": "https://scryfall.com/card/40k/90/clamavus",
+  "roles": []
  },
  "cleansing nova|fic|235": {
   "name": "Cleansing Nova",
@@ -8369,6 +9052,20 @@
    "draw"
   ]
  },
+ "collective effort|40k|183": {
+  "name": "Collective Effort",
+  "mana": "{1}{W}{W}",
+  "cmc": 3.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/7/5/75958e64-6d12-4c80-b321-9bc0cceb17fd.jpg?1783920803",
+  "art": "https://cards.scryfall.io/art_crop/front/7/5/75958e64-6d12-4c80-b321-9bc0cceb17fd.jpg?1783920803",
+  "uri": "https://scryfall.com/card/40k/183/collective-effort",
+  "roles": [
+   "removal"
+  ]
+ },
  "collective effort|fic|237": {
   "name": "Collective Effort",
   "mana": "{1}{W}{W}",
@@ -8531,6 +9228,18 @@
    "protection"
   ]
  },
+ "command tower|40k|270": {
+  "name": "Command Tower",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/7/c/7cf39d35-1426-4edb-98ae-d1f1a470629f.jpg?1783920723",
+  "art": "https://cards.scryfall.io/art_crop/front/7/c/7cf39d35-1426-4edb-98ae-d1f1a470629f.jpg?1783920723",
+  "uri": "https://scryfall.com/card/40k/270/command-tower",
+  "roles": []
+ },
  "command tower|40k|271": {
   "name": "Command Tower",
   "mana": "",
@@ -8541,6 +9250,18 @@
   "img": "https://cards.scryfall.io/normal/front/2/0/203f04a1-9adc-42eb-95ee-0f4f394f91cf.jpg?1783920722",
   "art": "https://cards.scryfall.io/art_crop/front/2/0/203f04a1-9adc-42eb-95ee-0f4f394f91cf.jpg?1783920722",
   "uri": "https://scryfall.com/card/40k/271/command-tower",
+  "roles": []
+ },
+ "command tower|40k|272": {
+  "name": "Command Tower",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/c/1/c1bda37b-7702-462e-8851-af6917b78ee1.jpg?1783920720",
+  "art": "https://cards.scryfall.io/art_crop/front/c/1/c1bda37b-7702-462e-8851-af6917b78ee1.jpg?1783920720",
+  "uri": "https://scryfall.com/card/40k/272/command-tower",
   "roles": []
  },
  "command tower|blc|130": {
@@ -8859,6 +9580,51 @@
    "draw"
   ]
  },
+ "commander's sphere|40k|233": {
+  "name": "Commander's Sphere",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/7/9/790882a8-a1b7-421a-b840-045bd12a0a55.jpg?1783920757",
+  "art": "https://cards.scryfall.io/art_crop/front/7/9/790882a8-a1b7-421a-b840-045bd12a0a55.jpg?1783920757",
+  "uri": "https://scryfall.com/card/40k/233/commanders-sphere",
+  "roles": [
+   "mana-rock",
+   "draw"
+  ]
+ },
+ "commander's sphere|40k|234": {
+  "name": "Commander's Sphere",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/7/4/746a626d-3379-4274-a9ae-ec77469e0ab1.jpg?1783920756",
+  "art": "https://cards.scryfall.io/art_crop/front/7/4/746a626d-3379-4274-a9ae-ec77469e0ab1.jpg?1783920756",
+  "uri": "https://scryfall.com/card/40k/234/commanders-sphere",
+  "roles": [
+   "mana-rock",
+   "draw"
+  ]
+ },
+ "commander's sphere|40k|235": {
+  "name": "Commander's Sphere",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/7/b/7b7fae6e-f83e-480f-b5fd-57b503b4afe4.jpg?1783920756",
+  "art": "https://cards.scryfall.io/art_crop/front/7/b/7b7fae6e-f83e-480f-b5fd-57b503b4afe4.jpg?1783920756",
+  "uri": "https://scryfall.com/card/40k/235/commanders-sphere",
+  "roles": [
+   "mana-rock",
+   "draw"
+  ]
+ },
  "commander's sphere|ecc|139": {
   "name": "Commander's Sphere",
   "mana": "{3}",
@@ -8925,6 +9691,18 @@
   "img": "https://cards.scryfall.io/normal/front/a/c/acf6399f-f389-4b13-8563-a078a5d198f4.jpg?1783910728",
   "art": "https://cards.scryfall.io/art_crop/front/a/c/acf6399f-f389-4b13-8563-a078a5d198f4.jpg?1783910728",
   "uri": "https://scryfall.com/card/blc/29/communal-brewing",
+  "roles": []
+ },
+ "company commander|40k|113": {
+  "name": "Company Commander",
+  "mana": "{2}{W}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Soldier",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/9/1/91c7296e-ec77-4d46-8c53-b042332876a5.jpg?1783920858",
+  "art": "https://cards.scryfall.io/art_crop/front/9/1/91c7296e-ec77-4d46-8c53-b042332876a5.jpg?1783920858",
+  "uri": "https://scryfall.com/card/40k/113/company-commander",
   "roles": []
  },
  "compulsive research|tdc|147": {
@@ -9192,6 +9970,18 @@
   "roles": [
    "draw"
   ]
+ },
+ "convergence of dominion|40k|154": {
+  "name": "Convergence of Dominion",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/e/0/e03d8676-f693-4155-b75f-dcbe2890ccb0.jpg?1783920823",
+  "art": "https://cards.scryfall.io/art_crop/front/e/0/e03d8676-f693-4155-b75f-dcbe2890ccb0.jpg?1783920823",
+  "uri": "https://scryfall.com/card/40k/154/convergence-of-dominion",
+  "roles": []
  },
  "conversion apparatus|m3c|128": {
   "name": "Conversion Apparatus",
@@ -9586,6 +10376,18 @@
    "removal"
   ]
  },
+ "cranial plating|40k|236": {
+  "name": "Cranial Plating",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Equipment",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/5/3/53a7cccd-b445-46e3-b70c-afc3bb2de85d.jpg?1783920755",
+  "art": "https://cards.scryfall.io/art_crop/front/5/3/53a7cccd-b445-46e3-b70c-afc3bb2de85d.jpg?1783920755",
+  "uri": "https://scryfall.com/card/40k/236/cranial-plating",
+  "roles": []
+ },
  "craterhoof behemoth|ptdm|138p": {
   "name": "Craterhoof Behemoth",
   "mana": "{5}{G}{G}{G}",
@@ -9786,6 +10588,18 @@
    "reanimation"
   ]
  },
+ "crumbling necropolis|40k|273": {
+  "name": "Crumbling Necropolis",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "BRU",
+  "img": "https://cards.scryfall.io/normal/front/0/6/068bd519-20cd-4849-b25b-5097fdbb945b.jpg?1783920723",
+  "art": "https://cards.scryfall.io/art_crop/front/0/6/068bd519-20cd-4849-b25b-5097fdbb945b.jpg?1783920723",
+  "uri": "https://scryfall.com/card/40k/273/crumbling-necropolis",
+  "roles": []
+ },
  "crumbling vestige|ogw|170": {
   "name": "Crumbling Vestige",
   "mana": "",
@@ -9824,6 +10638,34 @@
   "uri": "https://scryfall.com/card/drc/41/cryptbreaker",
   "roles": [
    "draw"
+  ]
+ },
+ "cryptek|40k|33": {
+  "name": "Cryptek",
+  "mana": "{3}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron Wizard",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/e/a/ea8483a2-9135-48d1-994d-9525d5ffcabb.jpg?1783920928",
+  "art": "https://cards.scryfall.io/art_crop/front/e/a/ea8483a2-9135-48d1-994d-9525d5ffcabb.jpg?1783920928",
+  "uri": "https://scryfall.com/card/40k/33/cryptek",
+  "roles": [
+   "protection"
+  ]
+ },
+ "cryptothrall|40k|155": {
+  "name": "Cryptothrall",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Construct",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/0/8/086d94a0-763e-495e-b952-5c13383657c9.jpg?1783920823",
+  "art": "https://cards.scryfall.io/art_crop/front/0/8/086d94a0-763e-495e-b952-5c13383657c9.jpg?1783920823",
+  "uri": "https://scryfall.com/card/40k/155/cryptothrall",
+  "roles": [
+   "protection"
   ]
  },
  "crystal skull, isu spyglass|acr|158": {
@@ -9922,6 +10764,20 @@
   "uri": "https://scryfall.com/card/exo/55/culling-the-weak",
   "roles": [
    "ritual"
+  ]
+ },
+ "cultivate|40k|211": {
+  "name": "Cultivate",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/8/b/8bc964b1-26bc-4dd2-99e3-4f421c2f8e67.jpg?1783920778",
+  "art": "https://cards.scryfall.io/art_crop/front/8/b/8bc964b1-26bc-4dd2-99e3-4f421c2f8e67.jpg?1783920778",
+  "uri": "https://scryfall.com/card/40k/211/cultivate",
+  "roles": [
+   "land-ramp"
   ]
  },
  "cultivate|blc|212": {
@@ -10212,6 +11068,20 @@
   "uri": "https://scryfall.com/card/nec/48/cyberdrive-awakener",
   "roles": []
  },
+ "cybernetica datasmith|40k|114": {
+  "name": "Cybernetica Datasmith",
+  "mana": "{1}{U}{B}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Human Artificer",
+  "ci": "BU",
+  "img": "https://cards.scryfall.io/normal/front/2/8/28624370-ba28-4879-bd43-0a00761e780d.jpg?1783920858",
+  "art": "https://cards.scryfall.io/art_crop/front/2/8/28624370-ba28-4879-bd43-0a00761e780d.jpg?1783920858",
+  "uri": "https://scryfall.com/card/40k/114/cybernetica-datasmith",
+  "roles": [
+   "draw"
+  ]
+ },
  "cyclonic rift|2xm|339": {
   "name": "Cyclonic Rift",
   "mana": "{1}{U}",
@@ -10380,6 +11250,18 @@
    "draw"
   ]
  },
+ "dark apostle|40k|75": {
+  "name": "Dark Apostle",
+  "mana": "{3}{R}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warlock",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/6/e/6e346481-c01c-4a93-876e-1130c5edd970.jpg?1783920891",
+  "art": "https://cards.scryfall.io/art_crop/front/6/e/6e346481-c01c-4a93-876e-1130c5edd970.jpg?1783920891",
+  "uri": "https://scryfall.com/card/40k/75/dark-apostle",
+  "roles": []
+ },
  "dark depths|m3c|334": {
   "name": "Dark Depths",
   "mana": "",
@@ -10391,6 +11273,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/1/3/13a4a3e6-77d4-453e-9978-68352fcf8d29.jpg?1783911335",
   "uri": "https://scryfall.com/card/m3c/334/dark-depths",
   "roles": []
+ },
+ "dark ritual|40k|196": {
+  "name": "Dark Ritual",
+  "mana": "{B}",
+  "cmc": 1.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/a/5/a5dc69ff-b3d4-420e-858c-4880d852c415.jpg?1783920790",
+  "art": "https://cards.scryfall.io/art_crop/front/a/5/a5dc69ff-b3d4-420e-858c-4880d852c415.jpg?1783920790",
+  "uri": "https://scryfall.com/card/40k/196/dark-ritual",
+  "roles": [
+   "ritual"
+  ]
  },
  "dark ritual|4ed|129": {
   "name": "Dark Ritual",
@@ -10461,6 +11357,20 @@
   "back": "https://cards.scryfall.io/normal/back/8/8/885528e5-42a2-4ae3-accd-02bfd7173b7a.jpg?1783916555",
   "roles": []
  },
+ "darkness|40k|197": {
+  "name": "Darkness",
+  "mana": "{B}",
+  "cmc": 1.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/e/d/ed94c73e-25d3-43bb-bdaa-b05f9b972216.jpg?1783920791",
+  "art": "https://cards.scryfall.io/art_crop/front/e/d/ed94c73e-25d3-43bb-bdaa-b05f9b972216.jpg?1783920791",
+  "uri": "https://scryfall.com/card/40k/197/darkness",
+  "roles": [
+   "protection"
+  ]
+ },
  "darksteel citadel|dst|164": {
   "name": "Darksteel Citadel",
   "mana": "",
@@ -10527,6 +11437,18 @@
   "roles": [
    "win-condition"
   ]
+ },
+ "darkwater catacombs|40k|274": {
+  "name": "Darkwater Catacombs",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "BU",
+  "img": "https://cards.scryfall.io/normal/front/a/0/a05ba40c-d2d9-47e0-824c-e1b1c8e27dd9.jpg?1783920719",
+  "art": "https://cards.scryfall.io/art_crop/front/a/0/a05ba40c-d2d9-47e0-824c-e1b1c8e27dd9.jpg?1783920719",
+  "uri": "https://scryfall.com/card/40k/274/darkwater-catacombs",
+  "roles": []
  },
  "darkwater catacombs|fic|384": {
   "name": "Darkwater Catacombs",
@@ -10772,6 +11694,18 @@
   "uri": "https://scryfall.com/card/fdn/521/death-baron",
   "roles": []
  },
+ "death's presence|40k|212": {
+  "name": "Death's Presence",
+  "mana": "{5}{G}",
+  "cmc": 6.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/f/e/fe4069fc-947d-4902-ab96-3994df4cc0d8.jpg?1783920778",
+  "art": "https://cards.scryfall.io/art_crop/front/f/e/fe4069fc-947d-4902-ab96-3994df4cc0d8.jpg?1783920778",
+  "uri": "https://scryfall.com/card/40k/212/deaths-presence",
+  "roles": []
+ },
  "deathcap glade|psos|253p": {
   "name": "Deathcap Glade",
   "mana": "",
@@ -10782,6 +11716,18 @@
   "img": "https://cards.scryfall.io/normal/front/c/8/c81381d5-64fc-42b7-beba-b0e2484b89a6.jpg?1783903519",
   "art": "https://cards.scryfall.io/art_crop/front/c/8/c81381d5-64fc-42b7-beba-b0e2484b89a6.jpg?1783903519",
   "uri": "https://scryfall.com/card/psos/253p/deathcap-glade",
+  "roles": []
+ },
+ "deathleaper, terror weapon|40k|115": {
+  "name": "Deathleaper, Terror Weapon",
+  "mana": "{2}{R}{G}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Tyranid",
+  "ci": "GR",
+  "img": "https://cards.scryfall.io/normal/front/9/8/9819d50f-aae8-4e92-8dab-01eebace3c1e.jpg?1783920857",
+  "art": "https://cards.scryfall.io/art_crop/front/9/8/9819d50f-aae8-4e92-8dab-01eebace3c1e.jpg?1783920857",
+  "uri": "https://scryfall.com/card/40k/115/deathleaper-terror-weapon",
   "roles": []
  },
  "deathreap ritual|m3c|259": {
@@ -10874,6 +11820,21 @@
   "art": "https://cards.scryfall.io/art_crop/front/c/b/cbe37ca1-de56-496f-8eb7-12af6d6bb087.jpg?1783911352",
   "uri": "https://scryfall.com/card/m3c/288/decoction-module",
   "roles": []
+ },
+ "decree of pain|40k|198": {
+  "name": "Decree of Pain",
+  "mana": "{6}{B}{B}",
+  "cmc": 8.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/4/5/458b4f09-7c59-4e72-b37f-f1a69ec0fb05.jpg?1783920790",
+  "art": "https://cards.scryfall.io/art_crop/front/4/5/458b4f09-7c59-4e72-b37f-f1a69ec0fb05.jpg?1783920790",
+  "uri": "https://scryfall.com/card/40k/198/decree-of-pain",
+  "roles": [
+   "draw",
+   "board-wipe"
+  ]
  },
  "decree of pain|blc|182": {
   "name": "Decree of Pain",
@@ -10997,6 +11958,32 @@
   "uri": "https://scryfall.com/card/soc/45/defacing-duskmage-vandals-edit",
   "roles": [
    "draw"
+  ]
+ },
+ "defenders of humanity|40k|11": {
+  "name": "Defenders of Humanity",
+  "mana": "{X}{2}{W}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/4/9/495c6b21-3e2b-417c-9387-6747993cbffe.jpg?1783920947",
+  "art": "https://cards.scryfall.io/art_crop/front/4/9/495c6b21-3e2b-417c-9387-6747993cbffe.jpg?1783920947",
+  "uri": "https://scryfall.com/card/40k/11/defenders-of-humanity",
+  "roles": []
+ },
+ "defile|40k|199": {
+  "name": "Defile",
+  "mana": "{B}",
+  "cmc": 1.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/a/e/ae79f72a-0f44-4a79-a640-582282706a1b.jpg?1783920788",
+  "art": "https://cards.scryfall.io/art_crop/front/a/e/ae79f72a-0f44-4a79-a640-582282706a1b.jpg?1783920788",
+  "uri": "https://scryfall.com/card/40k/199/defile",
+  "roles": [
+   "removal"
   ]
  },
  "defiling daemogoth|soc|25": {
@@ -11315,6 +12302,46 @@
   "uri": "https://scryfall.com/card/afr/254/den-of-the-bugbear",
   "roles": []
  },
+ "deny reality|40k|223": {
+  "name": "Deny Reality",
+  "mana": "{3}{U}{B}",
+  "cmc": 5.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "BU",
+  "img": "https://cards.scryfall.io/normal/front/6/3/63976cce-67ee-40c5-8cfa-0a576bb70e76.jpg?1783920767",
+  "art": "https://cards.scryfall.io/art_crop/front/6/3/63976cce-67ee-40c5-8cfa-0a576bb70e76.jpg?1783920767",
+  "uri": "https://scryfall.com/card/40k/223/deny-reality",
+  "roles": [
+   "removal"
+  ]
+ },
+ "deny the witch|40k|116": {
+  "name": "Deny the Witch",
+  "mana": "{1}{W}{U}{B}",
+  "cmc": 4.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "BUW",
+  "img": "https://cards.scryfall.io/normal/front/d/3/d3e5b091-2aa7-4aca-9855-bb802d3d563e.jpg?1783920857",
+  "art": "https://cards.scryfall.io/art_crop/front/d/3/d3e5b091-2aa7-4aca-9855-bb802d3d563e.jpg?1783920857",
+  "uri": "https://scryfall.com/card/40k/116/deny-the-witch",
+  "roles": [
+   "counterspell"
+  ]
+ },
+ "deploy to the front|40k|184": {
+  "name": "Deploy to the Front",
+  "mana": "{5}{W}{W}",
+  "cmc": 7.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/a/a/aa5f9580-4ee8-49bc-9524-44072d6b3a8b.jpg?1783920801",
+  "art": "https://cards.scryfall.io/art_crop/front/a/a/aa5f9580-4ee8-49bc-9524-44072d6b3a8b.jpg?1783920801",
+  "uri": "https://scryfall.com/card/40k/184/deploy-to-the-front",
+  "roles": []
+ },
  "depthshaker titan|eoc|9": {
   "name": "Depthshaker Titan",
   "mana": "{5}{R}{R}",
@@ -11351,6 +12378,20 @@
   "uri": "https://scryfall.com/card/pip/101/desdemona-freedoms-edge",
   "roles": [
    "reanimation"
+  ]
+ },
+ "desert of the glorified|40k|275": {
+  "name": "Desert of the Glorified",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Desert",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/f/9/f9161bb7-07db-468f-b944-37a90fa0e4d9.jpg?1783920717",
+  "art": "https://cards.scryfall.io/art_crop/front/f/9/f9161bb7-07db-468f-b944-37a90fa0e4d9.jpg?1783920717",
+  "uri": "https://scryfall.com/card/40k/275/desert-of-the-glorified",
+  "roles": [
+   "draw"
   ]
  },
  "desert of the indomitable|m3c|336": {
@@ -11785,6 +12826,18 @@
    "draw"
   ]
  },
+ "dismal backwater|40k|276": {
+  "name": "Dismal Backwater",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "BU",
+  "img": "https://cards.scryfall.io/normal/front/8/c/8c8099d6-44c1-48c7-ae87-985160eee63c.jpg?1783920717",
+  "art": "https://cards.scryfall.io/art_crop/front/8/c/8c8099d6-44c1-48c7-ae87-985160eee63c.jpg?1783920717",
+  "uri": "https://scryfall.com/card/40k/276/dismal-backwater",
+  "roles": []
+ },
  "dismantling wave|tdc|112": {
   "name": "Dismantling Wave",
   "mana": "{2}{W}",
@@ -12017,6 +13070,20 @@
   "uri": "https://scryfall.com/card/p30a/27/dovins-veto",
   "roles": [
    "counterspell"
+  ]
+ },
+ "drach'nyen|40k|117": {
+  "name": "Drach'Nyen",
+  "mana": "{4}{B}{R}",
+  "cmc": 6.0,
+  "type": "Artifact",
+  "type_line": "Legendary Artifact — Equipment",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/4/1/41de390d-5c16-4e83-9c09-4e55fcb8c8e8.jpg?1783920855",
+  "art": "https://cards.scryfall.io/art_crop/front/4/1/41de390d-5c16-4e83-9c09-4e55fcb8c8e8.jpg?1783920855",
+  "uri": "https://scryfall.com/card/40k/117/drachnyen",
+  "roles": [
+   "removal"
   ]
  },
  "dracogenesis|tdm|412": {
@@ -12260,6 +13327,21 @@
   "uri": "https://scryfall.com/card/iko/11/drannith-magistrate",
   "roles": [
    "stax"
+  ]
+ },
+ "dread return|40k|200": {
+  "name": "Dread Return",
+  "mana": "{2}{B}{B}",
+  "cmc": 4.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/6/a/6a73b481-8e62-4742-bbd0-33b8048602d7.jpg?1783920787",
+  "art": "https://cards.scryfall.io/art_crop/front/6/a/6a73b481-8e62-4742-bbd0-33b8048602d7.jpg?1783920787",
+  "uri": "https://scryfall.com/card/40k/200/dread-return",
+  "roles": [
+   "reanimation",
+   "graveyard-cast"
   ]
  },
  "dread return|dmr|302": {
@@ -13639,6 +14721,20 @@
    "removal"
   ]
  },
+ "endless atlas|40k|237": {
+  "name": "Endless Atlas",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/c/8/c8b2fcc3-5c39-403b-8311-5760190388b2.jpg?1783920755",
+  "art": "https://cards.scryfall.io/art_crop/front/c/8/c8b2fcc3-5c39-403b-8311-5760190388b2.jpg?1783920755",
+  "uri": "https://scryfall.com/card/40k/237/endless-atlas",
+  "roles": [
+   "draw"
+  ]
+ },
  "endless detour|fic|324": {
   "name": "Endless Detour",
   "mana": "{G}{W}{U}",
@@ -13854,6 +14950,20 @@
   "uri": "https://scryfall.com/card/soc/196/entrancing-melody",
   "roles": []
  },
+ "entrapment maneuver|40k|185": {
+  "name": "Entrapment Maneuver",
+  "mana": "{3}{W}",
+  "cmc": 4.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/7/6/7643bb9a-49b3-4163-9b24-0fefffc69b56.jpg?1783920801",
+  "art": "https://cards.scryfall.io/art_crop/front/7/6/7643bb9a-49b3-4163-9b24-0fefffc69b56.jpg?1783920801",
+  "uri": "https://scryfall.com/card/40k/185/entrapment-maneuver",
+  "roles": [
+   "removal"
+  ]
+ },
  "entrapment maneuver|pip|160": {
   "name": "Entrapment Maneuver",
   "mana": "{3}{W}",
@@ -13867,6 +14977,18 @@
   "roles": [
    "removal"
   ]
+ },
+ "epistolary librarian|40k|118": {
+  "name": "Epistolary Librarian",
+  "mana": "{2}{W}{U}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Wizard",
+  "ci": "UW",
+  "img": "https://cards.scryfall.io/normal/front/c/1/c109ab72-2293-4c7e-bc68-62da268d2562.jpg?1783920853",
+  "art": "https://cards.scryfall.io/art_crop/front/c/1/c109ab72-2293-4c7e-bc68-62da268d2562.jpg?1783920853",
+  "uri": "https://scryfall.com/card/40k/118/epistolary-librarian",
+  "roles": []
  },
  "era of innovation|m3c|183": {
   "name": "Era of Innovation",
@@ -14232,6 +15354,20 @@
   "uri": "https://scryfall.com/card/blc/30/evercoat-ursine",
   "roles": []
  },
+ "everflowing chalice|40k|238": {
+  "name": "Everflowing Chalice",
+  "mana": "{0}",
+  "cmc": 0.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/6/5/65412ea8-d9c4-481f-ad9e-5fd589bdb2f7.jpg?1783920754",
+  "art": "https://cards.scryfall.io/art_crop/front/6/5/65412ea8-d9c4-481f-ad9e-5fd589bdb2f7.jpg?1783920754",
+  "uri": "https://scryfall.com/card/40k/238/everflowing-chalice",
+  "roles": [
+   "mana-rock"
+  ]
+ },
  "everflowing chalice|eoc|137": {
   "name": "Everflowing Chalice",
   "mana": "{0}",
@@ -14339,6 +15475,18 @@
   "roles": [
    "regrowth"
   ]
+ },
+ "evolving wilds|40k|277": {
+  "name": "Evolving Wilds",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/1/8/184e5367-e901-4a0b-a2f5-06db42e6cf31.jpg?1783920715",
+  "art": "https://cards.scryfall.io/art_crop/front/1/8/184e5367-e901-4a0b-a2f5-06db42e6cf31.jpg?1783920715",
+  "uri": "https://scryfall.com/card/40k/277/evolving-wilds",
+  "roles": []
  },
  "evolving wilds|blc|302": {
   "name": "Evolving Wilds",
@@ -14450,6 +15598,21 @@
   "uri": "https://scryfall.com/card/soc/2/excava-the-risen-past",
   "roles": [
    "reanimation"
+  ]
+ },
+ "exocrine|40k|76": {
+  "name": "Exocrine",
+  "mana": "{X}{2}{R}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/5/b/5b8c1303-6829-4c82-96de-a67bc0d72e42.jpg?1783920890",
+  "art": "https://cards.scryfall.io/art_crop/front/5/b/5b8c1303-6829-4c82-96de-a67bc0d72e42.jpg?1783920890",
+  "uri": "https://scryfall.com/card/40k/76/exocrine",
+  "roles": [
+   "cantrip",
+   "board-wipe"
   ]
  },
  "exotic orchard|40k|278": {
@@ -14763,6 +15926,21 @@
    "land-ramp"
   ]
  },
+ "explore|40k|213": {
+  "name": "Explore",
+  "mana": "{1}{G}",
+  "cmc": 2.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/b/6/b6838782-079a-47d0-bdab-cdcc975feab4.jpg?1783920776",
+  "art": "https://cards.scryfall.io/art_crop/front/b/6/b6838782-079a-47d0-bdab-cdcc975feab4.jpg?1783920776",
+  "uri": "https://scryfall.com/card/40k/213/explore",
+  "roles": [
+   "land-ramp",
+   "cantrip"
+  ]
+ },
  "explore|blc|216": {
   "name": "Explore",
   "mana": "{1}{G}",
@@ -14857,6 +16035,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/2/e/2e600de8-6afa-46d8-ba87-552798cdb040.jpg?1783911405",
   "uri": "https://scryfall.com/card/m3c/124/exterminator-magmarch",
   "roles": []
+ },
+ "exterminatus|40k|120": {
+  "name": "Exterminatus",
+  "mana": "{5}{W}{B}",
+  "cmc": 7.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/1/9/196703b0-78bf-4f85-ae81-7335fe486982.jpg?1783920851",
+  "art": "https://cards.scryfall.io/art_crop/front/1/9/196703b0-78bf-4f85-ae81-7335fe486982.jpg?1783920851",
+  "uri": "https://scryfall.com/card/40k/120/exterminatus",
+  "roles": [
+   "board-wipe"
+  ]
  },
  "extinguisher battleship|eoe|242": {
   "name": "Extinguisher Battleship",
@@ -15243,6 +16435,20 @@
    "board-wipe"
   ]
  },
+ "farseek|40k|214": {
+  "name": "Farseek",
+  "mana": "{1}{G}",
+  "cmc": 2.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/7/8/7873fe27-392e-4273-b1a3-e64fa0cd03e6.jpg?1783920775",
+  "art": "https://cards.scryfall.io/art_crop/front/7/8/7873fe27-392e-4273-b1a3-e64fa0cd03e6.jpg?1783920775",
+  "uri": "https://scryfall.com/card/40k/214/farseek",
+  "roles": [
+   "land-ramp"
+  ]
+ },
  "farseek|blc|119": {
   "name": "Farseek",
   "mana": "{1}{G}",
@@ -15450,6 +16656,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/1/8/18b8abf0-e8c3-4c19-bdf1-18aabe75a3de.jpg?1783922398",
   "uri": "https://scryfall.com/card/clb/845/felisa-fang-of-silverquill",
   "roles": []
+ },
+ "fell the mighty|40k|186": {
+  "name": "Fell the Mighty",
+  "mana": "{4}{W}",
+  "cmc": 5.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/7/b/7b28bdec-927a-4737-9b55-d5565c5c69f2.jpg?1783920801",
+  "art": "https://cards.scryfall.io/art_crop/front/7/b/7b28bdec-927a-4737-9b55-d5565c5c69f2.jpg?1783920801",
+  "uri": "https://scryfall.com/card/40k/186/fell-the-mighty",
+  "roles": [
+   "board-wipe"
+  ]
  },
  "fell the profane // fell mire|mh3|244": {
   "name": "Fell the Profane // Fell Mire",
@@ -16301,6 +17521,18 @@
    "protection"
   ]
  },
+ "flayed one|40k|34": {
+  "name": "Flayed One",
+  "mana": "{2}{B}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/b/0/b0ab96a5-0bcc-4732-8936-9522f3de3962.jpg?1783920927",
+  "art": "https://cards.scryfall.io/art_crop/front/b/0/b0ab96a5-0bcc-4732-8936-9522f3de3962.jpg?1783920927",
+  "uri": "https://scryfall.com/card/40k/34/flayed-one",
+  "roles": []
+ },
  "flayer of the hatebound|fic|293": {
   "name": "Flayer of the Hatebound",
   "mana": "{5}{R}",
@@ -16635,6 +17867,18 @@
   "uri": "https://scryfall.com/card/big/94/fomori-vault",
   "roles": []
  },
+ "for the emperor!|40k|12": {
+  "name": "For the Emperor!",
+  "mana": "{3}{W}",
+  "cmc": 4.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/3/c/3c3e9950-b0b9-425c-8b14-f6450882bd57.jpg?1783920946",
+  "art": "https://cards.scryfall.io/art_crop/front/3/c/3c3e9950-b0b9-425c-8b14-f6450882bd57.jpg?1783920946",
+  "uri": "https://scryfall.com/card/40k/12/for-the-emperor!",
+  "roles": []
+ },
  "forbidden orchard|2x2|323": {
   "name": "Forbidden Orchard",
   "mana": "",
@@ -16809,6 +18053,18 @@
    "counterspell"
   ]
  },
+ "foreboding ruins|40k|279": {
+  "name": "Foreboding Ruins",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/3/1/31e1c45c-eb7b-4ae6-9dd2-e65d9ef00686.jpg?1783920713",
+  "art": "https://cards.scryfall.io/art_crop/front/3/1/31e1c45c-eb7b-4ae6-9dd2-e65d9ef00686.jpg?1783920713",
+  "uri": "https://scryfall.com/card/40k/279/foreboding-ruins",
+  "roles": []
+ },
  "foreboding ruins|fic|394": {
   "name": "Foreboding Ruins",
   "mana": "",
@@ -16834,6 +18090,18 @@
   "roles": [
    "draw"
   ]
+ },
+ "forest|40k|317": {
+  "name": "Forest",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Forest",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/d/1/d1d15705-981c-44db-9070-592dbeace299.jpg?1783920676",
+  "art": "https://cards.scryfall.io/art_crop/front/d/1/d1d15705-981c-44db-9070-592dbeace299.jpg?1783920676",
+  "uri": "https://scryfall.com/card/40k/317/forest",
+  "roles": []
  },
  "forest|acr|109": {
   "name": "Forest",
@@ -17091,6 +18359,20 @@
   "uri": "https://scryfall.com/card/soc/267/forgotten-ancient",
   "roles": [
    "stax"
+  ]
+ },
+ "forgotten cave|40k|280": {
+  "name": "Forgotten Cave",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/0/2/02c07a1b-1669-42f3-930a-8a4957e6a97b.jpg?1783920715",
+  "art": "https://cards.scryfall.io/art_crop/front/0/2/02c07a1b-1669-42f3-930a-8a4957e6a97b.jpg?1783920715",
+  "uri": "https://scryfall.com/card/40k/280/forgotten-cave",
+  "roles": [
+   "draw"
   ]
  },
  "forgotten cave|blc|305": {
@@ -17401,6 +18683,18 @@
    "graveyard-cast",
    "tutor"
   ]
+ },
+ "frontier bivouac|40k|281": {
+  "name": "Frontier Bivouac",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "GRU",
+  "img": "https://cards.scryfall.io/normal/front/0/c/0cae4207-868b-45a0-b356-6f789aa6ae78.jpg?1783920713",
+  "art": "https://cards.scryfall.io/art_crop/front/0/c/0cae4207-868b-45a0-b356-6f789aa6ae78.jpg?1783920713",
+  "uri": "https://scryfall.com/card/40k/281/frontier-bivouac",
+  "roles": []
  },
  "frontier bivouac|drc|157": {
   "name": "Frontier Bivouac",
@@ -17727,6 +19021,18 @@
    "tutor"
   ]
  },
+ "game trail|40k|282": {
+  "name": "Game Trail",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "GR",
+  "img": "https://cards.scryfall.io/normal/front/f/2/f2777ccc-342d-4a1a-8566-94810decee11.jpg?1783920712",
+  "art": "https://cards.scryfall.io/art_crop/front/f/2/f2777ccc-342d-4a1a-8566-94810decee11.jpg?1783920712",
+  "uri": "https://scryfall.com/card/40k/282/game-trail",
+  "roles": []
+ },
  "game trail|blc|306": {
   "name": "Game Trail",
   "mana": "",
@@ -17761,6 +19067,18 @@
   "img": "https://cards.scryfall.io/normal/front/2/1/21cb5950-adaa-438d-998b-3a64bd4a2b3e.jpg?1783937698",
   "art": "https://cards.scryfall.io/art_crop/front/2/1/21cb5950-adaa-438d-998b-3a64bd4a2b3e.jpg?1783937698",
   "uri": "https://scryfall.com/card/soi/276/game-trail",
+  "roles": []
+ },
+ "gargoyle flock|40k|123": {
+  "name": "Gargoyle Flock",
+  "mana": "{2}{G}{U}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid Gargoyle",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/0/b/0b8c7302-a5ae-484e-8ba5-397ffeb3b19c.jpg?1783920850",
+  "art": "https://cards.scryfall.io/art_crop/front/0/b/0b8c7302-a5ae-484e-8ba5-397ffeb3b19c.jpg?1783920850",
+  "uri": "https://scryfall.com/card/40k/123/gargoyle-flock",
   "roles": []
  },
  "garruk's packleader|blc|218": {
@@ -18136,6 +19454,30 @@
   "uri": "https://scryfall.com/card/big/11/generous-plunderer",
   "roles": []
  },
+ "genestealer locus|40k|21": {
+  "name": "Genestealer Locus",
+  "mana": "{3}{U}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid Human",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/4/c/4cdc3172-6df0-48a8-85d6-c4b727202f83.jpg?1783920939",
+  "art": "https://cards.scryfall.io/art_crop/front/4/c/4cdc3172-6df0-48a8-85d6-c4b727202f83.jpg?1783920939",
+  "uri": "https://scryfall.com/card/40k/21/genestealer-locus",
+  "roles": []
+ },
+ "genestealer patriarch|40k|22": {
+  "name": "Genestealer Patriarch",
+  "mana": "{4}{U}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/a/0/a0df01d1-6131-4ef7-abea-ba084f3b0954.jpg?1783920938",
+  "art": "https://cards.scryfall.io/art_crop/front/a/0/a0df01d1-6131-4ef7-abea-ba084f3b0954.jpg?1783920938",
+  "uri": "https://scryfall.com/card/40k/22/genestealer-patriarch",
+  "roles": []
+ },
  "geothermal bog|fic|399": {
   "name": "Geothermal Bog",
   "mana": "",
@@ -18173,6 +19515,20 @@
   "roles": [
    "land-ramp",
    "draw"
+  ]
+ },
+ "ghost ark|40k|156": {
+  "name": "Ghost Ark",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Vehicle",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/2/c/2c6865c1-8144-4b06-a599-a62382fe1124.jpg?1783920822",
+  "art": "https://cards.scryfall.io/art_crop/front/2/c/2c6865c1-8144-4b06-a599-a62382fe1124.jpg?1783920822",
+  "uri": "https://scryfall.com/card/40k/156/ghost-ark",
+  "roles": [
+   "reanimation"
   ]
  },
  "ghostfire slice|mh3|123": {
@@ -18224,6 +19580,21 @@
   "art": "https://cards.scryfall.io/art_crop/front/f/6/f6fab24d-0174-4248-8481-52194e05d6f9.jpg?1783903785",
   "uri": "https://scryfall.com/card/soc/214/ghoulish-impetus",
   "roles": []
+ },
+ "ghyrson starn, kelermorph|40k|124": {
+  "name": "Ghyrson Starn, Kelermorph",
+  "mana": "{1}{U}{R}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Tyranid Human",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/f/a/fa7349d9-c82f-4cf8-a852-92168d1f4966.jpg?1783920850",
+  "art": "https://cards.scryfall.io/art_crop/front/f/a/fa7349d9-c82f-4cf8-a852-92168d1f4966.jpg?1783920850",
+  "uri": "https://scryfall.com/card/40k/124/ghyrson-starn-kelermorph",
+  "roles": [
+   "removal",
+   "stax"
+  ]
  },
  "gift of granite|fut|7": {
   "name": "Gift of Granite",
@@ -18317,6 +19688,20 @@
   "uri": "https://scryfall.com/card/soc/269/gilded-goose",
   "roles": [
    "mana-dork"
+  ]
+ },
+ "gilded lotus|40k|239": {
+  "name": "Gilded Lotus",
+  "mana": "{5}",
+  "cmc": 5.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/4/9/4991e495-9b6d-4f52-aada-3187fd44b945.jpg?1783920753",
+  "art": "https://cards.scryfall.io/art_crop/front/4/9/4991e495-9b6d-4f52-aada-3187fd44b945.jpg?1783920753",
+  "uri": "https://scryfall.com/card/40k/239/gilded-lotus",
+  "roles": [
+   "mana-rock"
   ]
  },
  "gilded lotus|blc|271": {
@@ -18691,6 +20076,20 @@
    "removal"
   ]
  },
+ "go for the throat|40k|201": {
+  "name": "Go for the Throat",
+  "mana": "{1}{B}",
+  "cmc": 2.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/e/9/e915e66d-4531-41f0-bc4f-ad9cd8851a05.jpg?1783920785",
+  "art": "https://cards.scryfall.io/art_crop/front/e/9/e915e66d-4531-41f0-bc4f-ad9cd8851a05.jpg?1783920785",
+  "uri": "https://scryfall.com/card/40k/201/go-for-the-throat",
+  "roles": [
+   "removal"
+  ]
+ },
  "goblin anarchomancer|mh2|200": {
   "name": "Goblin Anarchomancer",
   "mana": "{R}{G}",
@@ -18976,6 +20375,18 @@
   "roles": [
    "mana-rock"
   ]
+ },
+ "goliath truck|40k|158": {
+  "name": "Goliath Truck",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Vehicle",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/3/4/347a5d65-ef0f-4859-b433-807af500f52d.jpg?1783920819",
+  "art": "https://cards.scryfall.io/art_crop/front/3/4/347a5d65-ef0f-4859-b433-807af500f52d.jpg?1783920819",
+  "uri": "https://scryfall.com/card/40k/158/goliath-truck",
+  "roles": []
  },
  "gonti's aether heart|m3c|294": {
   "name": "Gonti's Aether Heart",
@@ -19273,6 +20684,18 @@
   "uri": "https://scryfall.com/card/ltr/254/great-hall-of-the-citadel",
   "roles": []
  },
+ "great unclean one|40k|35": {
+  "name": "Great Unclean One",
+  "mana": "{4}{B}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/7/5/757e79f2-23dc-44de-8531-6eb3e2f015f3.jpg?1783920925",
+  "art": "https://cards.scryfall.io/art_crop/front/7/5/757e79f2-23dc-44de-8531-6eb3e2f015f3.jpg?1783920925",
+  "uri": "https://scryfall.com/card/40k/35/great-unclean-one",
+  "roles": []
+ },
  "greater good|blc|223": {
   "name": "Greater Good",
   "mana": "{2}{G}{G}",
@@ -19368,6 +20791,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/5/4/5423d57c-686c-4c86-99e8-b10f1140898f.jpg?1783911374",
   "uri": "https://scryfall.com/card/m3c/213/grenzo-havoc-raiser",
   "roles": []
+ },
+ "grey knight paragon|40k|13": {
+  "name": "Grey Knight Paragon",
+  "mana": "{4}{W}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Knight",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/2/7/27b29b3f-1f99-4880-8f66-442fa5326150.jpg?1783920946",
+  "art": "https://cards.scryfall.io/art_crop/front/2/7/27b29b3f-1f99-4880-8f66-442fa5326150.jpg?1783920946",
+  "uri": "https://scryfall.com/card/40k/13/grey-knight-paragon",
+  "roles": [
+   "removal"
+  ]
  },
  "grim backwoods|blc|309": {
   "name": "Grim Backwoods",
@@ -19997,6 +21434,18 @@
    "mana-dork"
   ]
  },
+ "hardened scales|40k|215": {
+  "name": "Hardened Scales",
+  "mana": "{G}",
+  "cmc": 1.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/7/0/7034ba14-14b0-430e-899b-50601a220d8c.jpg?1783920775",
+  "art": "https://cards.scryfall.io/art_crop/front/7/0/7034ba14-14b0-430e-899b-50601a220d8c.jpg?1783920775",
+  "uri": "https://scryfall.com/card/40k/215/hardened-scales",
+  "roles": []
+ },
  "hardened scales|fic|307": {
   "name": "Hardened Scales",
   "mana": "{G}",
@@ -20150,6 +21599,34 @@
   "art": "https://cards.scryfall.io/art_crop/front/6/b/6bb131fd-d96f-43e0-a40d-fa6394a4b75c.jpg?1783922513",
   "uri": "https://scryfall.com/card/clb/659/harper-recruiter",
   "roles": []
+ },
+ "harrow|40k|216": {
+  "name": "Harrow",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/6/9/699b2ef2-84e1-4c5a-8b8a-e669de05aedb.jpg?1783920774",
+  "art": "https://cards.scryfall.io/art_crop/front/6/9/699b2ef2-84e1-4c5a-8b8a-e669de05aedb.jpg?1783920774",
+  "uri": "https://scryfall.com/card/40k/216/harrow",
+  "roles": [
+   "land-ramp"
+  ]
+ },
+ "haruspex|40k|91": {
+  "name": "Haruspex",
+  "mana": "{3}{G}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/7/6/76e93d5d-c255-45a6-9217-84ac270740a7.jpg?1783920878",
+  "art": "https://cards.scryfall.io/art_crop/front/7/6/76e93d5d-c255-45a6-9217-84ac270740a7.jpg?1783920878",
+  "uri": "https://scryfall.com/card/40k/91/haruspex",
+  "roles": [
+   "mana-dork"
+  ]
  },
  "harvest season|scd|188": {
   "name": "Harvest Season",
@@ -20446,6 +21923,21 @@
    "reanimation"
   ]
  },
+ "hedron archive|40k|240": {
+  "name": "Hedron Archive",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/2/f/2feb16d2-7406-45ab-9595-e6c48fc47bf5.jpg?1783920752",
+  "art": "https://cards.scryfall.io/art_crop/front/2/f/2feb16d2-7406-45ab-9595-e6c48fc47bf5.jpg?1783920752",
+  "uri": "https://scryfall.com/card/40k/240/hedron-archive",
+  "roles": [
+   "mana-rock",
+   "draw"
+  ]
+ },
  "hedron archive|blc|275": {
   "name": "Hedron Archive",
   "mana": "{4}",
@@ -20487,6 +21979,21 @@
   "art": "https://cards.scryfall.io/art_crop/front/8/e/8e216baf-0e3c-4173-a852-5c5aeb3a9d79.jpg?1783906367",
   "uri": "https://scryfall.com/card/fic/21/heidegger-shinra-executive",
   "roles": []
+ },
+ "helbrute|40k|125": {
+  "name": "Helbrute",
+  "mana": "{3}{B}{R}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Astartes Dreadnought",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/2/7/27cc91c9-39dc-455c-aed0-6334bb6e1270.jpg?1783920848",
+  "art": "https://cards.scryfall.io/art_crop/front/2/7/27cc91c9-39dc-455c-aed0-6334bb6e1270.jpg?1783920848",
+  "uri": "https://scryfall.com/card/40k/125/helbrute",
+  "roles": [
+   "reanimation",
+   "graveyard-cast"
+  ]
  },
  "helga, skittish seer|blb|332": {
   "name": "Helga, Skittish Seer",
@@ -20605,6 +22112,18 @@
   "uri": "https://scryfall.com/card/soc/15/herald-of-amity",
   "roles": []
  },
+ "herald of slaanesh|40k|77": {
+  "name": "Herald of Slaanesh",
+  "mana": "{2}{R}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/0/4/04a1852a-9b23-4834-852e-b018df88f497.jpg?1783920889",
+  "art": "https://cards.scryfall.io/art_crop/front/0/4/04a1852a-9b23-4834-852e-b018df88f497.jpg?1783920889",
+  "uri": "https://scryfall.com/card/40k/77/herald-of-slaanesh",
+  "roles": []
+ },
  "herald of the pantheon|cmm|898": {
   "name": "Herald of the Pantheon",
   "mana": "{1}{G}",
@@ -20617,6 +22136,18 @@
   "uri": "https://scryfall.com/card/cmm/898/herald-of-the-pantheon",
   "roles": []
  },
+ "herald's horn|40k|241": {
+  "name": "Herald's Horn",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/e/7/e7ac5242-6b78-438f-b609-ccd5970481e8.jpg?1783920748",
+  "art": "https://cards.scryfall.io/art_crop/front/e/7/e7ac5242-6b78-438f-b609-ccd5970481e8.jpg?1783920748",
+  "uri": "https://scryfall.com/card/40k/241/heralds-horn",
+  "roles": []
+ },
  "herald's horn|m3c|296": {
   "name": "Herald's Horn",
   "mana": "{3}",
@@ -20627,6 +22158,18 @@
   "img": "https://cards.scryfall.io/normal/front/2/c/2cfafee3-c060-44bd-be6e-8d36501d72d3.jpg?1783911348",
   "art": "https://cards.scryfall.io/art_crop/front/2/c/2cfafee3-c060-44bd-be6e-8d36501d72d3.jpg?1783911348",
   "uri": "https://scryfall.com/card/m3c/296/heralds-horn",
+  "roles": []
+ },
+ "heralds of tzeentch|40k|23": {
+  "name": "Heralds of Tzeentch",
+  "mana": "{4}{U}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/0/a/0aeba983-c525-42d0-997d-1b678ea30d82.jpg?1783920937",
+  "art": "https://cards.scryfall.io/art_crop/front/0/a/0aeba983-c525-42d0-997d-1b678ea30d82.jpg?1783920937",
+  "uri": "https://scryfall.com/card/40k/23/heralds-of-tzeentch",
   "roles": []
  },
  "herd baloth|mh2|165": {
@@ -20825,6 +22368,20 @@
    "stax"
   ]
  },
+ "hexmark destroyer|40k|36": {
+  "name": "Hexmark Destroyer",
+  "mana": "{4}{B}{B}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/6/6/66a4e78b-9600-4fec-94f0-65cf8ffce2dc.jpg?1783920925",
+  "art": "https://cards.scryfall.io/art_crop/front/6/6/66a4e78b-9600-4fec-94f0-65cf8ffce2dc.jpg?1783920925",
+  "uri": "https://scryfall.com/card/40k/36/hexmark-destroyer",
+  "roles": [
+   "reanimation"
+  ]
+ },
  "hickory woodlot|mmq|319": {
   "name": "Hickory Woodlot",
   "mana": "",
@@ -20873,6 +22430,20 @@
   "uri": "https://scryfall.com/card/m3c/57/hideous-taskmaster",
   "roles": [
    "removal"
+  ]
+ },
+ "hierophant bio-titan|40k|92": {
+  "name": "Hierophant Bio-Titan",
+  "mana": "{10}{G}{G}",
+  "cmc": 12.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/b/e/be8a8e26-39cb-440a-a428-58b49ff8d017.jpg?1783920876",
+  "art": "https://cards.scryfall.io/art_crop/front/b/e/be8a8e26-39cb-440a-a428-58b49ff8d017.jpg?1783920876",
+  "uri": "https://scryfall.com/card/40k/92/hierophant-bio-titan",
+  "roles": [
+   "stax"
   ]
  },
  "high market|fic|402": {
@@ -21193,6 +22764,20 @@
    "draw"
   ]
  },
+ "hormagaunt horde|40k|93": {
+  "name": "Hormagaunt Horde",
+  "mana": "{X}{G}",
+  "cmc": 1.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/6/a/6a623ab2-4cdf-4e2e-a14d-6a709cf34cf1.jpg?1783920876",
+  "art": "https://cards.scryfall.io/art_crop/front/6/a/6a623ab2-4cdf-4e2e-a14d-6a709cf34cf1.jpg?1783920876",
+  "uri": "https://scryfall.com/card/40k/93/hormagaunt-horde",
+  "roles": [
+   "cantrip"
+  ]
+ },
  "hour of promise|m3c|232": {
   "name": "Hour of Promise",
   "mana": "{4}{G}",
@@ -21205,6 +22790,20 @@
   "uri": "https://scryfall.com/card/m3c/232/hour-of-promise",
   "roles": [
    "land-ramp"
+  ]
+ },
+ "hour of reckoning|40k|187": {
+  "name": "Hour of Reckoning",
+  "mana": "{4}{W}{W}{W}",
+  "cmc": 7.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/8/d/8d787021-6a02-4394-875d-ef529fa3d38e.jpg?1783920799",
+  "art": "https://cards.scryfall.io/art_crop/front/8/d/8d787021-6a02-4394-875d-ef529fa3d38e.jpg?1783920799",
+  "uri": "https://scryfall.com/card/40k/187/hour-of-reckoning",
+  "roles": [
+   "board-wipe"
   ]
  },
  "hour of reckoning|pip|161": {
@@ -21248,6 +22847,20 @@
   "uri": "https://scryfall.com/card/fic/37/hraesvelgr-of-the-first-brood",
   "roles": [
    "stax"
+  ]
+ },
+ "hull breach|40k|224": {
+  "name": "Hull Breach",
+  "mana": "{R}{G}",
+  "cmc": 2.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "GR",
+  "img": "https://cards.scryfall.io/normal/front/a/6/a644b428-44b4-4f76-a1e7-0bbd134774da.jpg?1783920766",
+  "art": "https://cards.scryfall.io/art_crop/front/a/6/a644b428-44b4-4f76-a1e7-0bbd134774da.jpg?1783920766",
+  "uri": "https://scryfall.com/card/40k/224/hull-breach",
+  "roles": [
+   "removal"
   ]
  },
  "hullbreaker horror|vow|359": {
@@ -21421,6 +23034,18 @@
    "reanimation"
   ]
  },
+ "icon of ancestry|40k|242": {
+  "name": "Icon of Ancestry",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/6/1/612250ac-16fc-4d65-be38-25256f9cc164.jpg?1783920749",
+  "art": "https://cards.scryfall.io/art_crop/front/6/1/612250ac-16fc-4d65-be38-25256f9cc164.jpg?1783920749",
+  "uri": "https://scryfall.com/card/40k/242/icon-of-ancestry",
+  "roles": []
+ },
  "idol of oblivion|blc|277": {
   "name": "Idol of Oblivion",
   "mana": "{2}",
@@ -21557,6 +23182,20 @@
    "mana-dork"
   ]
  },
+ "illuminor szeras|40k|37": {
+  "name": "Illuminor Szeras",
+  "mana": "{2}{B}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Legendary Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/d/1/d161a190-3c85-4207-9d88-7ff9213efea8.jpg?1783920924",
+  "art": "https://cards.scryfall.io/art_crop/front/d/1/d161a190-3c85-4207-9d88-7ff9213efea8.jpg?1783920924",
+  "uri": "https://scryfall.com/card/40k/37/illuminor-szeras",
+  "roles": [
+   "mana-dork"
+  ]
+ },
  "illusionist's gambit|blc|166": {
   "name": "Illusionist's Gambit",
   "mana": "{2}{U}{U}",
@@ -21610,6 +23249,18 @@
   "roles": [
    "removal"
   ]
+ },
+ "imotekh the stormlord|40k|169": {
+  "name": "Imotekh the Stormlord",
+  "mana": "{2}{B}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/1/2/1287e69f-5e92-48f4-80de-d43cb5be21ce.jpg?1783920808",
+  "art": "https://cards.scryfall.io/art_crop/front/1/2/1287e69f-5e92-48f4-80de-d43cb5be21ce.jpg?1783920808",
+  "uri": "https://scryfall.com/card/40k/169/imotekh-the-stormlord",
+  "roles": []
  },
  "imoti, celebrant of bounty|cmr|280": {
   "name": "Imoti, Celebrant of Bounty",
@@ -22014,6 +23665,46 @@
   "uri": "https://scryfall.com/card/soc/316/inkshield",
   "roles": []
  },
+ "inquisitor eisenhorn|40k|127": {
+  "name": "Inquisitor Eisenhorn",
+  "mana": "{2}{U}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Human Inquisitor",
+  "ci": "BU",
+  "img": "https://cards.scryfall.io/normal/front/b/d/bdf1ccf7-e95f-4d08-be51-83fba78c4c2d.jpg?1783920845",
+  "art": "https://cards.scryfall.io/art_crop/front/b/d/bdf1ccf7-e95f-4d08-be51-83fba78c4c2d.jpg?1783920845",
+  "uri": "https://scryfall.com/card/40k/127/inquisitor-eisenhorn",
+  "roles": [
+   "draw"
+  ]
+ },
+ "inquisitor greyfax|40k|173": {
+  "name": "Inquisitor Greyfax",
+  "mana": "{1}{W}{U}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Human Inquisitor",
+  "ci": "BUW",
+  "img": "https://cards.scryfall.io/normal/front/1/9/1956cebe-bb71-45cc-b4ff-72ee3bb95c81.jpg?1783920807",
+  "art": "https://cards.scryfall.io/art_crop/front/1/9/1956cebe-bb71-45cc-b4ff-72ee3bb95c81.jpg?1783920807",
+  "uri": "https://scryfall.com/card/40k/173/inquisitor-greyfax",
+  "roles": [
+   "draw"
+  ]
+ },
+ "inquisitorial rosette|40k|159": {
+  "name": "Inquisitorial Rosette",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Equipment",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/d/4/d44935ea-e8f4-45b1-8bce-e8665317d801.jpg?1783920818",
+  "art": "https://cards.scryfall.io/art_crop/front/d/4/d44935ea-e8f4-45b1-8bce-e8665317d801.jpg?1783920818",
+  "uri": "https://scryfall.com/card/40k/159/inquisitorial-rosette",
+  "roles": []
+ },
  "insatiable avarice|otj|91": {
   "name": "Insatiable Avarice",
   "mana": "{B}",
@@ -22082,6 +23773,21 @@
   "art": "https://cards.scryfall.io/art_crop/front/7/f/7fddd17b-8282-408e-a319-7f0bb437c52e.jpg?1783903849",
   "uri": "https://scryfall.com/card/soc/48/inspired-skypainter-maestros-gift",
   "roles": []
+ },
+ "inspiring call|40k|217": {
+  "name": "Inspiring Call",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/a/0/a0c450e4-3ae4-4d69-a40e-cf29c383e5c3.jpg?1783920772",
+  "art": "https://cards.scryfall.io/art_crop/front/a/0/a0c450e4-3ae4-4d69-a40e-cf29c383e5c3.jpg?1783920772",
+  "uri": "https://scryfall.com/card/40k/217/inspiring-call",
+  "roles": [
+   "draw",
+   "protection"
+  ]
  },
  "inspiring call|fic|310": {
   "name": "Inspiring Call",
@@ -22382,6 +24088,42 @@
   "roles": [
    "draw"
   ]
+ },
+ "island|40k|307": {
+  "name": "Island",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Island",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/b/c/bcddeb71-3109-4a08-852f-b437c0a0c4ab.jpg?1783920685",
+  "art": "https://cards.scryfall.io/art_crop/front/b/c/bcddeb71-3109-4a08-852f-b437c0a0c4ab.jpg?1783920685",
+  "uri": "https://scryfall.com/card/40k/307/island",
+  "roles": []
+ },
+ "island|40k|308": {
+  "name": "Island",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Island",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/4/0/407d609b-ac1f-4644-ba8d-259938745007.jpg?1788774642",
+  "art": "https://cards.scryfall.io/art_crop/front/4/0/407d609b-ac1f-4644-ba8d-259938745007.jpg?1788774642",
+  "uri": "https://scryfall.com/card/40k/308/island",
+  "roles": []
+ },
+ "island|40k|309": {
+  "name": "Island",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Island",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/8/9/8956b4c4-3703-433f-b147-a1f67e728017.jpg?1783920683",
+  "art": "https://cards.scryfall.io/art_crop/front/8/9/8956b4c4-3703-433f-b147-a1f67e728017.jpg?1783920683",
+  "uri": "https://scryfall.com/card/40k/309/island",
+  "roles": []
  },
  "island|blb|372": {
   "name": "Island",
@@ -23555,6 +25297,18 @@
   "uri": "https://scryfall.com/card/soc/218/keen-duelist",
   "roles": []
  },
+ "keeper of secrets|40k|78": {
+  "name": "Keeper of Secrets",
+  "mana": "{5}{R}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/4/f/4fe408aa-14d9-4afd-abfe-b5156c5341b7.jpg?1783920889",
+  "art": "https://cards.scryfall.io/art_crop/front/4/f/4fe408aa-14d9-4afd-abfe-b5156c5341b7.jpg?1783920889",
+  "uri": "https://scryfall.com/card/40k/78/keeper-of-secrets",
+  "roles": []
+ },
  "keeper of the accord|pip|164": {
   "name": "Keeper of the Accord",
   "mana": "{3}{W}",
@@ -23712,6 +25466,34 @@
   "art": "https://cards.scryfall.io/art_crop/front/9/9/99535539-aa73-41ed-86ab-21c97b92620d.jpg?1783929343",
   "uri": "https://scryfall.com/card/znr/192/khalni-ambush-khalni-territory",
   "back": "https://cards.scryfall.io/normal/back/9/9/99535539-aa73-41ed-86ab-21c97b92620d.jpg?1783929343",
+  "roles": [
+   "removal"
+  ]
+ },
+ "khârn the betrayer|40k|79": {
+  "name": "Khârn the Betrayer",
+  "mana": "{3}{R}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Astartes Berserker",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/c/2/c29e6c69-7830-4898-9d1e-97dfc2e868d9.jpg?1783920889",
+  "art": "https://cards.scryfall.io/art_crop/front/c/2/c29e6c69-7830-4898-9d1e-97dfc2e868d9.jpg?1783920889",
+  "uri": "https://scryfall.com/card/40k/79/kh%C3%A2rn-the-betrayer",
+  "roles": [
+   "draw"
+  ]
+ },
+ "kill! maim! burn!|40k|128": {
+  "name": "Kill! Maim! Burn!",
+  "mana": "{3}{B}{R}",
+  "cmc": 5.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/7/c/7c48e10d-2b70-4f87-b5ce-6fb0d56452eb.jpg?1783920846",
+  "art": "https://cards.scryfall.io/art_crop/front/7/c/7c48e10d-2b70-4f87-b5ce-6fb0d56452eb.jpg?1783920846",
+  "uri": "https://scryfall.com/card/40k/128/kill!-maim!-burn!",
   "roles": [
    "removal"
   ]
@@ -23884,6 +25666,30 @@
   "roles": [
    "tutor"
   ]
+ },
+ "knight paladin|40k|160": {
+  "name": "Knight Paladin",
+  "mana": "{5}",
+  "cmc": 5.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Vehicle",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/9/5/951cff7b-2b17-4903-be92-b9c066adfc83.jpg?1783920816",
+  "art": "https://cards.scryfall.io/art_crop/front/9/5/951cff7b-2b17-4903-be92-b9c066adfc83.jpg?1783920816",
+  "uri": "https://scryfall.com/card/40k/160/knight-paladin",
+  "roles": []
+ },
+ "knight rampager|40k|80": {
+  "name": "Knight Rampager",
+  "mana": "{4}{R}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Knight",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/6/1/6105271d-76ae-4df0-bc95-fcccc229fc21.jpg?1783920887",
+  "art": "https://cards.scryfall.io/art_crop/front/6/1/6105271d-76ae-4df0-bc95-fcccc229fc21.jpg?1783920887",
+  "uri": "https://scryfall.com/card/40k/80/knight-rampager",
+  "roles": []
  },
  "knollspine dragon|plst|shm-98": {
   "name": "Knollspine Dragon",
@@ -24310,6 +26116,18 @@
    "graveyard-cast"
   ]
  },
+ "launch the fleet|40k|188": {
+  "name": "Launch the Fleet",
+  "mana": "{W}",
+  "cmc": 1.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/8/f/8f16c536-2c32-4758-899a-37c81aaea165.jpg?1783920799",
+  "art": "https://cards.scryfall.io/art_crop/front/8/f/8f16c536-2c32-4758-899a-37c81aaea165.jpg?1783920799",
+  "uri": "https://scryfall.com/card/40k/188/launch-the-fleet",
+  "roles": []
+ },
  "lavaleaper|ecl|150": {
   "name": "Lavaleaper",
   "mana": "{3}{R}",
@@ -24475,6 +26293,20 @@
    "draw"
   ]
  },
+ "let the galaxy burn|40k|81": {
+  "name": "Let the Galaxy Burn",
+  "mana": "{X}{5}{R}",
+  "cmc": 6.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/1/1/1120636b-d28b-4226-a1ba-cb42654c5a90.jpg?1783920887",
+  "art": "https://cards.scryfall.io/art_crop/front/1/1/1120636b-d28b-4226-a1ba-cb42654c5a90.jpg?1783920887",
+  "uri": "https://scryfall.com/card/40k/81/let-the-galaxy-burn",
+  "roles": [
+   "board-wipe"
+  ]
+ },
  "lethal scheme|fic|277": {
   "name": "Lethal Scheme",
   "mana": "{2}{B}{B}",
@@ -24579,6 +26411,18 @@
   "img": "https://cards.scryfall.io/normal/front/0/4/04acd5af-bd55-4c16-9b6d-10822d564c14.jpg?1783919963",
   "art": "https://cards.scryfall.io/art_crop/front/0/4/04acd5af-bd55-4c16-9b6d-10822d564c14.jpg?1783919963",
   "uri": "https://scryfall.com/card/bro/364/liberator-urzas-battlethopter",
+  "roles": []
+ },
+ "lictor|40k|94": {
+  "name": "Lictor",
+  "mana": "{3}{G}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/3/c/3c4d8f36-461f-48a6-a4e4-9ddfb388de19.jpg?1783920875",
+  "art": "https://cards.scryfall.io/art_crop/front/3/c/3c4d8f36-461f-48a6-a4e4-9ddfb388de19.jpg?1783920875",
+  "uri": "https://scryfall.com/card/40k/94/lictor",
   "roles": []
  },
  "lier, disciple of the drowned|tdc|157": {
@@ -24927,6 +26771,21 @@
    "tutor"
   ]
  },
+ "living death|40k|202": {
+  "name": "Living Death",
+  "mana": "{3}{B}{B}",
+  "cmc": 5.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/9/e/9e03a4fe-6ee5-423b-bc05-452e8d14507b.jpg?1783920785",
+  "art": "https://cards.scryfall.io/art_crop/front/9/e/9e03a4fe-6ee5-423b-bc05-452e8d14507b.jpg?1783920785",
+  "uri": "https://scryfall.com/card/40k/202/living-death",
+  "roles": [
+   "board-wipe",
+   "reanimation"
+  ]
+ },
  "living death|dde|31": {
   "name": "Living Death",
   "mana": "{3}{B}{B}",
@@ -25114,6 +26973,21 @@
   "uri": "https://scryfall.com/card/fic/87/locke-treasure-hunter",
   "roles": []
  },
+ "lokhust heavy destroyer|40k|38": {
+  "name": "Lokhust Heavy Destroyer",
+  "mana": "{1}{B}{B}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/4/6/4665fa5d-37ea-4898-a4a4-7bc5311075de.jpg?1783920923",
+  "art": "https://cards.scryfall.io/art_crop/front/4/6/4665fa5d-37ea-4898-a4a4-7bc5311075de.jpg?1783920923",
+  "uri": "https://scryfall.com/card/40k/38/lokhust-heavy-destroyer",
+  "roles": [
+   "removal",
+   "reanimation"
+  ]
+ },
  "long river's pull|blb|58": {
   "name": "Long River's Pull",
   "mana": "{U}{U}",
@@ -25210,6 +27084,21 @@
   "uri": "https://scryfall.com/card/fic/23/lord-jyscal-guado",
   "roles": [
    "draw"
+  ]
+ },
+ "lord of change|40k|24": {
+  "name": "Lord of Change",
+  "mana": "{6}{U}",
+  "cmc": 7.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/f/9/f9099d82-c13a-480d-b4bc-ecf8b810427c.jpg?1783920935",
+  "art": "https://cards.scryfall.io/art_crop/front/f/9/f9099d82-c13a-480d-b4bc-ecf8b810427c.jpg?1783920935",
+  "uri": "https://scryfall.com/card/40k/24/lord-of-change",
+  "roles": [
+   "draw",
+   "stax"
   ]
  },
  "lorehold archivist // restore relic|soc|49": {
@@ -25421,6 +27310,18 @@
    "land-ramp"
   ]
  },
+ "lucius the eternal|40k|130": {
+  "name": "Lucius the Eternal",
+  "mana": "{3}{B}{R}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Astartes Warrior",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/6/b/6b86f229-0cbd-4d32-a1dc-ea4b24f835f2.jpg?1783920843",
+  "art": "https://cards.scryfall.io/art_crop/front/6/b/6b86f229-0cbd-4d32-a1dc-ea4b24f835f2.jpg?1783920843",
+  "uri": "https://scryfall.com/card/40k/130/lucius-the-eternal",
+  "roles": []
+ },
  "luck bobblehead|pip|135": {
   "name": "Luck Bobblehead",
   "mana": "{3}",
@@ -25618,6 +27519,20 @@
   "uri": "https://scryfall.com/card/clb/355/luxury-suite",
   "roles": []
  },
+ "lychguard|40k|39": {
+  "name": "Lychguard",
+  "mana": "{2}{B}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/6/7/6737a276-b5e9-4c55-b995-ada96eca4e6e.jpg?1783920922",
+  "art": "https://cards.scryfall.io/art_crop/front/6/7/6737a276-b5e9-4c55-b995-ada96eca4e6e.jpg?1783920922",
+  "uri": "https://scryfall.com/card/40k/39/lychguard",
+  "roles": [
+   "regrowth"
+  ]
+ },
  "lyse hext|fic|88": {
   "name": "Lyse Hext",
   "mana": "{1}{W}{U}",
@@ -25764,6 +27679,32 @@
    "removal"
   ]
  },
+ "magnus the red|40k|131": {
+  "name": "Magnus the Red",
+  "mana": "{3}{U}{R}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Demon Primarch",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/6/3/63050aa0-a7ea-4fe7-8746-7a11407ea0e4.jpg?1783920843",
+  "art": "https://cards.scryfall.io/art_crop/front/6/3/63050aa0-a7ea-4fe7-8746-7a11407ea0e4.jpg?1783920843",
+  "uri": "https://scryfall.com/card/40k/131/magnus-the-red",
+  "roles": []
+ },
+ "magus lucea kane|40k|174": {
+  "name": "Magus Lucea Kane",
+  "mana": "{1}{G}{U}{R}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Human Tyranid Wizard",
+  "ci": "GRU",
+  "img": "https://cards.scryfall.io/normal/front/4/1/419ac203-d8b9-46df-99a8-65dfcea07ff5.jpg?1783920807",
+  "art": "https://cards.scryfall.io/art_crop/front/4/1/419ac203-d8b9-46df-99a8-65dfcea07ff5.jpg?1783920807",
+  "uri": "https://scryfall.com/card/40k/174/magus-lucea-kane",
+  "roles": [
+   "mana-dork"
+  ]
+ },
  "magus of the balance|clb|699": {
   "name": "Magus of the Balance",
   "mana": "{1}{W}",
@@ -25842,6 +27783,18 @@
   "roles": [
    "protection"
   ]
+ },
+ "malanthrope|40k|132": {
+  "name": "Malanthrope",
+  "mana": "{1}{G}{U}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/2/8/28d4eb51-a6ec-488a-a79a-ec4676d7af52.jpg?1783920843",
+  "art": "https://cards.scryfall.io/art_crop/front/2/8/28d4eb51-a6ec-488a-a79a-ec4676d7af52.jpg?1783920843",
+  "uri": "https://scryfall.com/card/40k/132/malanthrope",
+  "roles": []
  },
  "malevolent rumble|mh3|161": {
   "name": "Malevolent Rumble",
@@ -26151,6 +28104,20 @@
    "cantrip"
   ]
  },
+ "mandate of abaddon|40k|40": {
+  "name": "Mandate of Abaddon",
+  "mana": "{3}{B}",
+  "cmc": 4.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/b/6/b63fa88b-a177-49b7-a583-a0a041313f77.jpg?1783920921",
+  "art": "https://cards.scryfall.io/art_crop/front/b/6/b63fa88b-a177-49b7-a583-a0a041313f77.jpg?1783920921",
+  "uri": "https://scryfall.com/card/40k/40/mandate-of-abaddon",
+  "roles": [
+   "board-wipe"
+  ]
+ },
  "mangara, the diplomat|blc|145": {
   "name": "Mangara, the Diplomat",
   "mana": "{3}{W}",
@@ -26293,6 +28260,20 @@
    "draw"
   ]
  },
+ "marneus calgar|40k|175": {
+  "name": "Marneus Calgar",
+  "mana": "{2}{W}{U}{B}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Astartes Warrior",
+  "ci": "BUW",
+  "img": "https://cards.scryfall.io/normal/front/e/d/eda1fe2f-8a95-4690-ade7-13a5b7f58233.jpg?1783920808",
+  "art": "https://cards.scryfall.io/art_crop/front/e/d/eda1fe2f-8a95-4690-ade7-13a5b7f58233.jpg?1783920808",
+  "uri": "https://scryfall.com/card/40k/175/marneus-calgar",
+  "roles": [
+   "draw"
+  ]
+ },
  "marsh flats|mh2|248": {
   "name": "Marsh Flats",
   "mana": "",
@@ -26391,6 +28372,20 @@
    "reanimation"
   ]
  },
+ "martial coup|40k|189": {
+  "name": "Martial Coup",
+  "mana": "{X}{W}{W}",
+  "cmc": 2.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/4/d/4d7296ef-afe3-4d1d-9cbc-7ee7ad78f297.jpg?1783920797",
+  "art": "https://cards.scryfall.io/art_crop/front/4/d/4d7296ef-afe3-4d1d-9cbc-7ee7ad78f297.jpg?1783920797",
+  "uri": "https://scryfall.com/card/40k/189/martial-coup",
+  "roles": [
+   "board-wipe"
+  ]
+ },
  "martial coup|blc|146": {
   "name": "Martial Coup",
   "mana": "{X}{W}{W}",
@@ -26469,6 +28464,20 @@
   "uri": "https://scryfall.com/card/uds/11/mask-of-law-and-grace",
   "roles": [
    "protection"
+  ]
+ },
+ "mask of memory|40k|243": {
+  "name": "Mask of Memory",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Equipment",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/3/0/30acbb34-3ff5-4d38-b349-f108351f94f8.jpg?1783920748",
+  "art": "https://cards.scryfall.io/art_crop/front/3/0/30acbb34-3ff5-4d38-b349-f108351f94f8.jpg?1783920748",
+  "uri": "https://scryfall.com/card/40k/243/mask-of-memory",
+  "roles": [
+   "draw"
   ]
  },
  "mask of memory|fic|350": {
@@ -26631,6 +28640,21 @@
    "counterspell"
   ]
  },
+ "mawloc|40k|133": {
+  "name": "Mawloc",
+  "mana": "{X}{R}{G}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "GR",
+  "img": "https://cards.scryfall.io/normal/front/b/b/bbec97ff-bb84-4496-9e09-d4fc1570c516.jpg?1783920840",
+  "art": "https://cards.scryfall.io/art_crop/front/b/b/bbec97ff-bb84-4496-9e09-d4fc1570c516.jpg?1783920840",
+  "uri": "https://scryfall.com/card/40k/133/mawloc",
+  "roles": [
+   "cantrip",
+   "removal"
+  ]
+ },
  "mazirek, kraul death priest|soc|319": {
   "name": "Mazirek, Kraul Death Priest",
   "mana": "{3}{B}{G}",
@@ -26667,6 +28691,18 @@
   "img": "https://cards.scryfall.io/normal/front/7/b/7b8f6516-3d00-4deb-b852-bcd3b72e49ea.jpg?1783931255",
   "art": "https://cards.scryfall.io/art_crop/front/7/b/7b8f6516-3d00-4deb-b852-bcd3b72e49ea.jpg?1783931255",
   "uri": "https://scryfall.com/card/plst/SOM-174/memnite",
+  "roles": []
+ },
+ "memorial to glory|40k|283": {
+  "name": "Memorial to Glory",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/4/0/409560cb-ecf1-4df2-91b2-75464dc1fe7d.jpg?1783920711",
+  "art": "https://cards.scryfall.io/art_crop/front/4/0/409560cb-ecf1-4df2-91b2-75464dc1fe7d.jpg?1783920711",
+  "uri": "https://scryfall.com/card/40k/283/memorial-to-glory",
   "roles": []
  },
  "memorial to glory|pip|271": {
@@ -27068,6 +29104,36 @@
   "art": "https://cards.scryfall.io/art_crop/front/8/2/82e8a91c-74ee-411b-9d74-4e72df24258b.jpg?1783916193",
   "uri": "https://scryfall.com/card/ltr/341/minas-tirith",
   "roles": [
+   "draw"
+  ]
+ },
+ "mind stone|40k|244": {
+  "name": "Mind Stone",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/c/7/c729606e-5b13-4699-b7c8-feca69c91f62.jpg?1786081832",
+  "art": "https://cards.scryfall.io/art_crop/front/c/7/c729606e-5b13-4699-b7c8-feca69c91f62.jpg?1786081832",
+  "uri": "https://scryfall.com/card/40k/244/mind-stone",
+  "roles": [
+   "mana-rock",
+   "draw"
+  ]
+ },
+ "mind stone|40k|245": {
+  "name": "Mind Stone",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/3/e/3e2550d5-ba6a-4cab-908a-b537973800c1.jpg?1783920748",
+  "art": "https://cards.scryfall.io/art_crop/front/3/e/3e2550d5-ba6a-4cab-908a-b537973800c1.jpg?1783920748",
+  "uri": "https://scryfall.com/card/40k/245/mind-stone",
+  "roles": [
+   "mana-rock",
    "draw"
   ]
  },
@@ -27619,6 +29685,18 @@
   "uri": "https://scryfall.com/card/c20/54/molten-echoes",
   "roles": []
  },
+ "molten slagheap|40k|284": {
+  "name": "Molten Slagheap",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/d/0/d07f3542-4b61-45e1-b21d-7496b2ccc085.jpg?1783920709",
+  "art": "https://cards.scryfall.io/art_crop/front/d/0/d07f3542-4b61-45e1-b21d-7496b2ccc085.jpg?1783920709",
+  "uri": "https://scryfall.com/card/40k/284/molten-slagheap",
+  "roles": []
+ },
  "molten tributary|soc|387": {
   "name": "Molten Tributary",
   "mana": "",
@@ -27853,6 +29931,32 @@
    "removal"
   ]
  },
+ "mortarion, daemon primarch|40k|41": {
+  "name": "Mortarion, Daemon Primarch",
+  "mana": "{5}{B}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Demon Primarch",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/3/b/3b6b1bcf-10a4-4643-9db0-b2a4fee340a2.jpg?1783920921",
+  "art": "https://cards.scryfall.io/art_crop/front/3/b/3b6b1bcf-10a4-4643-9db0-b2a4fee340a2.jpg?1783920921",
+  "uri": "https://scryfall.com/card/40k/41/mortarion-daemon-primarch",
+  "roles": []
+ },
+ "mortify|40k|225": {
+  "name": "Mortify",
+  "mana": "{1}{W}{B}",
+  "cmc": 3.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/0/2/02040930-4446-4c95-947b-9685c068ce4f.jpg?1783920765",
+  "art": "https://cards.scryfall.io/art_crop/front/0/2/02040930-4446-4c95-947b-9685c068ce4f.jpg?1783920765",
+  "uri": "https://scryfall.com/card/40k/225/mortify",
+  "roles": [
+   "removal"
+  ]
+ },
  "mortify|fic|327": {
   "name": "Mortify",
   "mana": "{1}{W}{B}",
@@ -28026,6 +30130,30 @@
   "roles": [
    "protection"
   ]
+ },
+ "mountain|40k|315": {
+  "name": "Mountain",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Mountain",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/a/1/a1ba2d4f-7a9b-4cf7-98fd-17b1b8c70bcd.jpg?1783920677",
+  "art": "https://cards.scryfall.io/art_crop/front/a/1/a1ba2d4f-7a9b-4cf7-98fd-17b1b8c70bcd.jpg?1783920677",
+  "uri": "https://scryfall.com/card/40k/315/mountain",
+  "roles": []
+ },
+ "mountain|40k|316": {
+  "name": "Mountain",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Mountain",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/6/3/63993fbb-df88-49db-a3e9-655c87dd68cc.jpg?1783920675",
+  "art": "https://cards.scryfall.io/art_crop/front/6/3/63993fbb-df88-49db-a3e9-655c87dd68cc.jpg?1783920675",
+  "uri": "https://scryfall.com/card/40k/316/mountain",
+  "roles": []
  },
  "mountain|blb|274": {
   "name": "Mountain",
@@ -28556,6 +30684,20 @@
   "uri": "https://scryfall.com/card/ltc/320/murmuring-bosk",
   "roles": []
  },
+ "mutalith vortex beast|40k|134": {
+  "name": "Mutalith Vortex Beast",
+  "mana": "{4}{U}{R}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Creature — Mutant Beast",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/4/a/4a1b6cfe-8927-4d9d-ba32-82453f7157ca.jpg?1783920839",
+  "art": "https://cards.scryfall.io/art_crop/front/4/a/4a1b6cfe-8927-4d9d-ba32-82453f7157ca.jpg?1783920839",
+  "uri": "https://scryfall.com/card/40k/134/mutalith-vortex-beast",
+  "roles": [
+   "draw"
+  ]
+ },
  "mutated cultist|m3c|53": {
   "name": "Mutated Cultist",
   "mana": "{2}{B}",
@@ -28605,6 +30747,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/8/c/8ca3c48b-f104-4292-9a4e-2ce87a65893c.jpg?1783942774",
   "uri": "https://scryfall.com/card/mor/148/mutavault",
   "roles": []
+ },
+ "mutilate|40k|203": {
+  "name": "Mutilate",
+  "mana": "{2}{B}{B}",
+  "cmc": 4.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/b/9/b931c7cb-ef83-440c-9195-ace311f4a601.jpg?1783920785",
+  "art": "https://cards.scryfall.io/art_crop/front/b/9/b931c7cb-ef83-440c-9195-ace311f4a601.jpg?1783920785",
+  "uri": "https://scryfall.com/card/40k/203/mutilate",
+  "roles": [
+   "board-wipe"
+  ]
  },
  "mycoloth|soc|276": {
   "name": "Mycoloth",
@@ -28682,6 +30838,20 @@
   "uri": "https://scryfall.com/card/bro/18/myrel-shield-of-argive",
   "roles": []
  },
+ "myriad landscape|40k|285": {
+  "name": "Myriad Landscape",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/a/3/a3a12e0f-85de-440f-8a7d-230bf8c415c1.jpg?1783920708",
+  "art": "https://cards.scryfall.io/art_crop/front/a/3/a3a12e0f-85de-440f-8a7d-230bf8c415c1.jpg?1783920708",
+  "uri": "https://scryfall.com/card/40k/285/myriad-landscape",
+  "roles": [
+   "land-ramp"
+  ]
+ },
  "myriad landscape|clb|904": {
   "name": "Myriad Landscape",
   "mana": "",
@@ -28748,6 +30918,18 @@
   "img": "https://cards.scryfall.io/normal/front/0/6/063ca0fa-1947-48da-86f9-76dd00dfb550.jpg?1783912403",
   "art": "https://cards.scryfall.io/art_crop/front/0/6/063ca0fa-1947-48da-86f9-76dd00dfb550.jpg?1783912403",
   "uri": "https://scryfall.com/card/pip/63/mysterious-stranger",
+  "roles": []
+ },
+ "mystic forge|40k|246": {
+  "name": "Mystic Forge",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/c/f/cf56bef3-7f0e-47b4-96f5-325722f7708a.jpg?1783920746",
+  "art": "https://cards.scryfall.io/art_crop/front/c/f/cf56bef3-7f0e-47b4-96f5-325722f7708a.jpg?1783920746",
+  "uri": "https://scryfall.com/card/40k/246/mystic-forge",
   "roles": []
  },
  "mystic forge|m20|233": {
@@ -29307,6 +31489,20 @@
    "reanimation"
   ]
  },
+ "necron deathmark|40k|42": {
+  "name": "Necron Deathmark",
+  "mana": "{3}{B}{B}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/4/1/4129cb0d-eefe-4971-9db8-1196201ef353.jpg?1783920921",
+  "art": "https://cards.scryfall.io/art_crop/front/4/1/4129cb0d-eefe-4971-9db8-1196201ef353.jpg?1783920921",
+  "uri": "https://scryfall.com/card/40k/42/necron-deathmark",
+  "roles": [
+   "removal"
+  ]
+ },
  "necron deathmark|40k|42★": {
   "name": "Necron Deathmark",
   "mana": "{3}{B}{B}",
@@ -29320,6 +31516,30 @@
   "roles": [
    "removal"
   ]
+ },
+ "necron monolith|40k|161": {
+  "name": "Necron Monolith",
+  "mana": "{7}",
+  "cmc": 7.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Vehicle",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/9/b/9b1ecad3-8cec-4a18-9401-6eebc7feeacc.jpg?1783920816",
+  "art": "https://cards.scryfall.io/art_crop/front/9/b/9b1ecad3-8cec-4a18-9401-6eebc7feeacc.jpg?1783920816",
+  "uri": "https://scryfall.com/card/40k/161/necron-monolith",
+  "roles": []
+ },
+ "necron overlord|40k|43": {
+  "name": "Necron Overlord",
+  "mana": "{2}{B}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron Noble",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/6/2/62d70fd2-de4e-41c6-b3e5-147fffca8a20.jpg?1783920919",
+  "art": "https://cards.scryfall.io/art_crop/front/6/2/62d70fd2-de4e-41c6-b3e5-147fffca8a20.jpg?1783920919",
+  "uri": "https://scryfall.com/card/40k/43/necron-overlord",
+  "roles": []
  },
  "necropotence|dkm|7": {
   "name": "Necropotence",
@@ -29549,6 +31769,30 @@
   "uri": "https://scryfall.com/card/soc/41/nev-the-practical-dean",
   "roles": []
  },
+ "new horizons|40k|218": {
+  "name": "New Horizons",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Aura",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/4/f/4ffbe455-f08a-4f9b-a5e7-19370c0f2919.jpg?1783920770",
+  "art": "https://cards.scryfall.io/art_crop/front/4/f/4ffbe455-f08a-4f9b-a5e7-19370c0f2919.jpg?1783920770",
+  "uri": "https://scryfall.com/card/40k/218/new-horizons",
+  "roles": []
+ },
+ "nexos|40k|95": {
+  "name": "Nexos",
+  "mana": "{1}{G}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Tyranid Advisor",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/7/3/73ca0549-5775-4778-bd47-f5f234a71201.jpg?1783920874",
+  "art": "https://cards.scryfall.io/art_crop/front/7/3/73ca0549-5775-4778-bd47-f5f234a71201.jpg?1783920874",
+  "uri": "https://scryfall.com/card/40k/95/nexos",
+  "roles": []
+ },
  "nexus mentality|soc|21": {
   "name": "Nexus Mentality",
   "mana": "{3}{U}",
@@ -29562,6 +31806,33 @@
   "roles": [
    "draw"
   ]
+ },
+ "neyam shai murad|40k|135": {
+  "name": "Neyam Shai Murad",
+  "mana": "{2}{W}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Human Rogue",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/2/1/211fdfd5-af23-4a16-a80f-1d9ba5ccd255.jpg?1783920839",
+  "art": "https://cards.scryfall.io/art_crop/front/2/1/211fdfd5-af23-4a16-a80f-1d9ba5ccd255.jpg?1783920839",
+  "uri": "https://scryfall.com/card/40k/135/neyam-shai-murad",
+  "roles": [
+   "land-ramp",
+   "reanimation"
+  ]
+ },
+ "night scythe|40k|162": {
+  "name": "Night Scythe",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Vehicle",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/9/a/9a71531f-d4b6-4cc7-8193-b2f5bce33b21.jpg?1783920816",
+  "art": "https://cards.scryfall.io/art_crop/front/9/a/9a71531f-d4b6-4cc7-8193-b2f5bce33b21.jpg?1783920816",
+  "uri": "https://scryfall.com/card/40k/162/night-scythe",
+  "roles": []
  },
  "night's whisper|ecc|81": {
   "name": "Night's Whisper",
@@ -29810,6 +32081,20 @@
   "uri": "https://scryfall.com/card/tdc/226/nogi-draco-zealot",
   "roles": []
  },
+ "noise marine|40k|82": {
+  "name": "Noise Marine",
+  "mana": "{4}{R}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warrior",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/0/8/08843909-8c24-4067-b747-5f9090caaa1c.jpg?1783920886",
+  "art": "https://cards.scryfall.io/art_crop/front/0/8/08843909-8c24-4067-b747-5f9090caaa1c.jpg?1783920886",
+  "uri": "https://scryfall.com/card/40k/82/noise-marine",
+  "roles": [
+   "removal"
+  ]
+ },
  "nomad outpost|fic|409": {
   "name": "Nomad Outpost",
   "mana": "",
@@ -29921,6 +32206,32 @@
   "img": "https://cards.scryfall.io/normal/front/b/c/bc45f2cb-c256-4a0f-879a-c7db5b1a0b94.jpg?1783946713",
   "art": "https://cards.scryfall.io/art_crop/front/b/c/bc45f2cb-c256-4a0f-879a-c7db5b1a0b94.jpg?1783946713",
   "uri": "https://scryfall.com/card/wth/154/null-rod",
+  "roles": []
+ },
+ "nurgle's conscription|40k|44": {
+  "name": "Nurgle's Conscription",
+  "mana": "{4}{B}",
+  "cmc": 5.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/9/e/9e663ce3-1871-4cde-82ba-4f009d582b77.jpg?1783920918",
+  "art": "https://cards.scryfall.io/art_crop/front/9/e/9e663ce3-1871-4cde-82ba-4f009d582b77.jpg?1783920918",
+  "uri": "https://scryfall.com/card/40k/44/nurgles-conscription",
+  "roles": [
+   "reanimation"
+  ]
+ },
+ "nurgle's rot|40k|45": {
+  "name": "Nurgle's Rot",
+  "mana": "{B}",
+  "cmc": 1.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Aura",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/9/1/9116138a-679d-4169-a4a9-c76460bbb3fd.jpg?1783920916",
+  "art": "https://cards.scryfall.io/art_crop/front/9/1/9116138a-679d-4169-a4a9-c76460bbb3fd.jpg?1783920916",
+  "uri": "https://scryfall.com/card/40k/45/nurgles-rot",
   "roles": []
  },
  "nurturing peatland|mh1|243": {
@@ -30162,6 +32473,18 @@
   "uri": "https://scryfall.com/card/afr/296/old-gnawbone",
   "roles": []
  },
+ "old one eye|40k|96": {
+  "name": "Old One Eye",
+  "mana": "{5}{G}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/b/5/b5aaaee0-9a61-45df-821e-cce516f8de6a.jpg?1783920874",
+  "art": "https://cards.scryfall.io/art_crop/front/b/5/b5aaaee0-9a61-45df-821e-cce516f8de6a.jpg?1783920874",
+  "uri": "https://scryfall.com/card/40k/96/old-one-eye",
+  "roles": []
+ },
  "olórin's searing light|ltc|503": {
   "name": "Olórin's Searing Light",
   "mana": "{2}{R}{W}",
@@ -30269,6 +32592,18 @@
   "img": "https://cards.scryfall.io/normal/front/7/e/7efe6417-9445-40e5-8c37-0973d8645c79.jpg?1783907747",
   "art": "https://cards.scryfall.io/art_crop/front/7/e/7efe6417-9445-40e5-8c37-0973d8645c79.jpg?1783907747",
   "uri": "https://scryfall.com/card/drc/21/on-wings-of-gold",
+  "roles": []
+ },
+ "opal palace|40k|286": {
+  "name": "Opal Palace",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/e/b/eb4e0145-c339-4c60-aacf-67d8e785df49.jpg?1783920707",
+  "art": "https://cards.scryfall.io/art_crop/front/e/b/eb4e0145-c339-4c60-aacf-67d8e785df49.jpg?1783920707",
+  "uri": "https://scryfall.com/card/40k/286/opal-palace",
   "roles": []
  },
  "opal palace|ecc|156": {
@@ -30830,6 +33165,18 @@
   "uri": "https://scryfall.com/card/sld/130/overgrown-tomb",
   "roles": []
  },
+ "overgrowth|40k|219": {
+  "name": "Overgrowth",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Aura",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/d/8/d8c7c4ec-30da-426d-8be7-f1b8705052f1.jpg?1783920771",
+  "art": "https://cards.scryfall.io/art_crop/front/d/8/d8c7c4ec-30da-426d-8be7-f1b8705052f1.jpg?1783920771",
+  "uri": "https://scryfall.com/card/40k/219/overgrowth",
+  "roles": []
+ },
  "overlord of the boilerbilges|dsk|146": {
   "name": "Overlord of the Boilerbilges",
   "mana": "{4}{R}{R}",
@@ -31187,6 +33534,20 @@
    "tutor"
   ]
  },
+ "past in flames|40k|206": {
+  "name": "Past in Flames",
+  "mana": "{3}{R}",
+  "cmc": 4.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/a/a/aae078f4-2310-4112-975e-677d5255988a.jpg?1783920782",
+  "art": "https://cards.scryfall.io/art_crop/front/a/a/aae078f4-2310-4112-975e-677d5255988a.jpg?1783920782",
+  "uri": "https://scryfall.com/card/40k/206/past-in-flames",
+  "roles": [
+   "graveyard-cast"
+  ]
+ },
  "patchwork banner|soc|353": {
   "name": "Patchwork Banner",
   "mana": "{3}",
@@ -31200,6 +33561,18 @@
   "roles": [
    "mana-rock"
   ]
+ },
+ "path of ancestry|40k|287": {
+  "name": "Path of Ancestry",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/5/4/5410dbe8-006d-4267-92f1-b9bd7b1069e3.jpg?1783920706",
+  "art": "https://cards.scryfall.io/art_crop/front/5/4/5410dbe8-006d-4267-92f1-b9bd7b1069e3.jpg?1783920706",
+  "uri": "https://scryfall.com/card/40k/287/path-of-ancestry",
+  "roles": []
  },
  "path of ancestry|blc|322": {
   "name": "Path of Ancestry",
@@ -31941,6 +34314,20 @@
    "tutor"
   ]
  },
+ "pink horror|40k|136": {
+  "name": "Pink Horror",
+  "mana": "{3}{U}{R}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon Horror",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/6/8/6831de3d-b8d8-4c44-84e2-dbde719d733d.jpg?1783920837",
+  "art": "https://cards.scryfall.io/art_crop/front/6/8/6831de3d-b8d8-4c44-84e2-dbde719d733d.jpg?1783920837",
+  "uri": "https://scryfall.com/card/40k/136/pink-horror",
+  "roles": [
+   "removal"
+  ]
+ },
  "piper wright, publick reporter|pip|36": {
   "name": "Piper Wright, Publick Reporter",
   "mana": "{1}{U}",
@@ -31979,6 +34366,18 @@
   "uri": "https://scryfall.com/card/pip/187/pitiless-plunderer",
   "roles": []
  },
+ "plague drone|40k|47": {
+  "name": "Plague Drone",
+  "mana": "{3}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/9/5/95df49ae-e75f-4d97-8323-ebb62ff1df33.jpg?1783920915",
+  "art": "https://cards.scryfall.io/art_crop/front/9/5/95df49ae-e75f-4d97-8323-ebb62ff1df33.jpg?1783920915",
+  "uri": "https://scryfall.com/card/40k/47/plague-drone",
+  "roles": []
+ },
  "plaguecrafter|blc|187": {
   "name": "Plaguecrafter",
   "mana": "{2}{B}",
@@ -31992,6 +34391,18 @@
   "roles": [
    "removal"
   ]
+ },
+ "plains|40k|306": {
+  "name": "Plains",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Plains",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/3/c/3cf6c0d0-5de8-4909-aaaa-be46466fb370.jpg?1783920687",
+  "art": "https://cards.scryfall.io/art_crop/front/3/c/3cf6c0d0-5de8-4909-aaaa-be46466fb370.jpg?1783920687",
+  "uri": "https://scryfall.com/card/40k/306/plains",
+  "roles": []
  },
  "plains|blb|370": {
   "name": "Plains",
@@ -32223,6 +34634,20 @@
   "uri": "https://scryfall.com/card/soc/250/plargg-and-nassari",
   "roles": []
  },
+ "plasmancer|40k|48": {
+  "name": "Plasmancer",
+  "mana": "{2}{B}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron Wizard",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/8/d/8deb5d3a-0762-4c4f-afef-fd86728914b4.jpg?1783920916",
+  "art": "https://cards.scryfall.io/art_crop/front/8/d/8deb5d3a-0762-4c4f-afef-fd86728914b4.jpg?1783920916",
+  "uri": "https://scryfall.com/card/40k/48/plasmancer",
+  "roles": [
+   "tutor"
+  ]
+ },
  "plateau|3ed|284": {
   "name": "Plateau",
   "mana": "",
@@ -32441,6 +34866,20 @@
   "uri": "https://scryfall.com/card/ons/321/polluted-delta",
   "roles": []
  },
+ "polluted mire|40k|288": {
+  "name": "Polluted Mire",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/2/8/2862c204-3e32-4ff5-b767-e1af0f37b96a.jpg?1783920705",
+  "art": "https://cards.scryfall.io/art_crop/front/2/8/2862c204-3e32-4ff5-b767-e1af0f37b96a.jpg?1783920705",
+  "uri": "https://scryfall.com/card/40k/288/polluted-mire",
+  "roles": [
+   "draw"
+  ]
+ },
  "pollywog prodigy|blc|15": {
   "name": "Pollywog Prodigy",
   "mana": "{1}{U}",
@@ -32621,6 +35060,18 @@
   "uri": "https://scryfall.com/card/clb/768/pontiff-of-blight",
   "roles": []
  },
+ "port town|40k|289": {
+  "name": "Port Town",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "UW",
+  "img": "https://cards.scryfall.io/normal/front/b/4/b4ab193e-fc0a-4f02-90a2-ea6b3de757d2.jpg?1783920704",
+  "art": "https://cards.scryfall.io/art_crop/front/b/4/b4ab193e-fc0a-4f02-90a2-ea6b3de757d2.jpg?1783920704",
+  "uri": "https://scryfall.com/card/40k/289/port-town",
+  "roles": []
+ },
  "port town|fic|412": {
   "name": "Port Town",
   "mana": "",
@@ -32695,6 +35146,20 @@
   "uri": "https://scryfall.com/card/pip/81/power-fist",
   "roles": []
  },
+ "poxwalkers|40k|49": {
+  "name": "Poxwalkers",
+  "mana": "{2}{B}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Zombie",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/c/a/ca79cd21-daaa-4a1c-bab5-cc4c783994ae.jpg?1783920914",
+  "art": "https://cards.scryfall.io/art_crop/front/c/a/ca79cd21-daaa-4a1c-bab5-cc4c783994ae.jpg?1783920914",
+  "uri": "https://scryfall.com/card/40k/49/poxwalkers",
+  "roles": [
+   "reanimation"
+  ]
+ },
  "praetor's grasp|nph|71": {
   "name": "Praetor's Grasp",
   "mana": "{1}{B}{B}",
@@ -32722,6 +35187,18 @@
   "roles": [
    "tutor"
   ]
+ },
+ "prairie stream|40k|290": {
+  "name": "Prairie Stream",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Plains Island",
+  "ci": "UW",
+  "img": "https://cards.scryfall.io/normal/front/5/9/59dd0b5a-db67-4d77-8450-382212009cf4.jpg?1783920704",
+  "art": "https://cards.scryfall.io/art_crop/front/5/9/59dd0b5a-db67-4d77-8450-382212009cf4.jpg?1783920704",
+  "uri": "https://scryfall.com/card/40k/290/prairie-stream",
+  "roles": []
  },
  "prairie stream|blc|323": {
   "name": "Prairie Stream",
@@ -32934,6 +35411,33 @@
   "art": "https://cards.scryfall.io/art_crop/front/3/5/359a4ef6-14e9-410a-bb9b-bc5b66b3e47c.jpg?1783909135",
   "uri": "https://scryfall.com/card/sld/1749/primal-vigor",
   "roles": []
+ },
+ "primaris chaplain|40k|137": {
+  "name": "Primaris Chaplain",
+  "mana": "{2}{W}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Cleric",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/5/b/5b7cb578-968c-408b-b58a-8f38cfc7696b.jpg?1783920838",
+  "art": "https://cards.scryfall.io/art_crop/front/5/b/5b7cb578-968c-408b-b58a-8f38cfc7696b.jpg?1783920838",
+  "uri": "https://scryfall.com/card/40k/137/primaris-chaplain",
+  "roles": []
+ },
+ "primaris eliminator|40k|50": {
+  "name": "Primaris Eliminator",
+  "mana": "{4}{B}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warrior",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/d/b/db7ab081-d6cd-4323-98bf-536e4df95115.jpg?1783920912",
+  "art": "https://cards.scryfall.io/art_crop/front/d/b/db7ab081-d6cd-4323-98bf-536e4df95115.jpg?1783920912",
+  "uri": "https://scryfall.com/card/40k/50/primaris-eliminator",
+  "roles": [
+   "removal",
+   "board-wipe"
+  ]
  },
  "primaris eliminator|40k|50★": {
   "name": "Primaris Eliminator",
@@ -33350,6 +35854,18 @@
    "draw"
   ]
  },
+ "psychomancer|40k|51": {
+  "name": "Psychomancer",
+  "mana": "{1}{B}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron Wizard",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/7/8/780743bf-e1a0-4114-9474-319632e0c775.jpg?1783920912",
+  "art": "https://cards.scryfall.io/art_crop/front/7/8/780743bf-e1a0-4114-9474-319632e0c775.jpg?1783920912",
+  "uri": "https://scryfall.com/card/40k/51/psychomancer",
+  "roles": []
+ },
  "psychosis crawler|blc|282": {
   "name": "Psychosis Crawler",
   "mana": "{5}",
@@ -33472,6 +35988,20 @@
   "uri": "https://scryfall.com/card/fic/250/puresteel-paladin",
   "roles": [
    "draw"
+  ]
+ },
+ "purestrain genestealer|40k|97": {
+  "name": "Purestrain Genestealer",
+  "mana": "{2}{G}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/4/f/4f15be08-085a-464a-aad5-e4305279e04a.jpg?1783920873",
+  "art": "https://cards.scryfall.io/art_crop/front/4/f/4f15be08-085a-464a-aad5-e4305279e04a.jpg?1783920873",
+  "uri": "https://scryfall.com/card/40k/97/purestrain-genestealer",
+  "roles": [
+   "land-ramp"
   ]
  },
  "putrefy|blc|257": {
@@ -34115,6 +36645,20 @@
    "land-ramp"
   ]
  },
+ "rampant growth|40k|220": {
+  "name": "Rampant Growth",
+  "mana": "{1}{G}",
+  "cmc": 2.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/b/a/ba3026d2-334d-41bd-8c6b-7de7d78e54e0.jpg?1783920770",
+  "art": "https://cards.scryfall.io/art_crop/front/b/a/ba3026d2-334d-41bd-8c6b-7de7d78e54e0.jpg?1783920770",
+  "uri": "https://scryfall.com/card/40k/220/rampant-growth",
+  "roles": [
+   "land-ramp"
+  ]
+ },
  "rampant growth|7ed|262": {
   "name": "Rampant Growth",
   "mana": "{1}{G}",
@@ -34373,6 +36917,20 @@
   "uri": "https://scryfall.com/card/pip/115/raul-trouble-shooter",
   "roles": [
    "reanimation"
+  ]
+ },
+ "ravener|40k|138": {
+  "name": "Ravener",
+  "mana": "{X}{G}{U}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/b/6/b6a9ed40-78d7-4de2-816f-1791e12fbb0c.jpg?1783920837",
+  "art": "https://cards.scryfall.io/art_crop/front/b/6/b6a9ed40-78d7-4de2-816f-1791e12fbb0c.jpg?1783920837",
+  "uri": "https://scryfall.com/card/40k/138/ravener",
+  "roles": [
+   "cantrip"
   ]
  },
  "ravenloft adventurer|clb|142": {
@@ -34669,6 +37227,18 @@
   "uri": "https://scryfall.com/card/fic/48/reapers-scythe",
   "roles": []
  },
+ "reaver titan|40k|163": {
+  "name": "Reaver Titan",
+  "mana": "{7}",
+  "cmc": 7.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Vehicle",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/d/a/dacc5e02-c21e-4a41-a704-5b87151a28c6.jpg?1783920814",
+  "art": "https://cards.scryfall.io/art_crop/front/d/a/dacc5e02-c21e-4a41-a704-5b87151a28c6.jpg?1783920814",
+  "uri": "https://scryfall.com/card/40k/163/reaver-titan",
+  "roles": []
+ },
  "reckless charge|mh1|144": {
   "name": "Reckless Charge",
   "mana": "{R}",
@@ -34708,6 +37278,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/2/1/21aa59d3-e786-4ba0-9802-01b57597cda2.jpg?1783912376",
   "uri": "https://scryfall.com/card/pip/141/recon-craft-theta",
   "roles": []
+ },
+ "reconnaissance mission|40k|193": {
+  "name": "Reconnaissance Mission",
+  "mana": "{2}{U}{U}",
+  "cmc": 4.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/0/0/009f7603-a6a3-461b-bc73-810db1ab2898.jpg?1783920792",
+  "art": "https://cards.scryfall.io/art_crop/front/0/0/009f7603-a6a3-461b-bc73-810db1ab2898.jpg?1783920792",
+  "uri": "https://scryfall.com/card/40k/193/reconnaissance-mission",
+  "roles": [
+   "draw"
+  ]
  },
  "reconnaissance|exo|17": {
   "name": "Reconnaissance",
@@ -34779,6 +37363,18 @@
    "removal",
    "protection"
   ]
+ },
+ "redemptor dreadnought|40k|164": {
+  "name": "Redemptor Dreadnought",
+  "mana": "{5}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Astartes Dreadnought",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/7/3/73b09833-c60b-4818-baa6-0bee7558c6f8.jpg?1783920815",
+  "art": "https://cards.scryfall.io/art_crop/front/7/3/73b09833-c60b-4818-baa6-0bee7558c6f8.jpg?1783920815",
+  "uri": "https://scryfall.com/card/40k/164/redemptor-dreadnought",
+  "roles": []
  },
  "rediscover the way|tdm|215": {
   "name": "Rediscover the Way",
@@ -34982,6 +37578,18 @@
   "img": "https://cards.scryfall.io/normal/front/a/0/a016463d-a0aa-44a5-97ca-17ff70c4eb95.jpg?1783903853",
   "art": "https://cards.scryfall.io/art_crop/front/a/0/a016463d-a0aa-44a5-97ca-17ff70c4eb95.jpg?1783903853",
   "uri": "https://scryfall.com/card/soc/35/relic-retriever",
+  "roles": []
+ },
+ "reliquary tower|40k|291": {
+  "name": "Reliquary Tower",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/f/c/fc07ad3a-982a-4bfc-b2e7-8e6e340ed32c.jpg?1783920701",
+  "art": "https://cards.scryfall.io/art_crop/front/f/c/fc07ad3a-982a-4bfc-b2e7-8e6e340ed32c.jpg?1783920701",
+  "uri": "https://scryfall.com/card/40k/291/reliquary-tower",
   "roles": []
  },
  "reliquary tower|blc|132": {
@@ -35286,6 +37894,20 @@
    "reanimation"
   ]
  },
+ "resurrection orb|40k|165": {
+  "name": "Resurrection Orb",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Equipment",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/2/d/2d6209c8-9fa1-4f0a-ab65-ac2fedfcd09b.jpg?1783920812",
+  "art": "https://cards.scryfall.io/art_crop/front/2/d/2d6209c8-9fa1-4f0a-ab65-ac2fedfcd09b.jpg?1783920812",
+  "uri": "https://scryfall.com/card/40k/165/resurrection-orb",
+  "roles": [
+   "protection"
+  ]
+ },
  "return of the mole man|msc|729": {
   "name": "Return of the Mole Man",
   "mana": "{1}{G}",
@@ -35336,6 +37958,18 @@
   "img": "https://cards.scryfall.io/normal/front/8/b/8bf88010-799d-4217-8e79-308bec7ad2ff.jpg?1783908857",
   "art": "https://cards.scryfall.io/art_crop/front/8/b/8bf88010-799d-4217-8e79-308bec7ad2ff.jpg?1783908857",
   "uri": "https://scryfall.com/card/j25/45/rev-tithe-extractor",
+  "roles": []
+ },
+ "reverberate|40k|207": {
+  "name": "Reverberate",
+  "mana": "{R}{R}",
+  "cmc": 2.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/9/9/997d4adb-d1bc-4d8f-9ed1-20fc8d7e4780.jpg?1783920782",
+  "art": "https://cards.scryfall.io/art_crop/front/9/9/997d4adb-d1bc-4d8f-9ed1-20fc8d7e4780.jpg?1783920782",
+  "uri": "https://scryfall.com/card/40k/207/reverberate",
   "roles": []
  },
  "reverberate|m11|155": {
@@ -36170,6 +38804,20 @@
    "removal"
   ]
  },
+ "royal warden|40k|52": {
+  "name": "Royal Warden",
+  "mana": "{3}{B}{B}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/0/a/0a968eac-2840-41ba-b7de-3182964d4913.jpg?1783920911",
+  "art": "https://cards.scryfall.io/art_crop/front/0/a/0a968eac-2840-41ba-b7de-3182964d4913.jpg?1783920911",
+  "uri": "https://scryfall.com/card/40k/52/royal-warden",
+  "roles": [
+   "reanimation"
+  ]
+ },
  "ruby, daring tracker|woe|212": {
   "name": "Ruby, Daring Tracker",
   "mana": "{R}{G}",
@@ -36183,6 +38831,18 @@
   "roles": [
    "mana-dork"
   ]
+ },
+ "rugged highlands|40k|292": {
+  "name": "Rugged Highlands",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "GR",
+  "img": "https://cards.scryfall.io/normal/front/4/2/420cb35b-1d76-4e86-9e88-47a8ec9e13bd.jpg?1783920701",
+  "art": "https://cards.scryfall.io/art_crop/front/4/2/420cb35b-1d76-4e86-9e88-47a8ec9e13bd.jpg?1783920701",
+  "uri": "https://scryfall.com/card/40k/292/rugged-highlands",
+  "roles": []
  },
  "rugged prairie|blc|327": {
   "name": "Rugged Prairie",
@@ -36716,6 +39376,20 @@
    "protection"
   ]
  },
+ "sanguinary priest|40k|53": {
+  "name": "Sanguinary Priest",
+  "mana": "{3}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Cleric",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/f/2/f221eccc-3bd2-4629-aacc-7abf8c11449f.jpg?1783920909",
+  "art": "https://cards.scryfall.io/art_crop/front/f/2/f221eccc-3bd2-4629-aacc-7abf8c11449f.jpg?1783920909",
+  "uri": "https://scryfall.com/card/40k/53/sanguinary-priest",
+  "roles": [
+   "removal"
+  ]
+ },
  "sapphire medallion|tmp|306": {
   "name": "Sapphire Medallion",
   "mana": "{2}",
@@ -36830,6 +39504,18 @@
   "img": "https://cards.scryfall.io/normal/front/4/3/434bb07c-7b70-415e-80dd-317af0ef8bf7.jpg?1783911364",
   "art": "https://cards.scryfall.io/art_crop/front/4/3/434bb07c-7b70-415e-80dd-317af0ef8bf7.jpg?1783911364",
   "uri": "https://scryfall.com/card/m3c/244/satyr-wayfinder",
+  "roles": []
+ },
+ "sautekh immortal|40k|54": {
+  "name": "Sautekh Immortal",
+  "mana": "{2}{B}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/c/5/c57778d7-fbd7-482f-b895-c033592f7af6.jpg?1783920910",
+  "art": "https://cards.scryfall.io/art_crop/front/c/5/c57778d7-fbd7-482f-b895-c033592f7af6.jpg?1783920910",
+  "uri": "https://scryfall.com/card/40k/54/sautekh-immortal",
   "roles": []
  },
  "savage lands|ecc|165": {
@@ -37100,6 +39786,20 @@
    "board-wipe"
   ]
  },
+ "sceptre of eternal glory|40k|166": {
+  "name": "Sceptre of Eternal Glory",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Artifact",
+  "type_line": "Legendary Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/b/c/bc7f3009-c852-41e7-8e62-d2ee637b3998.jpg?1783920812",
+  "art": "https://cards.scryfall.io/art_crop/front/b/c/bc7f3009-c852-41e7-8e62-d2ee637b3998.jpg?1783920812",
+  "uri": "https://scryfall.com/card/40k/166/sceptre-of-eternal-glory",
+  "roles": [
+   "mana-rock"
+  ]
+ },
  "scheming symmetry|m20|113": {
   "name": "Scheming Symmetry",
   "mana": "{B}",
@@ -37182,6 +39882,18 @@
    "regrowth",
    "tutor"
   ]
+ },
+ "scoured barrens|40k|293": {
+  "name": "Scoured Barrens",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/2/b/2b7d85b4-3abc-49a8-8ff2-715ad8cbf4ab.jpg?1783920700",
+  "art": "https://cards.scryfall.io/art_crop/front/2/b/2b7d85b4-3abc-49a8-8ff2-715ad8cbf4ab.jpg?1783920700",
+  "uri": "https://scryfall.com/card/40k/293/scoured-barrens",
+  "roles": []
  },
  "scourge of the throne|mkc|160": {
   "name": "Scourge of the Throne",
@@ -37285,6 +39997,18 @@
   "img": "https://cards.scryfall.io/normal/front/4/7/472034a2-0ba9-4876-ab7a-aa7013d603bb.jpg?1783948277",
   "art": "https://cards.scryfall.io/art_crop/front/4/7/472034a2-0ba9-4876-ab7a-aa7013d603bb.jpg?1783948277",
   "uri": "https://scryfall.com/card/3ed/286/scrubland",
+  "roles": []
+ },
+ "sculpting steel|40k|247": {
+  "name": "Sculpting Steel",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/5/c/5cfa5564-47d8-48e7-a815-2a6cff683a52.jpg?1783920746",
+  "art": "https://cards.scryfall.io/art_crop/front/5/c/5cfa5564-47d8-48e7-a815-2a6cff683a52.jpg?1783920746",
+  "uri": "https://scryfall.com/card/40k/247/sculpting-steel",
   "roles": []
  },
  "scurry of gremlins|mh3|203": {
@@ -37638,6 +40362,18 @@
   "roles": [
    "land-ramp"
   ]
+ },
+ "seeker of slaanesh|40k|85": {
+  "name": "Seeker of Slaanesh",
+  "mana": "{3}{R}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/9/f/9f07e21c-a775-43bb-90a2-545a5e1b909b.jpg?1783920882",
+  "art": "https://cards.scryfall.io/art_crop/front/9/f/9f07e21c-a775-43bb-90a2-545a5e1b909b.jpg?1783920882",
+  "uri": "https://scryfall.com/card/40k/85/seeker-of-slaanesh",
+  "roles": []
  },
  "seer's sundial|m3c|304": {
   "name": "Seer's Sundial",
@@ -38102,6 +40838,18 @@
    "graveyard-cast"
   ]
  },
+ "shadow in the warp|40k|140": {
+  "name": "Shadow in the Warp",
+  "mana": "{1}{R}{G}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "GR",
+  "img": "https://cards.scryfall.io/normal/front/b/d/bd60cd99-1511-4903-b678-ff5a1853a742.jpg?1783920836",
+  "art": "https://cards.scryfall.io/art_crop/front/b/d/bd60cd99-1511-4903-b678-ff5a1853a742.jpg?1783920836",
+  "uri": "https://scryfall.com/card/40k/140/shadow-in-the-warp",
+  "roles": []
+ },
  "shadow rift|plst|tmp-86": {
   "name": "Shadow Rift",
   "mana": "{U}",
@@ -38254,6 +41002,32 @@
   "uri": "https://scryfall.com/card/dmc/4/shanid-sleepers-scourge",
   "roles": [
    "draw"
+  ]
+ },
+ "shard of the nightbringer|40k|55": {
+  "name": "Shard of the Nightbringer",
+  "mana": "{5}{B}{B}{B}",
+  "cmc": 8.0,
+  "type": "Creature",
+  "type_line": "Creature — C'tan",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/2/1/21e4140e-22b3-479f-a259-0f56ed02b8ad.jpg?1783920909",
+  "art": "https://cards.scryfall.io/art_crop/front/2/1/21e4140e-22b3-479f-a259-0f56ed02b8ad.jpg?1783920909",
+  "uri": "https://scryfall.com/card/40k/55/shard-of-the-nightbringer",
+  "roles": []
+ },
+ "shard of the void dragon|40k|56": {
+  "name": "Shard of the Void Dragon",
+  "mana": "{4}{B}{B}{B}",
+  "cmc": 7.0,
+  "type": "Creature",
+  "type_line": "Creature — C'tan",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/4/1/41dd0b55-3dbb-4b65-a949-20c2a12f7edd.jpg?1783920909",
+  "art": "https://cards.scryfall.io/art_crop/front/4/1/41dd0b55-3dbb-4b65-a949-20c2a12f7edd.jpg?1783920909",
+  "uri": "https://scryfall.com/card/40k/56/shard-of-the-void-dragon",
+  "roles": [
+   "removal"
   ]
  },
  "shardmage's rescue|dsk|29": {
@@ -38818,6 +41592,20 @@
   "uri": "https://scryfall.com/card/m3c/376/shrine-of-the-forsaken-gods",
   "roles": []
  },
+ "sicarian infiltrator|40k|25": {
+  "name": "Sicarian Infiltrator",
+  "mana": "{2}{U}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Human Soldier",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/c/c/cc0aa0eb-dc26-49d8-bbff-74fb3d597a72.jpg?1783920932",
+  "art": "https://cards.scryfall.io/art_crop/front/c/c/cc0aa0eb-dc26-49d8-bbff-74fb3d597a72.jpg?1783920932",
+  "uri": "https://scryfall.com/card/40k/25/sicarian-infiltrator",
+  "roles": [
+   "cantrip"
+  ]
+ },
  "siege-gang commander|blc|202": {
   "name": "Siege-Gang Commander",
   "mana": "{3}{R}{R}",
@@ -39170,6 +41958,48 @@
    "tutor"
   ]
  },
+ "sister hospitaller|40k|141": {
+  "name": "Sister Hospitaller",
+  "mana": "{4}{W}{B}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Cleric",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/f/b/fb086307-b089-45ba-81d3-789ed35dc5b8.jpg?1783920833",
+  "art": "https://cards.scryfall.io/art_crop/front/f/b/fb086307-b089-45ba-81d3-789ed35dc5b8.jpg?1783920833",
+  "uri": "https://scryfall.com/card/40k/141/sister-hospitaller",
+  "roles": [
+   "reanimation"
+  ]
+ },
+ "sister of silence|40k|26": {
+  "name": "Sister of Silence",
+  "mana": "{4}{U}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Knight",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/1/5/15d56042-db45-40dc-a197-e2b7a3e6ab06.jpg?1783920931",
+  "art": "https://cards.scryfall.io/art_crop/front/1/5/15d56042-db45-40dc-a197-e2b7a3e6ab06.jpg?1783920931",
+  "uri": "https://scryfall.com/card/40k/26/sister-of-silence",
+  "roles": [
+   "counterspell"
+  ]
+ },
+ "sister repentia|40k|142": {
+  "name": "Sister Repentia",
+  "mana": "{3}{W}{B}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Warrior",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/7/4/743c5111-9e94-4f08-9c01-92411e8a2317.jpg?1783920832",
+  "art": "https://cards.scryfall.io/art_crop/front/7/4/743c5111-9e94-4f08-9c01-92411e8a2317.jpg?1783920832",
+  "uri": "https://scryfall.com/card/40k/142/sister-repentia",
+  "roles": [
+   "draw"
+  ]
+ },
  "six|mh3|169": {
   "name": "Six",
   "mana": "{2}{G}",
@@ -39314,6 +42144,32 @@
   "uri": "https://scryfall.com/card/mh3/137/skittering-precursor",
   "roles": []
  },
+ "skorpekh destroyer|40k|57": {
+  "name": "Skorpekh Destroyer",
+  "mana": "{2}{B}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/b/8/b8c69031-588d-44a2-89b3-972a335541e5.jpg?1783920908",
+  "art": "https://cards.scryfall.io/art_crop/front/b/8/b8c69031-588d-44a2-89b3-972a335541e5.jpg?1783920908",
+  "uri": "https://scryfall.com/card/40k/57/skorpekh-destroyer",
+  "roles": []
+ },
+ "skorpekh lord|40k|58": {
+  "name": "Skorpekh Lord",
+  "mana": "{2}{B}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron Noble",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/b/7/b768ec5f-771a-4acd-b3dd-85dea914689e.jpg?1783920906",
+  "art": "https://cards.scryfall.io/art_crop/front/b/7/b768ec5f-771a-4acd-b3dd-85dea914689e.jpg?1783920906",
+  "uri": "https://scryfall.com/card/40k/58/skorpekh-lord",
+  "roles": [
+   "reanimation"
+  ]
+ },
  "skrelv, defector mite|one|301": {
   "name": "Skrelv, Defector Mite",
   "mana": "{W}",
@@ -39326,6 +42182,20 @@
   "uri": "https://scryfall.com/card/one/301/skrelv-defector-mite",
   "roles": [
    "protection"
+  ]
+ },
+ "skullclamp|40k|248": {
+  "name": "Skullclamp",
+  "mana": "{1}",
+  "cmc": 1.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Equipment",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/0/4/04733881-38a3-404c-837f-fad3fc5a5647.jpg?1783920744",
+  "art": "https://cards.scryfall.io/art_crop/front/0/4/04733881-38a3-404c-837f-fad3fc5a5647.jpg?1783920744",
+  "uri": "https://scryfall.com/card/40k/248/skullclamp",
+  "roles": [
+   "draw"
   ]
  },
  "skullclamp|40k|248★": {
@@ -39495,6 +42365,18 @@
   "roles": [
    "removal"
   ]
+ },
+ "skycloud expanse|40k|294": {
+  "name": "Skycloud Expanse",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "UW",
+  "img": "https://cards.scryfall.io/normal/front/2/f/2f829053-b1db-4e64-b243-5be6c93f8af7.jpg?1783920698",
+  "art": "https://cards.scryfall.io/art_crop/front/2/f/2f829053-b1db-4e64-b243-5be6c93f8af7.jpg?1783920698",
+  "uri": "https://scryfall.com/card/40k/294/skycloud-expanse",
+  "roles": []
  },
  "skycloud expanse|blc|332": {
   "name": "Skycloud Expanse",
@@ -39675,6 +42557,18 @@
   "roles": [
    "draw"
   ]
+ },
+ "sloppity bilepiper|40k|59": {
+  "name": "Sloppity Bilepiper",
+  "mana": "{3}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Demon",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/7/e/7eadbe1b-12a2-4791-b51d-e5eebf652af6.jpg?1783920905",
+  "art": "https://cards.scryfall.io/art_crop/front/7/e/7eadbe1b-12a2-4791-b51d-e5eebf652af6.jpg?1783920905",
+  "uri": "https://scryfall.com/card/40k/59/sloppity-bilepiper",
+  "roles": []
  },
  "smokebraider|ecc|96": {
   "name": "Smokebraider",
@@ -40093,6 +42987,62 @@
   "uri": "https://scryfall.com/card/mh2/235/sojourners-companion",
   "roles": [
    "tutor"
+  ]
+ },
+ "sol ring|40k|249": {
+  "name": "Sol Ring",
+  "mana": "{1}",
+  "cmc": 1.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/3/3/33773feb-5b49-4d44-adca-93b99009acc0.jpg?1786083237",
+  "art": "https://cards.scryfall.io/art_crop/front/3/3/33773feb-5b49-4d44-adca-93b99009acc0.jpg?1786083237",
+  "uri": "https://scryfall.com/card/40k/249/sol-ring",
+  "roles": [
+   "mana-rock"
+  ]
+ },
+ "sol ring|40k|250": {
+  "name": "Sol Ring",
+  "mana": "{1}",
+  "cmc": 1.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/5/0/508b2c62-a344-4897-a3a4-4f0555627fc1.jpg?1783920741",
+  "art": "https://cards.scryfall.io/art_crop/front/5/0/508b2c62-a344-4897-a3a4-4f0555627fc1.jpg?1783920741",
+  "uri": "https://scryfall.com/card/40k/250/sol-ring",
+  "roles": [
+   "mana-rock"
+  ]
+ },
+ "sol ring|40k|251": {
+  "name": "Sol Ring",
+  "mana": "{1}",
+  "cmc": 1.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/e/b/ebfcda26-1f28-4d60-bc7b-8c0bafc6b132.jpg?1783920741",
+  "art": "https://cards.scryfall.io/art_crop/front/e/b/ebfcda26-1f28-4d60-bc7b-8c0bafc6b132.jpg?1783920741",
+  "uri": "https://scryfall.com/card/40k/251/sol-ring",
+  "roles": [
+   "mana-rock"
+  ]
+ },
+ "sol ring|40k|252": {
+  "name": "Sol Ring",
+  "mana": "{1}",
+  "cmc": 1.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/e/3/e3450882-d791-4172-b02a-ee7fdb36acfc.jpg?1783920740",
+  "art": "https://cards.scryfall.io/art_crop/front/e/3/e3450882-d791-4172-b02a-ee7fdb36acfc.jpg?1783920740",
+  "uri": "https://scryfall.com/card/40k/252/sol-ring",
+  "roles": [
+   "mana-rock"
   ]
  },
  "sol ring|afc|215": {
@@ -40736,6 +43686,34 @@
    "removal"
   ]
  },
+ "space marine devastator|40k|14": {
+  "name": "Space Marine Devastator",
+  "mana": "{3}{W}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warrior",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/4/a/4a821438-2b60-421e-9fd2-3ce3ec958eb7.jpg?1783920945",
+  "art": "https://cards.scryfall.io/art_crop/front/4/a/4a821438-2b60-421e-9fd2-3ce3ec958eb7.jpg?1783920945",
+  "uri": "https://scryfall.com/card/40k/14/space-marine-devastator",
+  "roles": [
+   "removal"
+  ]
+ },
+ "space marine scout|40k|15": {
+  "name": "Space Marine Scout",
+  "mana": "{2}{W}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Scout",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/1/d/1d7c6801-2c75-435c-a16b-a30b8c3a6be2.jpg?1783920944",
+  "art": "https://cards.scryfall.io/art_crop/front/1/d/1d7c6801-2c75-435c-a16b-a30b8c3a6be2.jpg?1783920944",
+  "uri": "https://scryfall.com/card/40k/15/space-marine-scout",
+  "roles": [
+   "land-ramp"
+  ]
+ },
  "spara's headquarters|psnc|257p": {
   "name": "Spara's Headquarters",
   "mana": "",
@@ -41110,6 +44088,21 @@
    "protection"
   ]
  },
+ "sporocyst|40k|98": {
+  "name": "Sporocyst",
+  "mana": "{X}{X}{G}",
+  "cmc": 1.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/7/2/72101d5f-f3a4-4490-a6f5-c320f3aeb242.jpg?1783920872",
+  "art": "https://cards.scryfall.io/art_crop/front/7/2/72101d5f-f3a4-4490-a6f5-c320f3aeb242.jpg?1783920872",
+  "uri": "https://scryfall.com/card/40k/98/sporocyst",
+  "roles": [
+   "land-ramp",
+   "cantrip"
+  ]
+ },
  "springbloom druid|soc|287": {
   "name": "Springbloom Druid",
   "mana": "{2}{G}",
@@ -41343,6 +44336,21 @@
   "art": "https://cards.scryfall.io/art_crop/front/f/5/f5774836-0140-420a-9a0f-8ba291cc5ca8.jpg?1783922363",
   "uri": "https://scryfall.com/card/clb/917/starlit-sanctum",
   "roles": []
+ },
+ "starstorm|40k|208": {
+  "name": "Starstorm",
+  "mana": "{X}{R}{R}",
+  "cmc": 2.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/b/4/b45264cb-67d0-4dfb-9229-61c4e90c760a.jpg?1783920780",
+  "art": "https://cards.scryfall.io/art_crop/front/b/4/b45264cb-67d0-4dfb-9229-61c4e90c760a.jpg?1783920780",
+  "uri": "https://scryfall.com/card/40k/208/starstorm",
+  "roles": [
+   "draw",
+   "board-wipe"
+  ]
  },
  "starstorm|blc|203": {
   "name": "Starstorm",
@@ -42757,6 +45765,18 @@
   "uri": "https://scryfall.com/card/pip/295/sungrass-prairie",
   "roles": []
  },
+ "sunken hollow|40k|295": {
+  "name": "Sunken Hollow",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land — Island Swamp",
+  "ci": "BU",
+  "img": "https://cards.scryfall.io/normal/front/8/b/8b195fba-e0e0-4f89-b667-8d54286dd6fe.jpg?1783920698",
+  "art": "https://cards.scryfall.io/art_crop/front/8/b/8b195fba-e0e0-4f89-b667-8d54286dd6fe.jpg?1783920698",
+  "uri": "https://scryfall.com/card/40k/295/sunken-hollow",
+  "roles": []
+ },
  "sunken hollow|fic|429": {
   "name": "Sunken Hollow",
   "mana": "",
@@ -43087,6 +46107,42 @@
   "roles": [
    "removal"
   ]
+ },
+ "swamp|40k|311": {
+  "name": "Swamp",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Swamp",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/3/c/3cea8d65-34ba-472e-b50e-da8bdbf54c7a.jpg?1783920680",
+  "art": "https://cards.scryfall.io/art_crop/front/3/c/3cea8d65-34ba-472e-b50e-da8bdbf54c7a.jpg?1783920680",
+  "uri": "https://scryfall.com/card/40k/311/swamp",
+  "roles": []
+ },
+ "swamp|40k|312": {
+  "name": "Swamp",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Swamp",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/b/6/b6ec5e94-acd6-481d-a5cb-0ca8628614b1.jpg?1783920681",
+  "art": "https://cards.scryfall.io/art_crop/front/b/6/b6ec5e94-acd6-481d-a5cb-0ca8628614b1.jpg?1783920681",
+  "uri": "https://scryfall.com/card/40k/312/swamp",
+  "roles": []
+ },
+ "swamp|40k|314": {
+  "name": "Swamp",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Basic Land — Swamp",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/5/7/575fadbe-75a6-4183-be46-53de6af74790.jpg?1783920679",
+  "art": "https://cards.scryfall.io/art_crop/front/5/7/575fadbe-75a6-4183-be46-53de6af74790.jpg?1783920679",
+  "uri": "https://scryfall.com/card/40k/314/swamp",
+  "roles": []
  },
  "swamp|acr|106": {
   "name": "Swamp",
@@ -43536,6 +46592,18 @@
    "protection"
   ]
  },
+ "swiftwater cliffs|40k|296": {
+  "name": "Swiftwater Cliffs",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/4/4/44989399-e87c-48bd-84d0-b6c891baee52.jpg?1783920696",
+  "art": "https://cards.scryfall.io/art_crop/front/4/4/44989399-e87c-48bd-84d0-b6c891baee52.jpg?1783920696",
+  "uri": "https://scryfall.com/card/40k/296/swiftwater-cliffs",
+  "roles": []
+ },
  "sword of the animist|fic|362": {
   "name": "Sword of the Animist",
   "mana": "{2}",
@@ -43561,6 +46629,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/a/3/a3f4d41d-69a5-412f-aa25-f1acc5cacab2.jpg?1783910725",
   "uri": "https://scryfall.com/card/blc/40/sword-of-the-squeak",
   "roles": []
+ },
+ "swords to plowshares|40k|190": {
+  "name": "Swords to Plowshares",
+  "mana": "{W}",
+  "cmc": 1.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/9/9/99263917-25ca-4d54-b1f9-d6d316747088.jpg?1783920797",
+  "art": "https://cards.scryfall.io/art_crop/front/9/9/99263917-25ca-4d54-b1f9-d6d316747088.jpg?1783920797",
+  "uri": "https://scryfall.com/card/40k/190/swords-to-plowshares",
+  "roles": [
+   "removal"
+  ]
  },
  "swords to plowshares|blc|109": {
   "name": "Swords to Plowshares",
@@ -43924,6 +47006,18 @@
    "draw"
   ]
  },
+ "szarekh, the silent king|40k|170": {
+  "name": "Szarekh, the Silent King",
+  "mana": "{1}{B}{B}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/1/2/12a3400d-7a8b-4bae-9a4f-c9a1bc741e68.jpg?1783920808",
+  "art": "https://cards.scryfall.io/art_crop/front/1/2/12a3400d-7a8b-4bae-9a4f-c9a1bc741e68.jpg?1783920808",
+  "uri": "https://scryfall.com/card/40k/170/szarekh-the-silent-king",
+  "roles": []
+ },
  "taiga|3ed|287": {
   "name": "Taiga",
   "mana": "",
@@ -44192,6 +47286,20 @@
    "mana-rock"
   ]
  },
+ "talisman of creativity|40k|253": {
+  "name": "Talisman of Creativity",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/3/3/33ae73bc-fac3-4c15-9863-117caa30e4aa.jpg?1783920740",
+  "art": "https://cards.scryfall.io/art_crop/front/3/3/33ae73bc-fac3-4c15-9863-117caa30e4aa.jpg?1783920740",
+  "uri": "https://scryfall.com/card/40k/253/talisman-of-creativity",
+  "roles": [
+   "mana-rock"
+  ]
+ },
  "talisman of creativity|c21|269": {
   "name": "Talisman of Creativity",
   "mana": "{2}",
@@ -44304,6 +47412,34 @@
    "mana-rock"
   ]
  },
+ "talisman of dominance|40k|254": {
+  "name": "Talisman of Dominance",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "BU",
+  "img": "https://cards.scryfall.io/normal/front/f/e/fea79e31-97f9-4131-8101-99f7265758dd.jpg?1783920739",
+  "art": "https://cards.scryfall.io/art_crop/front/f/e/fea79e31-97f9-4131-8101-99f7265758dd.jpg?1783920739",
+  "uri": "https://scryfall.com/card/40k/254/talisman-of-dominance",
+  "roles": [
+   "mana-rock"
+  ]
+ },
+ "talisman of dominance|40k|255": {
+  "name": "Talisman of Dominance",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "BU",
+  "img": "https://cards.scryfall.io/normal/front/3/f/3f7370c5-24e8-481b-959d-c6a92e9bbe73.jpg?1783920738",
+  "art": "https://cards.scryfall.io/art_crop/front/3/f/3f7370c5-24e8-481b-959d-c6a92e9bbe73.jpg?1783920738",
+  "uri": "https://scryfall.com/card/40k/255/talisman-of-dominance",
+  "roles": [
+   "mana-rock"
+  ]
+ },
  "talisman of dominance|fic|364": {
   "name": "Talisman of Dominance",
   "mana": "{2}",
@@ -44370,6 +47506,20 @@
   "img": "https://cards.scryfall.io/normal/front/8/b/8b5713b7-f2a6-41c5-a485-058b7393570b.jpg?1783920218",
   "art": "https://cards.scryfall.io/art_crop/front/8/b/8b5713b7-f2a6-41c5-a485-058b7393570b.jpg?1783920218",
   "uri": "https://scryfall.com/card/sld/1053/talisman-of-dominance",
+  "roles": [
+   "mana-rock"
+  ]
+ },
+ "talisman of hierarchy|40k|256": {
+  "name": "Talisman of Hierarchy",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/f/1/f1be61f4-84e6-4d7b-8755-2651edfe7c92.jpg?1783920736",
+  "art": "https://cards.scryfall.io/art_crop/front/f/1/f1be61f4-84e6-4d7b-8755-2651edfe7c92.jpg?1783920736",
+  "uri": "https://scryfall.com/card/40k/256/talisman-of-hierarchy",
   "roles": [
    "mana-rock"
   ]
@@ -44458,6 +47608,20 @@
    "mana-rock"
   ]
  },
+ "talisman of indulgence|40k|257": {
+  "name": "Talisman of Indulgence",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/2/8/2844e7be-32d2-41dd-9a03-eab9fd09bf14.jpg?1783920734",
+  "art": "https://cards.scryfall.io/art_crop/front/2/8/2844e7be-32d2-41dd-9a03-eab9fd09bf14.jpg?1783920734",
+  "uri": "https://scryfall.com/card/40k/257/talisman-of-indulgence",
+  "roles": [
+   "mana-rock"
+  ]
+ },
  "talisman of indulgence|e01|91": {
   "name": "Talisman of Indulgence",
   "mana": "{2}",
@@ -44524,6 +47688,20 @@
   "img": "https://cards.scryfall.io/normal/front/1/1/113410ff-d25e-4f25-a6c2-236bcf4c8486.jpg?1783912341",
   "art": "https://cards.scryfall.io/art_crop/front/1/1/113410ff-d25e-4f25-a6c2-236bcf4c8486.jpg?1783912341",
   "uri": "https://scryfall.com/card/pip/248/talisman-of-indulgence",
+  "roles": [
+   "mana-rock"
+  ]
+ },
+ "talisman of progress|40k|258": {
+  "name": "Talisman of Progress",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "UW",
+  "img": "https://cards.scryfall.io/normal/front/2/c/2c42da3b-8ff6-46b9-81c9-d18adf6dfd40.jpg?1783920733",
+  "art": "https://cards.scryfall.io/art_crop/front/2/c/2c42da3b-8ff6-46b9-81c9-d18adf6dfd40.jpg?1783920733",
+  "uri": "https://scryfall.com/card/40k/258/talisman-of-progress",
   "roles": [
    "mana-rock"
   ]
@@ -44638,6 +47816,20 @@
   "uri": "https://scryfall.com/card/pip/250/talisman-of-resilience",
   "roles": [
    "mana-rock"
+  ]
+ },
+ "tallyman of nurgle|40k|60": {
+  "name": "Tallyman of Nurgle",
+  "mana": "{2}{B}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warrior",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/7/2/72ce155e-af65-47f9-8967-6608bd69ee55.jpg?1783920905",
+  "art": "https://cards.scryfall.io/art_crop/front/7/2/72ce155e-af65-47f9-8967-6608bd69ee55.jpg?1783920905",
+  "uri": "https://scryfall.com/card/40k/60/tallyman-of-nurgle",
+  "roles": [
+   "draw"
   ]
  },
  "talon gates of madara|m3c|134": {
@@ -44891,6 +48083,20 @@
    "removal"
   ]
  },
+ "technomancer|40k|61": {
+  "name": "Technomancer",
+  "mana": "{5}{B}{B}",
+  "cmc": 7.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron Wizard",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/c/1/c160c1f7-714e-444a-ab74-c64c3a099a48.jpg?1783920903",
+  "art": "https://cards.scryfall.io/art_crop/front/c/1/c160c1f7-714e-444a-ab74-c64c3a099a48.jpg?1783920903",
+  "uri": "https://scryfall.com/card/40k/61/technomancer",
+  "roles": [
+   "reanimation"
+  ]
+ },
  "tectonic edge|m3c|384": {
   "name": "Tectonic Edge",
   "mana": "",
@@ -45019,6 +48225,18 @@
   "uri": "https://scryfall.com/card/sld/127/temple-garden",
   "roles": []
  },
+ "temple of abandon|40k|297": {
+  "name": "Temple of Abandon",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "GR",
+  "img": "https://cards.scryfall.io/normal/front/c/1/c12a751e-82e9-4181-bb9d-f9412b9c6df3.jpg?1783920697",
+  "art": "https://cards.scryfall.io/art_crop/front/c/1/c12a751e-82e9-4181-bb9d-f9412b9c6df3.jpg?1783920697",
+  "uri": "https://scryfall.com/card/40k/297/temple-of-abandon",
+  "roles": []
+ },
  "temple of abandon|blc|338": {
   "name": "Temple of Abandon",
   "mana": "",
@@ -45101,6 +48319,18 @@
   "img": "https://cards.scryfall.io/normal/front/2/0/20d3434d-d88e-4d00-84a7-ed027faac70f.jpg?1783906964",
   "art": "https://cards.scryfall.io/art_crop/front/2/0/20d3434d-d88e-4d00-84a7-ed027faac70f.jpg?1783906964",
   "uri": "https://scryfall.com/card/tdc/401/temple-of-enlightenment",
+  "roles": []
+ },
+ "temple of epiphany|40k|298": {
+  "name": "Temple of Epiphany",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/5/f/5faecebe-1688-40e9-89a4-1a523a8bd8d6.jpg?1783920696",
+  "art": "https://cards.scryfall.io/art_crop/front/5/f/5faecebe-1688-40e9-89a4-1a523a8bd8d6.jpg?1783920696",
+  "uri": "https://scryfall.com/card/40k/298/temple-of-epiphany",
   "roles": []
  },
  "temple of epiphany|blc|340": {
@@ -45233,6 +48463,18 @@
   "img": "https://cards.scryfall.io/normal/front/6/c/6ccf18ae-ca47-46b0-85c2-235e75d5b42b.jpg?1783912318",
   "art": "https://cards.scryfall.io/art_crop/front/6/c/6ccf18ae-ca47-46b0-85c2-235e75d5b42b.jpg?1783912318",
   "uri": "https://scryfall.com/card/pip/307/temple-of-malice",
+  "roles": []
+ },
+ "temple of mystery|40k|299": {
+  "name": "Temple of Mystery",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/6/5/659c3062-2a60-4186-a531-0d29b048804e.jpg?1783920693",
+  "art": "https://cards.scryfall.io/art_crop/front/6/5/659c3062-2a60-4186-a531-0d29b048804e.jpg?1783920693",
+  "uri": "https://scryfall.com/card/40k/299/temple-of-mystery",
   "roles": []
  },
  "temple of mystery|blc|342": {
@@ -45389,6 +48631,18 @@
   "img": "https://cards.scryfall.io/normal/front/0/c/0c79b3c6-ccbe-48ae-a1f7-ddfd37ecdbf5.jpg?1783926433",
   "art": "https://cards.scryfall.io/art_crop/front/0/c/0c79b3c6-ccbe-48ae-a1f7-ddfd37ecdbf5.jpg?1783926433",
   "uri": "https://scryfall.com/card/afr/260/temple-of-the-dragon-queen",
+  "roles": []
+ },
+ "temple of the false god|40k|300": {
+  "name": "Temple of the False God",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/f/8/f824b459-7720-4277-8a70-b1f5f4c8324c.jpg?1783920693",
+  "art": "https://cards.scryfall.io/art_crop/front/f/8/f824b459-7720-4277-8a70-b1f5f4c8324c.jpg?1783920693",
+  "uri": "https://scryfall.com/card/40k/300/temple-of-the-false-god",
   "roles": []
  },
  "temple of the false god|c20|319": {
@@ -45655,6 +48909,20 @@
    "removal"
   ]
  },
+ "termagant swarm|40k|99": {
+  "name": "Termagant Swarm",
+  "mana": "{X}{G}",
+  "cmc": 1.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/3/1/31079fcb-49bf-41a2-a9b4-07c96f93399d.jpg?1783920871",
+  "art": "https://cards.scryfall.io/art_crop/front/3/1/31079fcb-49bf-41a2-a9b4-07c96f93399d.jpg?1783920871",
+  "uri": "https://scryfall.com/card/40k/99/termagant-swarm",
+  "roles": [
+   "cantrip"
+  ]
+ },
  "terminate|ecc|134": {
   "name": "Terminate",
   "mana": "{B}{R}",
@@ -45696,6 +48964,18 @@
   "roles": [
    "reanimation"
   ]
+ },
+ "terramorphic expanse|40k|301": {
+  "name": "Terramorphic Expanse",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/6/7/67161521-aae6-4017-abf8-46f3a41b59bc.jpg?1783920691",
+  "art": "https://cards.scryfall.io/art_crop/front/6/7/67161521-aae6-4017-abf8-46f3a41b59bc.jpg?1783920691",
+  "uri": "https://scryfall.com/card/40k/301/terramorphic-expanse",
+  "roles": []
  },
  "terramorphic expanse|blc|345": {
   "name": "Terramorphic Expanse",
@@ -45809,6 +49089,20 @@
   "uri": "https://scryfall.com/card/otj/149/terror-of-the-peaks",
   "roles": [
    "removal"
+  ]
+ },
+ "tervigon|40k|100": {
+  "name": "Tervigon",
+  "mana": "{X}{1}{G}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/5/0/50909e0e-0bed-423a-beb4-a24b14e95edc.jpg?1783920869",
+  "art": "https://cards.scryfall.io/art_crop/front/5/0/50909e0e-0bed-423a-beb4-a24b14e95edc.jpg?1783920869",
+  "uri": "https://scryfall.com/card/40k/100/tervigon",
+  "roles": [
+   "cantrip"
   ]
  },
  "teshar, ancestor's apostle|soc|180": {
@@ -46059,6 +49353,32 @@
    "reanimation"
   ]
  },
+ "the first tyrannic war|40k|121": {
+  "name": "The First Tyrannic War",
+  "mana": "{2}{G}{U}{R}",
+  "cmc": 5.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "GRU",
+  "img": "https://cards.scryfall.io/normal/front/6/4/64c814f3-8d4e-4c64-ad00-fd8b836b48b1.jpg?1783920851",
+  "art": "https://cards.scryfall.io/art_crop/front/6/4/64c814f3-8d4e-4c64-ad00-fd8b836b48b1.jpg?1783920851",
+  "uri": "https://scryfall.com/card/40k/121/the-first-tyrannic-war",
+  "roles": []
+ },
+ "the flesh is weak|40k|122": {
+  "name": "The Flesh Is Weak",
+  "mana": "{2}{W}{U}{B}",
+  "cmc": 5.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "BUW",
+  "img": "https://cards.scryfall.io/normal/front/c/3/c382d8ee-6640-4db2-b618-73d315e43526.jpg?1783920851",
+  "art": "https://cards.scryfall.io/art_crop/front/c/3/c382d8ee-6640-4db2-b618-73d315e43526.jpg?1783920851",
+  "uri": "https://scryfall.com/card/40k/122/the-flesh-is-weak",
+  "roles": [
+   "board-wipe"
+  ]
+ },
  "the gitrog monster|blc|88": {
   "name": "The Gitrog Monster",
   "mana": "{3}{B}{G}",
@@ -46089,6 +49409,20 @@
    "draw"
   ]
  },
+ "the golden throne|40k|157": {
+  "name": "The Golden Throne",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Artifact",
+  "type_line": "Legendary Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/f/a/fa515b78-f54d-4c65-a197-c860eaf2c780.jpg?1783920820",
+  "art": "https://cards.scryfall.io/art_crop/front/f/a/fa515b78-f54d-4c65-a197-c860eaf2c780.jpg?1783920820",
+  "uri": "https://scryfall.com/card/40k/157/the-golden-throne",
+  "roles": [
+   "mana-rock"
+  ]
+ },
  "the goose mother|soc|312": {
   "name": "The Goose Mother",
   "mana": "{X}{G}{U}",
@@ -46116,6 +49450,21 @@
   "roles": [
    "mana-rock",
    "draw"
+  ]
+ },
+ "the horus heresy|40k|126": {
+  "name": "The Horus Heresy",
+  "mana": "{3}{U}{B}{R}",
+  "cmc": 6.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "BRU",
+  "img": "https://cards.scryfall.io/normal/front/c/9/c9551a51-2bbd-425b-a634-185921a96865.jpg?1783920846",
+  "art": "https://cards.scryfall.io/art_crop/front/c/9/c9551a51-2bbd-425b-a634-185921a96865.jpg?1783920846",
+  "uri": "https://scryfall.com/card/40k/126/the-horus-heresy",
+  "roles": [
+   "draw",
+   "removal"
   ]
  },
  "the hunger tide rises|mh3|158": {
@@ -46161,6 +49510,18 @@
    "removal",
    "regrowth"
   ]
+ },
+ "the lost and the damned|40k|129": {
+  "name": "The Lost and the Damned",
+  "mana": "{1}{U}{R}",
+  "cmc": 3.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/9/a/9a53cf96-b47f-48f0-b9cc-3330ae546a87.jpg?1783920844",
+  "art": "https://cards.scryfall.io/art_crop/front/9/a/9a53cf96-b47f-48f0-b9cc-3330ae546a87.jpg?1783920844",
+  "uri": "https://scryfall.com/card/40k/129/the-lost-and-the-damned",
+  "roles": []
  },
  "the master, transcendent|pip|6": {
   "name": "The Master, Transcendent",
@@ -46328,6 +49689,30 @@
   "uri": "https://scryfall.com/card/m3c/217/the-reaver-cleaver",
   "roles": []
  },
+ "the red terror|40k|83": {
+  "name": "The Red Terror",
+  "mana": "{3}{R}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Tyranid",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/1/d/1d16f75d-988d-4417-9a5e-549b785f9dc4.jpg?1783920885",
+  "art": "https://cards.scryfall.io/art_crop/front/1/d/1d16f75d-988d-4417-9a5e-549b785f9dc4.jpg?1783920885",
+  "uri": "https://scryfall.com/card/40k/83/the-red-terror",
+  "roles": []
+ },
+ "the ruinous powers|40k|139": {
+  "name": "The Ruinous Powers",
+  "mana": "{2}{B}{R}",
+  "cmc": 4.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "BR",
+  "img": "https://cards.scryfall.io/normal/front/b/8/b8656aab-e22d-4f97-a8e6-a69f1dbffd09.jpg?1783920837",
+  "art": "https://cards.scryfall.io/art_crop/front/b/8/b8656aab-e22d-4f97-a8e6-a69f1dbffd09.jpg?1783920837",
+  "uri": "https://scryfall.com/card/40k/139/the-ruinous-powers",
+  "roles": []
+ },
  "the scarab god|drc|120": {
   "name": "The Scarab God",
   "mana": "{3}{U}{B}",
@@ -46372,6 +49757,20 @@
    "tutor"
   ]
  },
+ "the swarmlord|40k|176": {
+  "name": "The Swarmlord",
+  "mana": "{3}{G}{U}{R}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Legendary Creature — Tyranid",
+  "ci": "GRU",
+  "img": "https://cards.scryfall.io/normal/front/c/9/c9dbba5a-fb9a-422e-87a1-a29d2c17a04e.jpg?1783920807",
+  "art": "https://cards.scryfall.io/art_crop/front/c/9/c9dbba5a-fb9a-422e-87a1-a29d2c17a04e.jpg?1783920807",
+  "uri": "https://scryfall.com/card/40k/176/the-swarmlord",
+  "roles": [
+   "draw"
+  ]
+ },
  "the underworld cookbook|mh2|240": {
   "name": "The Underworld Cookbook",
   "mana": "{1}",
@@ -46399,6 +49798,21 @@
   "roles": [
    "land-ramp",
    "draw"
+  ]
+ },
+ "the war in heaven|40k|69": {
+  "name": "The War in Heaven",
+  "mana": "{3}{B}{B}{B}",
+  "cmc": 6.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment — Saga",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/c/d/cd556cd1-e33a-433d-ac18-4a4fd195c3ab.jpg?1783920897",
+  "art": "https://cards.scryfall.io/art_crop/front/c/d/cd556cd1-e33a-433d-ac18-4a4fd195c3ab.jpg?1783920897",
+  "uri": "https://scryfall.com/card/40k/69/the-war-in-heaven",
+  "roles": [
+   "draw",
+   "reanimation"
   ]
  },
  "the warring triad|fic|99": {
@@ -46451,6 +49865,34 @@
   "art": "https://cards.scryfall.io/art_crop/front/a/7/a70cb6d9-3955-4064-917b-11dec26440c5.jpg?1783928169",
   "uri": "https://scryfall.com/card/khm/275/the-world-tree",
   "roles": []
+ },
+ "their name is death|40k|62": {
+  "name": "Their Name Is Death",
+  "mana": "{3}{B}{B}{B}",
+  "cmc": 6.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/e/a/ea5ddc28-dfc1-4b96-b6e2-590fcb1f83ef.jpg?1783920903",
+  "art": "https://cards.scryfall.io/art_crop/front/e/a/ea5ddc28-dfc1-4b96-b6e2-590fcb1f83ef.jpg?1783920903",
+  "uri": "https://scryfall.com/card/40k/62/their-name-is-death",
+  "roles": [
+   "board-wipe"
+  ]
+ },
+ "their number is legion|40k|63": {
+  "name": "Their Number Is Legion",
+  "mana": "{X}{B}{B}{B}{B}",
+  "cmc": 4.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/f/0/f03c1eb4-1f47-4b65-8d8d-4057fb6997e1.jpg?1783920902",
+  "art": "https://cards.scryfall.io/art_crop/front/f/0/f03c1eb4-1f47-4b65-8d8d-4057fb6997e1.jpg?1783920902",
+  "uri": "https://scryfall.com/card/40k/63/their-number-is-legion",
+  "roles": [
+   "graveyard-cast"
+  ]
  },
  "there and back again|ltr|151": {
   "name": "There and Back Again",
@@ -46571,6 +50013,18 @@
   "uri": "https://scryfall.com/card/dsk/270/thornspire-verge",
   "roles": []
  },
+ "thornwood falls|40k|302": {
+  "name": "Thornwood Falls",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/3/e/3ed70d84-d5f5-48ec-bbd9-08d0377c3e17.jpg?1783920690",
+  "art": "https://cards.scryfall.io/art_crop/front/3/e/3ed70d84-d5f5-48ec-bbd9-08d0377c3e17.jpg?1783920690",
+  "uri": "https://scryfall.com/card/40k/302/thornwood-falls",
+  "roles": []
+ },
  "thornwood falls|m3c|396": {
   "name": "Thornwood Falls",
   "mana": "",
@@ -46623,6 +50077,20 @@
   "uri": "https://scryfall.com/card/ima/76/thought-scour",
   "roles": [
    "cantrip"
+  ]
+ },
+ "thought vessel|40k|259": {
+  "name": "Thought Vessel",
+  "mana": "{2}",
+  "cmc": 2.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/e/b/ebf52151-9b4b-40c3-945b-8c32d13e1ad3.jpg?1783920732",
+  "art": "https://cards.scryfall.io/art_crop/front/e/b/ebf52151-9b4b-40c3-945b-8c32d13e1ad3.jpg?1783920732",
+  "uri": "https://scryfall.com/card/40k/259/thought-vessel",
+  "roles": [
+   "mana-rock"
   ]
  },
  "thought vessel|blc|289": {
@@ -46997,6 +50465,18 @@
   "uri": "https://scryfall.com/card/soc/204/thunderclap-drake",
   "roles": []
  },
+ "thunderhawk gunship|40k|167": {
+  "name": "Thunderhawk Gunship",
+  "mana": "{6}",
+  "cmc": 6.0,
+  "type": "Artifact",
+  "type_line": "Artifact — Vehicle",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/6/7/6790720a-e1f3-4533-acd8-b002c8e91929.jpg?1783920811",
+  "art": "https://cards.scryfall.io/art_crop/front/6/7/6790720a-e1f3-4533-acd8-b002c8e91929.jpg?1783920811",
+  "uri": "https://scryfall.com/card/40k/167/thunderhawk-gunship",
+  "roles": []
+ },
  "thundering falls|mkm|269": {
   "name": "Thundering Falls",
   "mana": "",
@@ -47031,6 +50511,18 @@
   "img": "https://cards.scryfall.io/normal/front/7/c/7ca93b31-d6ec-4265-b2ff-d46090086f07.jpg?1783907172",
   "art": "https://cards.scryfall.io/art_crop/front/7/c/7ca93b31-d6ec-4265-b2ff-d46090086f07.jpg?1783907172",
   "uri": "https://scryfall.com/card/tdc/38/thundermane-dragon",
+  "roles": []
+ },
+ "thunderwolf cavalry|40k|16": {
+  "name": "Thunderwolf Cavalry",
+  "mana": "{4}{W}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warrior",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/3/e/3ec9bc4f-d8b8-4c68-bc4a-923b03a971cf.jpg?1783920942",
+  "art": "https://cards.scryfall.io/art_crop/front/3/e/3ec9bc4f-d8b8-4c68-bc4a-923b03a971cf.jpg?1783920942",
+  "uri": "https://scryfall.com/card/40k/16/thunderwolf-cavalry",
   "roles": []
  },
  "thwart the grave|clb|773": {
@@ -47537,6 +51029,35 @@
    "draw"
   ]
  },
+ "tomb blade|40k|64": {
+  "name": "Tomb Blade",
+  "mana": "{4}{B}{B}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/2/f/2f5f2e19-41ce-40c6-9732-d0f88ad6735f.jpg?1783920902",
+  "art": "https://cards.scryfall.io/art_crop/front/2/f/2f5f2e19-41ce-40c6-9732-d0f88ad6735f.jpg?1783920902",
+  "uri": "https://scryfall.com/card/40k/64/tomb-blade",
+  "roles": [
+   "removal",
+   "reanimation"
+  ]
+ },
+ "tomb fortress|40k|168": {
+  "name": "Tomb Fortress",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/5/f/5ffd1a43-5613-4058-9e51-fd3cc1585651.jpg?1783920809",
+  "art": "https://cards.scryfall.io/art_crop/front/5/f/5ffd1a43-5613-4058-9e51-fd3cc1585651.jpg?1783920809",
+  "uri": "https://scryfall.com/card/40k/168/tomb-fortress",
+  "roles": [
+   "reanimation"
+  ]
+ },
  "tomb of horrors adventurer|clb|100": {
   "name": "Tomb of Horrors Adventurer",
   "mana": "{5}{U}",
@@ -47700,6 +51221,18 @@
    "board-wipe"
   ]
  },
+ "toxicrene|40k|101": {
+  "name": "Toxicrene",
+  "mana": "{3}{G}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/a/9/a9b0fe26-18af-4b2e-861e-568d2f6208fd.jpg?1783920868",
+  "art": "https://cards.scryfall.io/art_crop/front/a/9/a9b0fe26-18af-4b2e-861e-568d2f6208fd.jpg?1783920868",
+  "uri": "https://scryfall.com/card/40k/101/toxicrene",
+  "roles": []
+ },
  "toxrill, the corrosive|vow|132": {
   "name": "Toxrill, the Corrosive",
   "mana": "{5}{B}{B}",
@@ -47792,6 +51325,18 @@
   "img": "https://cards.scryfall.io/normal/front/b/1/b15c58c0-4d42-488e-bb9d-7a550d9ea5e6.jpg?1783928737",
   "art": "https://cards.scryfall.io/art_crop/front/b/1/b15c58c0-4d42-488e-bb9d-7a550d9ea5e6.jpg?1783928737",
   "uri": "https://scryfall.com/card/cmr/358/training-center",
+  "roles": []
+ },
+ "tranquil cove|40k|303": {
+  "name": "Tranquil Cove",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "UW",
+  "img": "https://cards.scryfall.io/normal/front/c/3/c3fb0661-5df4-4935-8f44-a0f83a22a81c.jpg?1783920688",
+  "art": "https://cards.scryfall.io/art_crop/front/c/3/c3fb0661-5df4-4935-8f44-a0f83a22a81c.jpg?1783920688",
+  "uri": "https://scryfall.com/card/40k/303/tranquil-cove",
   "roles": []
  },
  "tranquil landscape|mh3|231": {
@@ -47946,6 +51491,18 @@
    "draw"
   ]
  },
+ "trazyn the infinite|40k|65": {
+  "name": "Trazyn the Infinite",
+  "mana": "{4}{B}{B}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Legendary Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/1/a/1ae95cfb-1c3e-43cc-acfa-68f25b0f6e52.jpg?1783920903",
+  "art": "https://cards.scryfall.io/art_crop/front/1/a/1ae95cfb-1c3e-43cc-acfa-68f25b0f6e52.jpg?1783920903",
+  "uri": "https://scryfall.com/card/40k/65/trazyn-the-infinite",
+  "roles": []
+ },
  "treasure cruise|m3c|195": {
   "name": "Treasure Cruise",
   "mana": "{7}{U}",
@@ -48024,6 +51581,33 @@
   "uri": "https://scryfall.com/card/m3c/135/trenchpost",
   "roles": []
  },
+ "triarch praetorian|40k|66": {
+  "name": "Triarch Praetorian",
+  "mana": "{1}{B}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/5/a/5ad67a79-cb13-44b8-adac-36cfd211f2d3.jpg?1783920899",
+  "art": "https://cards.scryfall.io/art_crop/front/5/a/5ad67a79-cb13-44b8-adac-36cfd211f2d3.jpg?1783920899",
+  "uri": "https://scryfall.com/card/40k/66/triarch-praetorian",
+  "roles": [
+   "draw",
+   "reanimation"
+  ]
+ },
+ "triarch stalker|40k|67": {
+  "name": "Triarch Stalker",
+  "mana": "{3}{B}{B}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Necron",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/f/b/fbe75aae-727b-4cb0-967c-477d5a08b8f7.jpg?1783920898",
+  "art": "https://cards.scryfall.io/art_crop/front/f/b/fbe75aae-727b-4cb0-967c-477d5a08b8f7.jpg?1783920898",
+  "uri": "https://scryfall.com/card/40k/67/triarch-stalker",
+  "roles": []
+ },
  "triclopean sight|lrw|45": {
   "name": "Triclopean Sight",
   "mana": "{1}{W}",
@@ -48062,6 +51646,18 @@
    "draw",
    "win-condition"
   ]
+ },
+ "triumph of saint katherine|40k|17": {
+  "name": "Triumph of Saint Katherine",
+  "mana": "{4}{W}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Warrior",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/c/c/cc5338e1-26a6-466e-9393-788f69370e15.jpg?1783920942",
+  "art": "https://cards.scryfall.io/art_crop/front/c/c/cc5338e1-26a6-466e-9393-788f69370e15.jpg?1783920942",
+  "uri": "https://scryfall.com/card/40k/17/triumph-of-saint-katherine",
+  "roles": []
  },
  "troll of khazad-dûm|ltr|111": {
   "name": "Troll of Khazad-dûm",
@@ -48138,6 +51734,18 @@
   "img": "https://cards.scryfall.io/normal/front/8/0/80dd8180-668a-41e4-a4e9-ebdd71345841.jpg?1783903759",
   "art": "https://cards.scryfall.io/art_crop/front/8/0/80dd8180-668a-41e4-a4e9-ebdd71345841.jpg?1783903759",
   "uri": "https://scryfall.com/card/soc/290/trudge-garden",
+  "roles": []
+ },
+ "trygon prime|40k|143": {
+  "name": "Trygon Prime",
+  "mana": "{2}{G}{U}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/f/6/f6a419b2-6586-4abf-9751-eabe568066ab.jpg?1783920832",
+  "art": "https://cards.scryfall.io/art_crop/front/f/6/f6a419b2-6586-4abf-9751-eabe568066ab.jpg?1783920832",
+  "uri": "https://scryfall.com/card/40k/143/trygon-prime",
   "roles": []
  },
  "tundra|3ed|289": {
@@ -48392,6 +52000,59 @@
    "draw"
   ]
  },
+ "tyranid harridan|40k|144": {
+  "name": "Tyranid Harridan",
+  "mana": "{4}{G}{U}",
+  "cmc": 6.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/d/f/dff00a51-977e-43ba-a4bf-b251e62f1100.jpg?1783920831",
+  "art": "https://cards.scryfall.io/art_crop/front/d/f/dff00a51-977e-43ba-a4bf-b251e62f1100.jpg?1783920831",
+  "uri": "https://scryfall.com/card/40k/144/tyranid-harridan",
+  "roles": [
+   "stax"
+  ]
+ },
+ "tyranid invasion|40k|102": {
+  "name": "Tyranid Invasion",
+  "mana": "{3}{G}",
+  "cmc": 4.0,
+  "type": "Sorcery",
+  "type_line": "Sorcery",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/7/0/7082df45-6c2f-4a92-8c73-a582e9ea1948.jpg?1783920868",
+  "art": "https://cards.scryfall.io/art_crop/front/7/0/7082df45-6c2f-4a92-8c73-a582e9ea1948.jpg?1783920868",
+  "uri": "https://scryfall.com/card/40k/102/tyranid-invasion",
+  "roles": []
+ },
+ "tyranid prime|40k|145": {
+  "name": "Tyranid Prime",
+  "mana": "{1}{G}{U}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/6/f/6f6546f2-0db3-4969-b7d9-2e2138997155.jpg?1783920830",
+  "art": "https://cards.scryfall.io/art_crop/front/6/f/6f6546f2-0db3-4969-b7d9-2e2138997155.jpg?1783920830",
+  "uri": "https://scryfall.com/card/40k/145/tyranid-prime",
+  "roles": []
+ },
+ "tyrant guard|40k|103": {
+  "name": "Tyrant Guard",
+  "mana": "{X}{2}{G}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "G",
+  "img": "https://cards.scryfall.io/normal/front/4/e/4e785abe-ae43-4e6b-9d6d-56e39ea348ef.jpg?1783920867",
+  "art": "https://cards.scryfall.io/art_crop/front/4/e/4e785abe-ae43-4e6b-9d6d-56e39ea348ef.jpg?1783920867",
+  "uri": "https://scryfall.com/card/40k/103/tyrant-guard",
+  "roles": [
+   "cantrip",
+   "protection"
+  ]
+ },
  "tyvar kell|j25|734": {
   "name": "Tyvar Kell",
   "mana": "{2}{G}{G}",
@@ -48447,6 +52108,18 @@
   "roles": [
    "reanimation"
   ]
+ },
+ "tzaangor shaman|40k|146": {
+  "name": "Tzaangor Shaman",
+  "mana": "{2}{U}{R}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Mutant Shaman",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/b/7/b7b8c9d1-34a2-4754-904a-c7d061a6ce0a.jpg?1783920830",
+  "art": "https://cards.scryfall.io/art_crop/front/b/7/b7b8c9d1-34a2-4754-904a-c7d061a6ce0a.jpg?1783920830",
+  "uri": "https://scryfall.com/card/40k/146/tzaangor-shaman",
+  "roles": []
  },
  "ugin's insight|m3c|196": {
   "name": "Ugin's Insight",
@@ -48573,6 +52246,18 @@
    "board-wipe"
   ]
  },
+ "ultramarines honour guard|40k|18": {
+  "name": "Ultramarines Honour Guard",
+  "mana": "{3}{W}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warrior",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/8/e/8e1915c3-6dda-49fd-be5e-9d4713f00cfd.jpg?1783920940",
+  "art": "https://cards.scryfall.io/art_crop/front/8/e/8e1915c3-6dda-49fd-be5e-9d4713f00cfd.jpg?1783920940",
+  "uri": "https://scryfall.com/card/40k/18/ultramarines-honour-guard",
+  "roles": []
+ },
  "ulvenwald hydra|m3c|250": {
   "name": "Ulvenwald Hydra",
   "mana": "{4}{G}{G}",
@@ -48693,6 +52378,18 @@
   "img": "https://cards.scryfall.io/normal/front/3/1/31afae93-d3c7-49c3-9f00-2cd9621e0ff8.jpg?1783917279",
   "art": "https://cards.scryfall.io/art_crop/front/3/1/31afae93-d3c7-49c3-9f00-2cd9621e0ff8.jpg?1783917279",
   "uri": "https://scryfall.com/card/moc/35/uncivil-unrest",
+  "roles": []
+ },
+ "unclaimed territory|40k|304": {
+  "name": "Unclaimed Territory",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Land",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/0/d/0d167949-2fd2-4b85-b2fa-f598b55b4915.jpg?1783920687",
+  "art": "https://cards.scryfall.io/art_crop/front/0/d/0d167949-2fd2-4b85-b2fa-f598b55b4915.jpg?1783920687",
+  "uri": "https://scryfall.com/card/40k/304/unclaimed-territory",
   "roles": []
  },
  "unclaimed territory|ecc|175": {
@@ -49045,6 +52742,21 @@
    "impulse-draw"
   ]
  },
+ "unstable obelisk|40k|260": {
+  "name": "Unstable Obelisk",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/f/7/f79d90f8-fb86-4846-833a-63c0496221e0.jpg?1783920733",
+  "art": "https://cards.scryfall.io/art_crop/front/f/7/f79d90f8-fb86-4846-833a-63c0496221e0.jpg?1783920733",
+  "uri": "https://scryfall.com/card/40k/260/unstable-obelisk",
+  "roles": [
+   "mana-rock",
+   "removal"
+  ]
+ },
  "unwind|dom|72": {
   "name": "Unwind",
   "mana": "{2}{U}",
@@ -49382,6 +53094,20 @@
   "uri": "https://scryfall.com/card/wot/63/utopia-sprawl",
   "roles": []
  },
+ "utter end|40k|226": {
+  "name": "Utter End",
+  "mana": "{2}{W}{B}",
+  "cmc": 4.0,
+  "type": "Instant",
+  "type_line": "Instant",
+  "ci": "BW",
+  "img": "https://cards.scryfall.io/normal/front/7/0/70504cce-2525-472b-b189-2cca86157ab3.jpg?1783920763",
+  "art": "https://cards.scryfall.io/art_crop/front/7/0/70504cce-2525-472b-b189-2cca86157ab3.jpg?1783920763",
+  "uri": "https://scryfall.com/card/40k/226/utter-end",
+  "roles": [
+   "removal"
+  ]
+ },
  "utvara hellkite|rvr|431": {
   "name": "Utvara Hellkite",
   "mana": "{6}{R}{R}",
@@ -49597,6 +53323,20 @@
    "reanimation"
   ]
  },
+ "vanguard suppressor|40k|27": {
+  "name": "Vanguard Suppressor",
+  "mana": "{3}{U}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Astartes Warrior",
+  "ci": "U",
+  "img": "https://cards.scryfall.io/normal/front/3/3/3331d7dd-95c8-4813-a1eb-3966a2c08502.jpg?1783920932",
+  "art": "https://cards.scryfall.io/art_crop/front/3/3/3331d7dd-95c8-4813-a1eb-3966a2c08502.jpg?1783920932",
+  "uri": "https://scryfall.com/card/40k/27/vanguard-suppressor",
+  "roles": [
+   "draw"
+  ]
+ },
  "vanishing verse|soc|335": {
   "name": "Vanishing Verse",
   "mana": "{W}{B}",
@@ -49780,6 +53520,18 @@
   "uri": "https://scryfall.com/card/lcc/367/vault-of-the-archangel",
   "roles": []
  },
+ "vault of whispers|40k|305": {
+  "name": "Vault of Whispers",
+  "mana": "",
+  "cmc": 0.0,
+  "type": "Land",
+  "type_line": "Artifact Land",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/4/d/4dca7b45-164d-4181-9585-5d0f3b6a6927.jpg?1783920688",
+  "art": "https://cards.scryfall.io/art_crop/front/4/d/4dca7b45-164d-4181-9585-5d0f3b6a6927.jpg?1783920688",
+  "uri": "https://scryfall.com/card/40k/305/vault-of-whispers",
+  "roles": []
+ },
  "vault of whispers|sld|302": {
   "name": "Vault of Whispers",
   "mana": "",
@@ -49871,6 +53623,30 @@
   "roles": [
    "draw"
   ]
+ },
+ "venomcrawler|40k|68": {
+  "name": "Venomcrawler",
+  "mana": "{3}{B}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Artifact Creature — Demon",
+  "ci": "B",
+  "img": "https://cards.scryfall.io/normal/front/7/b/7b44099c-0b24-423a-b8c0-5d5e8687fe61.jpg?1783920897",
+  "art": "https://cards.scryfall.io/art_crop/front/7/b/7b44099c-0b24-423a-b8c0-5d5e8687fe61.jpg?1783920897",
+  "uri": "https://scryfall.com/card/40k/68/venomcrawler",
+  "roles": []
+ },
+ "venomthrope|40k|147": {
+  "name": "Venomthrope",
+  "mana": "{1}{G}{U}",
+  "cmc": 3.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "GU",
+  "img": "https://cards.scryfall.io/normal/front/e/2/e2284a8a-caf3-4eef-8cd2-6b2f507e7154.jpg?1783920830",
+  "art": "https://cards.scryfall.io/art_crop/front/e/2/e2284a8a-caf3-4eef-8cd2-6b2f507e7154.jpg?1783920830",
+  "uri": "https://scryfall.com/card/40k/147/venomthrope",
+  "roles": []
  },
  "verdant catacombs|mh2|260": {
   "name": "Verdant Catacombs",
@@ -50053,6 +53829,20 @@
   "art": "https://cards.scryfall.io/art_crop/front/8/2/82fc9498-7397-4857-87fe-7c9010944ed8.jpg?1783943192",
   "uri": "https://scryfall.com/card/tsp/281/vesuva",
   "roles": []
+ },
+ "vexilus praetor|40k|19": {
+  "name": "Vexilus Praetor",
+  "mana": "{3}{W}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Custodes Warrior",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/6/5/6584cc58-c88e-4cf6-9983-5e08fd8609c3.jpg?1783920939",
+  "art": "https://cards.scryfall.io/art_crop/front/6/5/6584cc58-c88e-4cf6-9983-5e08fd8609c3.jpg?1783920939",
+  "uri": "https://scryfall.com/card/40k/19/vexilus-praetor",
+  "roles": [
+   "protection"
+  ]
  },
  "vexing radgull|pip|41": {
   "name": "Vexing Radgull",
@@ -50736,6 +54526,20 @@
    "mana-dork"
   ]
  },
+ "warstorm surge|40k|209": {
+  "name": "Warstorm Surge",
+  "mana": "{5}{R}",
+  "cmc": 6.0,
+  "type": "Enchantment",
+  "type_line": "Enchantment",
+  "ci": "R",
+  "img": "https://cards.scryfall.io/normal/front/1/7/1706ca09-1fdb-47d5-b31b-b4637a0ef5da.jpg?1783920779",
+  "art": "https://cards.scryfall.io/art_crop/front/1/7/1706ca09-1fdb-47d5-b31b-b4637a0ef5da.jpg?1783920779",
+  "uri": "https://scryfall.com/card/40k/209/warstorm-surge",
+  "roles": [
+   "removal"
+  ]
+ },
  "warstorm surge|blc|117": {
   "name": "Warstorm Surge",
   "mana": "{5}{R}",
@@ -50934,6 +54738,34 @@
   "uri": "https://scryfall.com/card/j25/387/wavebreak-hippocamp",
   "roles": [
    "draw"
+  ]
+ },
+ "wayfarer's bauble|40k|261": {
+  "name": "Wayfarer's Bauble",
+  "mana": "{1}",
+  "cmc": 1.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/5/7/57ead261-d358-419e-b832-086439c5e793.jpg?1783920734",
+  "art": "https://cards.scryfall.io/art_crop/front/5/7/57ead261-d358-419e-b832-086439c5e793.jpg?1783920734",
+  "uri": "https://scryfall.com/card/40k/261/wayfarers-bauble",
+  "roles": [
+   "land-ramp"
+  ]
+ },
+ "wayfarer's bauble|40k|262": {
+  "name": "Wayfarer's Bauble",
+  "mana": "{1}",
+  "cmc": 1.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/1/0/10887c92-2647-4372-ad54-cc13167786db.jpg?1783920730",
+  "art": "https://cards.scryfall.io/art_crop/front/1/0/10887c92-2647-4372-ad54-cc13167786db.jpg?1783920730",
+  "uri": "https://scryfall.com/card/40k/262/wayfarers-bauble",
+  "roles": [
+   "land-ramp"
   ]
  },
  "wayfarer's bauble|5dn|165": {
@@ -51581,6 +55413,18 @@
   "uri": "https://scryfall.com/card/mh3/466/windswept-heath",
   "roles": []
  },
+ "winged hive tyrant|40k|148": {
+  "name": "Winged Hive Tyrant",
+  "mana": "{3}{U}{R}",
+  "cmc": 5.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/5/8/58b0df1c-d7ce-4883-b0d1-23069770514d.jpg?1783920829",
+  "art": "https://cards.scryfall.io/art_crop/front/5/8/58b0df1c-d7ce-4883-b0d1-23069770514d.jpg?1783920829",
+  "uri": "https://scryfall.com/card/40k/148/winged-hive-tyrant",
+  "roles": []
+ },
  "winota, joiner of forces|iko|216": {
   "name": "Winota, Joiner of Forces",
   "mana": "{2}{R}{W}",
@@ -52053,6 +55897,20 @@
    "tutor"
   ]
  },
+ "worn powerstone|40k|263": {
+  "name": "Worn Powerstone",
+  "mana": "{3}",
+  "cmc": 3.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/b/8/b8b205ab-63da-43ae-bca1-c691e8ff4799.jpg?1783920730",
+  "art": "https://cards.scryfall.io/art_crop/front/b/8/b8b205ab-63da-43ae-bca1-c691e8ff4799.jpg?1783920730",
+  "uri": "https://scryfall.com/card/40k/263/worn-powerstone",
+  "roles": [
+   "mana-rock"
+  ]
+ },
  "wrecking ball arm|fic|100": {
   "name": "Wrecking Ball Arm",
   "mana": "{2}",
@@ -52458,6 +56316,18 @@
    "graveyard-cast"
   ]
  },
+ "zephyrim|40k|20": {
+  "name": "Zephyrim",
+  "mana": "{3}{W}",
+  "cmc": 4.0,
+  "type": "Creature",
+  "type_line": "Creature — Human Warrior",
+  "ci": "W",
+  "img": "https://cards.scryfall.io/normal/front/f/7/f78f5b9a-bd80-41e9-873e-826628dc44a7.jpg?1783920939",
+  "art": "https://cards.scryfall.io/art_crop/front/f/7/f78f5b9a-bd80-41e9-873e-826628dc44a7.jpg?1783920939",
+  "uri": "https://scryfall.com/card/40k/20/zephyrim",
+  "roles": []
+ },
  "ziatora's proving ground|snc|261": {
   "name": "Ziatora's Proving Ground",
   "mana": "",
@@ -52550,6 +56420,22 @@
   "art": "https://cards.scryfall.io/art_crop/front/d/f/dfe36901-5841-4942-8b61-c273111f715e.jpg?1783910737",
   "uri": "https://scryfall.com/card/blc/4/zinnia-valleys-voice",
   "roles": []
+ },
+ "zoanthrope|40k|149": {
+  "name": "Zoanthrope",
+  "mana": "{X}{U}{R}",
+  "cmc": 2.0,
+  "type": "Creature",
+  "type_line": "Creature — Tyranid",
+  "ci": "RU",
+  "img": "https://cards.scryfall.io/normal/front/a/7/a71d6605-4a8a-473b-9f8d-0ba2f70a34e0.jpg?1783920827",
+  "art": "https://cards.scryfall.io/art_crop/front/a/7/a71d6605-4a8a-473b-9f8d-0ba2f70a34e0.jpg?1783920827",
+  "uri": "https://scryfall.com/card/40k/149/zoanthrope",
+  "roles": [
+   "cantrip",
+   "removal",
+   "stax"
+  ]
  },
  "zombie master|drc|46": {
   "name": "Zombie Master",

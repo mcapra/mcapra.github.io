@@ -12,6 +12,8 @@
   description: Repeatedly exiles and returns creatures to reuse enter-the-battlefield triggers.
 - name: Burn
   description: Deals direct damage to opponents, scaled up by damage boosts.
+- name: Cascade
+  description: Gets free spells from cascade, then rewards casting them.
 - name: Combo
   description: Assembles a specific card combination that wins on the spot.
 - name: Control
