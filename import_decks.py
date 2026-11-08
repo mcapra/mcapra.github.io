@@ -118,7 +118,7 @@ def main():
 examples:
   python import_decks.py                  # decks without a deck.yaml
   python import_decks.py --refresh        # also re-import previously imported decks
-  python import_decks.py b4-hashaton      # just these posts
+  python import_decks.py b3-hashaton      # just these posts
 """,
     )
     parser.add_argument('slugs', nargs='*', help='Only import these posts (file or folder names)')

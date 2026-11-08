@@ -1,6 +1,6 @@
 +++
-title = '[Bracket 4] Hashaton, Scarabs Fist'
-bracket = 4
+title = '[Bracket 3] Hashaton, Scarabs Fist'
+bracket = 3
 commanders = ["Hashaton, Scarab's Fist (DRC) 1"]
 archetypes = ['Reanimator', 'Tribal']
 decklist_url = 'https://moxfield.com/decks/7VMRSwf9ik2z52HU7H4AtA'

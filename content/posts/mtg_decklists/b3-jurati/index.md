@@ -78,6 +78,14 @@ result = "Dollmaker's Shop makes a Toy for each player you attack before blocker
 cards = ["Transmute Artifact", "Thought Monitor"]
 result = "Sacrifice a Thought Monitor token, mana value 7, to put any artifact with mana value 7 or less onto the battlefield for free, such as Primary Unimatrix Adjunct."
 
+[[overview.combos]]
+cards = ["Krark-Clan Ironworks", "Whir of Invention"]
+result = "Every artifact token becomes {C}{C} on demand. At an opponent's end step, sacrifice spare Gnomes, Toys and Treasures to pay X for Whir of Invention, and put Primary Unimatrix Adjunct onto the battlefield ready for your turn."
+
+[[overview.rulings]]
+cards = ["Krark-Clan Ironworks"]
+note = "Its ability is a mana ability, so it can't be responded to. Affinity has already lowered a spell's cost before you activate mana abilities, so you can sacrifice the artifacts it counted to pay the rest. Improvise taps artifacts during payment, so an artifact you sacrificed can't also pay for improvise."
+
 [[overview.rulings]]
 cards = ["Jurati, Cordial Queen"]
 note = "She triggers once per player your artifact creatures deal combat damage to in each combat damage step. Double strike adds a second step, and tokens made in the first-strike step can be targeted in the second."

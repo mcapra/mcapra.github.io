@@ -56,7 +56,7 @@ def main():
         epilog="""
 examples:
   python generate_qr.py                 # every deck
-  python generate_qr.py b4-hashaton     # just these decks
+  python generate_qr.py b3-hashaton     # just these decks
 """,
     )
     parser.add_argument('slugs', nargs='*', help='Only these decks (folder names)')

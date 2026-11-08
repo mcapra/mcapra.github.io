@@ -268,7 +268,7 @@ def main():
         epilog="""
 examples:
   python check_decks.py                 # every deck, offline
-  python check_decks.py b4-hashaton     # just these decks
+  python check_decks.py b3-hashaton     # just these decks
   python check_decks.py --spellbook     # also look for unlisted infinite combos (online)
 """,
     )
