@@ -25394,6 +25394,20 @@
    "removal"
   ]
  },
+ "krark-clan ironworks|5dn|134": {
+  "name": "Krark-Clan Ironworks",
+  "mana": "{4}",
+  "cmc": 4.0,
+  "type": "Artifact",
+  "type_line": "Artifact",
+  "ci": "",
+  "img": "https://cards.scryfall.io/normal/front/c/6/c60174d6-1f9d-4870-b3db-34d6fcb3f6ab.jpg?1783944378",
+  "art": "https://cards.scryfall.io/art_crop/front/c/6/c60174d6-1f9d-4870-b3db-34d6fcb3f6ab.jpg?1783944378",
+  "uri": "https://scryfall.com/card/5dn/134/krark-clan-ironworks",
+  "roles": [
+   "mana-rock"
+  ]
+ },
  "krark-clan ironworks|mb2|224": {
   "name": "Krark-Clan Ironworks",
   "mana": "{4}",
@@ -28513,20 +28527,6 @@
   "art": "https://cards.scryfall.io/art_crop/front/4/4/443b0960-a490-4287-80d9-2bfa0bdbea51.jpg?1783904177",
   "uri": "https://scryfall.com/card/pza/16/metallic-mimic",
   "roles": []
- },
- "metalworker|prm|46950": {
-  "name": "Metalworker",
-  "mana": "{3}",
-  "cmc": 3.0,
-  "type": "Creature",
-  "type_line": "Artifact Creature — Construct",
-  "ci": "",
-  "img": "https://cards.scryfall.io/normal/front/5/4/547db354-ae2c-4a26-a431-b78c6c59335f.jpg?1783938891",
-  "art": "https://cards.scryfall.io/art_crop/front/5/4/547db354-ae2c-4a26-a431-b78c6c59335f.jpg?1783938891",
-  "uri": "https://scryfall.com/card/prm/46950/metalworker",
-  "roles": [
-   "mana-dork"
-  ]
  },
  "meteor golem|fdn|256": {
   "name": "Meteor Golem",
@@ -52688,18 +52688,6 @@
   "img": "https://cards.scryfall.io/normal/front/2/1/2138dfbb-a4e3-49db-b908-95d0b2b7e82f.jpg?1783926742",
   "art": "https://cards.scryfall.io/art_crop/front/2/1/2138dfbb-a4e3-49db-b908-95d0b2b7e82f.jpg?1783926742",
   "uri": "https://scryfall.com/card/mh2/380/urzas-saga",
-  "roles": []
- },
- "urza's saga|sch|29": {
-  "name": "Urza's Saga",
-  "mana": "",
-  "cmc": 0.0,
-  "type": "Land",
-  "type_line": "Enchantment Land — Urza's Saga",
-  "ci": "",
-  "img": "https://cards.scryfall.io/normal/front/9/a/9ad231e2-f401-4670-b9ec-0d0aa7ea9bae.jpg?1783909717",
-  "art": "https://cards.scryfall.io/art_crop/front/9/a/9ad231e2-f401-4670-b9ec-0d0aa7ea9bae.jpg?1783909717",
-  "uri": "https://scryfall.com/card/sch/29/urzas-saga",
   "roles": []
  },
  "urza's saga|slc|21": {
