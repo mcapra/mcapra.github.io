@@ -4,7 +4,7 @@ bracket = 4
 commanders = ['Storm, Force of Nature (SLD) 1742']
 archetypes = ['Storm', 'Spellslinger']
 decklist_url = 'https://moxfield.com/decks/biCfATT4Cni677-HiWrmvg'
-deck_authors = [{ name = 'Shiny Latios', url = 'https://moxfield.com/users/Shiny_Latios' }]
+deck_authors = [{ name = 'tumultuoustempus', url = 'https://moxfield.com/users/tumultuoustempus' }]
 date = 2025-09-13T00:00:00-05:00
 draft = false
 
